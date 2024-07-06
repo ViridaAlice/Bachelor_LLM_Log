@@ -1,0 +1,62 @@
+2022-01-16 15:34:20 jwright/192.168.128.107:57949 TLS: soft reset sec=3270/3270 bytes=4026072/-1 pkts=7186/0
+2022-01-16 15:34:20 jwright/192.168.128.107:57949 VERIFY OK: depth=1, C=AT, ST=Vienna, L=Vienna, O=Some Organisation GmbH, CN=OpenVPN CA, emailAddress=admin@organisation.cyberrange.at
+2022-01-16 15:34:20 jwright/192.168.128.107:57949 VERIFY KU OK
+2022-01-16 15:34:20 jwright/192.168.128.107:57949 Validating certificate extended key usage
+2022-01-16 15:34:20 jwright/192.168.128.107:57949 ++ Certificate has EKU (str) TLS Web Client Authentication, expects TLS Web Client Authentication
+2022-01-16 15:34:20 jwright/192.168.128.107:57949 VERIFY EKU OK
+2022-01-16 15:34:20 jwright/192.168.128.107:57949 VERIFY OK: depth=0, CN=jwright
+2022-01-16 15:34:20 jwright/192.168.128.107:57949 peer info: IV_VER=2.4.4
+2022-01-16 15:34:20 jwright/192.168.128.107:57949 peer info: IV_PLAT=linux
+2022-01-16 15:34:20 jwright/192.168.128.107:57949 peer info: IV_PROTO=2
+2022-01-16 15:34:20 jwright/192.168.128.107:57949 peer info: IV_LZ4=1
+2022-01-16 15:34:20 jwright/192.168.128.107:57949 peer info: IV_LZ4v2=1
+2022-01-16 15:34:20 jwright/192.168.128.107:57949 peer info: IV_LZO=1
+2022-01-16 15:34:20 jwright/192.168.128.107:57949 peer info: IV_COMP_STUB=1
+2022-01-16 15:34:20 jwright/192.168.128.107:57949 peer info: IV_COMP_STUBv2=1
+2022-01-16 15:34:20 jwright/192.168.128.107:57949 peer info: IV_TCPNL=1
+2022-01-16 15:34:20 jwright/192.168.128.107:57949 Outgoing Data Channel: Cipher 'AES-256-CBC' initialized with 256 bit key
+2022-01-16 15:34:20 jwright/192.168.128.107:57949 Outgoing Data Channel: Using 160 bit message hash 'SHA1' for HMAC authentication
+2022-01-16 15:34:20 jwright/192.168.128.107:57949 Incoming Data Channel: Cipher 'AES-256-CBC' initialized with 256 bit key
+2022-01-16 15:34:20 jwright/192.168.128.107:57949 Incoming Data Channel: Using 160 bit message hash 'SHA1' for HMAC authentication
+2022-01-16 15:34:20 jwright/192.168.128.107:57949 Control Channel: TLSv1.3, cipher TLSv1.3 TLS_AES_256_GCM_SHA384, peer certificate: 4096 bit RSA, signature: RSA-SHA256
+2022-01-16 15:35:24 hwarren/192.168.129.254:34841 TLS: soft reset sec=3411/3411 bytes=56676/-1 pkts=703/0
+2022-01-16 15:35:24 hwarren/192.168.129.254:34841 VERIFY OK: depth=1, C=AT, ST=Vienna, L=Vienna, O=Some Organisation GmbH, CN=OpenVPN CA, emailAddress=admin@organisation.cyberrange.at
+2022-01-16 15:35:24 hwarren/192.168.129.254:34841 VERIFY KU OK
+2022-01-16 15:35:24 hwarren/192.168.129.254:34841 Validating certificate extended key usage
+2022-01-16 15:35:24 hwarren/192.168.129.254:34841 ++ Certificate has EKU (str) TLS Web Client Authentication, expects TLS Web Client Authentication
+2022-01-16 15:35:24 hwarren/192.168.129.254:34841 VERIFY EKU OK
+2022-01-16 15:35:24 hwarren/192.168.129.254:34841 VERIFY OK: depth=0, CN=hwarren
+2022-01-16 15:35:24 hwarren/192.168.129.254:34841 peer info: IV_VER=2.4.4
+2022-01-16 15:35:24 hwarren/192.168.129.254:34841 peer info: IV_PLAT=linux
+2022-01-16 15:35:24 hwarren/192.168.129.254:34841 peer info: IV_PROTO=2
+2022-01-16 15:35:24 hwarren/192.168.129.254:34841 peer info: IV_LZ4=1
+2022-01-16 15:35:24 hwarren/192.168.129.254:34841 peer info: IV_LZ4v2=1
+2022-01-16 15:35:24 hwarren/192.168.129.254:34841 peer info: IV_LZO=1
+2022-01-16 15:35:24 hwarren/192.168.129.254:34841 peer info: IV_COMP_STUB=1
+2022-01-16 15:35:24 hwarren/192.168.129.254:34841 peer info: IV_COMP_STUBv2=1
+2022-01-16 15:35:24 hwarren/192.168.129.254:34841 peer info: IV_TCPNL=1
+2022-01-16 15:35:24 hwarren/192.168.129.254:34841 Outgoing Data Channel: Cipher 'AES-256-CBC' initialized with 256 bit key
+2022-01-16 15:35:24 hwarren/192.168.129.254:34841 Outgoing Data Channel: Using 160 bit message hash 'SHA1' for HMAC authentication
+2022-01-16 15:35:24 hwarren/192.168.129.254:34841 Incoming Data Channel: Cipher 'AES-256-CBC' initialized with 256 bit key
+2022-01-16 15:35:24 hwarren/192.168.129.254:34841 Incoming Data Channel: Using 160 bit message hash 'SHA1' for HMAC authentication
+2022-01-16 15:35:24 hwarren/192.168.129.254:34841 Control Channel: TLSv1.3, cipher TLSv1.3 TLS_AES_256_GCM_SHA384, peer certificate: 4096 bit RSA, signature: RSA-SHA256
+2022-01-16 15:51:02 bpotter/192.168.128.152:40201 TLS: soft reset sec=3257/3257 bytes=2912036/-1 pkts=5409/0
+2022-01-16 15:51:02 bpotter/192.168.128.152:40201 VERIFY OK: depth=1, C=AT, ST=Vienna, L=Vienna, O=Some Organisation GmbH, CN=OpenVPN CA, emailAddress=admin@organisation.cyberrange.at
+2022-01-16 15:51:02 bpotter/192.168.128.152:40201 VERIFY KU OK
+2022-01-16 15:51:02 bpotter/192.168.128.152:40201 Validating certificate extended key usage
+2022-01-16 15:51:02 bpotter/192.168.128.152:40201 ++ Certificate has EKU (str) TLS Web Client Authentication, expects TLS Web Client Authentication
+2022-01-16 15:51:02 bpotter/192.168.128.152:40201 VERIFY EKU OK
+2022-01-16 15:51:02 bpotter/192.168.128.152:40201 VERIFY OK: depth=0, CN=bpotter
+2022-01-16 15:51:02 bpotter/192.168.128.152:40201 peer info: IV_VER=2.4.4
+2022-01-16 15:51:02 bpotter/192.168.128.152:40201 peer info: IV_PLAT=linux
+2022-01-16 15:51:02 bpotter/192.168.128.152:40201 peer info: IV_PROTO=2
+2022-01-16 15:51:02 bpotter/192.168.128.152:40201 peer info: IV_LZ4=1
+2022-01-16 15:51:02 bpotter/192.168.128.152:40201 peer info: IV_LZ4v2=1
+2022-01-16 15:51:02 bpotter/192.168.128.152:40201 peer info: IV_LZO=1
+2022-01-16 15:51:02 bpotter/192.168.128.152:40201 peer info: IV_COMP_STUB=1
+2022-01-16 15:51:02 bpotter/192.168.128.152:40201 peer info: IV_COMP_STUBv2=1
+2022-01-16 15:51:02 bpotter/192.168.128.152:40201 peer info: IV_TCPNL=1
+2022-01-16 15:51:02 bpotter/192.168.128.152:40201 Outgoing Data Channel: Cipher 'AES-256-CBC' initialized with 256 bit key
+2022-01-16 15:51:02 bpotter/192.168.128.152:40201 Outgoing Data Channel: Using 160 bit message hash 'SHA1' for HMAC authentication
+2022-01-16 15:51:02 bpotter/192.168.128.152:40201 Incoming Data Channel: Cipher 'AES-256-CBC' initialized with 256 bit key
+2022-01-16 15:51:02 bpotter/192.168.128.152:40201 Incoming Data Channel: Using 160 bit message hash 'SHA1' for HMAC authentication
