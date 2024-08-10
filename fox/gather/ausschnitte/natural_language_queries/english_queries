@@ -1,0 +1,188 @@
+
+Cpu.log:
+
+0:
+Do the CPU metrics originate from the "jwright" system?
+    No
+
+1:
+What is the hostname of the system of the metrics?
+    intranet-server
+What percentage of time did the CPU spend idle at 2022-01-18T23:53:09.322Z?
+    91,94%
+What percentage of time did the CPU spend servicing & handling software interrupts at 2022-01-18T23:53:09.322Z?
+    0,12%
+
+2:
+    What percentage of time was spent on low priority processes on average?
+        0%
+    What percentage of time was spent in wait space on average?
+        0,07%
+
+3:
+    Was there a significant increase in CPU time spent in user space?
+        No
+
+Audit.log:
+
+0:
+Were there any attempted logins?
+    Yes
+Were services executed?
+    Yes
+
+1:
+From which path were the services executed?
+    /lib/systemd/systemd
+From which path does the login attempt from hwarren originate?
+    /usr/sbin/sshd
+From which path does the root login attempt originate?
+    /usr/sbin/cron
+
+2:
+    Which users have attempted to log in?
+        root & warren
+    Which different services were executed?
+        sshd, systemd, sudo, cron, phpsessionclean
+
+3:
+    Was hwarren's login attempt successful?
+        Yes
+
+Auth.log:
+
+0:
+Were there any connection attempts? 
+    Yes
+
+1:
+    At what date and time did user hwarren connect?
+        Jan 17 20:30:48
+    From which IP did user hwarren connect?
+        172.17.130.196
+    What encryption did user hwarren use to connect?
+        ssh2: RSA SHA256
+
+2:
+    Which users connected?
+        hwarren & root
+    How many users connected via ssh?
+        1: hwarren
+
+3:
+    Was user hwarren's login successful?
+        Yes
+    Why are there so many sessions for root?
+        Cron
+
+Dnsmasq.log:
+
+0:
+Was a request answered from the cache?
+    No
+
+1:
+    Which IP address corresponds to mgiep.unesco.org?
+        13.234.72.214
+    At what date and time was facebook.com requested?
+	    Jan 19 14:05:20
+    What is the IP of the name server?
+	    192.168.255.254
+
+2:
+    From which IPs were requests made?
+        172.17.130.196 und 10.35.33.144
+    How many different pages were accessed?
+        9
+    How many different requests were made?
+        15
+
+3:
+    What do A and AAAA mean?
+        Ipv4 & Ipv6
+
+Apache Access Log:
+
+0:
+Are there any rejected requests?
+    Yes
+
+1:
+    What is the size of the delivered resource "/wp-content/plugins/wpdiscuz/assets/img/loading.gif"?
+        4069
+    What is the SOURCE of the request to "/wp-content/plugins/wpdiscuz/assets/third-party/font-awesome-5.13.0/webfonts/fa-brands-400.woff2"?
+        https://intranet.price.fox.org/wp-content/
+	    plugins/wpdiscuz/assets/third-party/font-awesome-5.13.0
+	    /css/fa.min.css?ver=7.0.4
+    In which time period were the requests made? State date and time from start to end.
+        8/Jan/2022:09:49:13 to 18/Jan/2022:10:06:05
+
+2:
+    Which types of resources were requested?
+        HTML, CSS, Javascript, images, fonts, and PHP.
+    From which IPs are requests made?
+        10.35.33.118 und 172.17.130.196 
+    Which operating systems and browsers did the users use?
+        Linux 
+        Mozilla Firefox 
+        Headlesschrome / Safari / Applewebkit
+
+3:
+    Which request failed?
+        404 at favicon.ico at 18/Jan/2022:10:06:05
+
+Apache Error Log:
+
+0:
+Are there requests with emergency-level "crit"?
+    No
+Are there requests with emergency-level "error"?
+    Yes
+
+1:
+    What is the IP address of the client from which the process with pid 28409 originates?
+        172.17.130.196
+    How many different clients appear? List all client IP adresses.
+        1: 172.17.130.196
+
+2:
+    From which modules do the entries originate?
+        php7, autoindex, authz_core
+    In which time period do the entries occur?
+        Tue Jan 18 12:27:53.815754 2022 to Tue Jan 18 12:28:18.971233 2022
+
+3:
+    What was the reason for the error of the process with ID 28567?
+        Client denied by Server Configuration
+
+Openvpn.log:
+
+0:
+Were there any connection attempts that failed?
+    No
+
+1: 
+    At what date and time did the connection attempt by hwarren occur? 
+        2022-01-16 15:35:24
+    Which operating system does bpotter use?
+        linux
+    Which OpenVPN version does bpotter use?
+        2.4.4
+
+2:
+    Which users with which IP tried to connect?
+        jwright mit 192.168.128.107
+	    hwarren mit 192.168.129.254
+	    bpotter mit 192.168.128.152
+    Which encryption does hwarren's control channel use?
+        TLS_AES_256_GCM_SHA384, 4096 RSA, Signature 4096 RSA_SHA_256
+    From which city, organization & email address does jwright's connection attempt originate?
+        Vienna, Some Organisation Gmbh, 
+	    admin@organisation.cyberrange.at
+
+3:
+    Was hwarren's connection attempt successful?
+        Yes
+
+
+

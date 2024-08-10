@@ -1,13 +1,6 @@
 Generelle Fragen bzgl. Log-Typ:
-1) 
-	a) Aus welcher Art von Log stammt folgender Ausschnitt?
-	b) Aus welchem Log-Typen stammt folgender Ausschnitt?
-2) 
-	a) Which log type is the following an excerpt of?
-	b) Which log type does the following excerpt belong to?
-3) (zusätzlich zu query)
-	[CPU.log, audit.log, auth.log, dnsmasq.log, Apache access log, 
-	 Apache error log, openvpn.log]
+1) Which log type does the following excerpt belong to?
+
 
 Natural Language Queries:
 
@@ -19,28 +12,28 @@ Level 3: Zählen/Interpretieren
 Audit.log:
 
 Level 0: 
-	Wurden Login-Versuche getätigt?
+	    Wurden Login-Versuche getätigt?
 		Ja
-	Wurden Services ausgeführt?
+	    Wurden Services ausgeführt?
 		Ja
 Level 1:
-	Welche verschiedenen Services wurden ausgeführt?
+	    Welche verschiedenen Services wurden ausgeführt?
 		systemd, phpsessionclean
-	Welche Nutzer haben Login-Versuche getätigt?
+	    Welche Nutzer haben Login-Versuche getätigt?
 		root und hwarren
 Level 2:
 	In was für einem Zeitraum wurden die Anfragen gestellt?
 		Zwischen 1642239193 und 1642243141
-	Aus welchem Pfad wurden die Services ausgeführt?
+	    Aus welchem Pfad wurden die Services ausgeführt?
 		/lib/systemd/systemd
-	Aus welchem Pfad stammt der Anmeldeversuch von hwarren?
+	    Aus welchem Pfad stammt der Anmeldeversuch von hwarren?
 		/usr/sbin/sshd
-	Welche IP-Adresse besitzt hwarren?
+	    Welche IP-Adresse besitzt hwarren?
 		172.17.130.196
-	Aus welchem Pfad stammt der Anmeldeversuch von root?
+	    Aus welchem Pfad stammt der Anmeldeversuch von root?
 		/usr/sbin/cron
 Level 3:
-	Wie viele der Login-Versuche waren erfolgreich?
+	    Wie viele der Login-Versuche waren erfolgreich?
 		6
 	Wie viele verschiedene Nutzer haben sich eingeloggt?
 		2
@@ -48,20 +41,20 @@ Level 3:
 Auth.log:
 
 Level 0:
-	Gab es Verbindungsversuche?
+	    Gab es Verbindungsversuche?
 		Ja
 Level 1:
-	Welche Nutzer haben sich verbunden?
+	    Welche Nutzer haben sich verbunden?
 		hwarren und root
-	Um wie viel Uhr hat sich Nutzer hwarren verbunden?
+	    Um wie viel Uhr hat sich Nutzer hwarren verbunden?
 		Jan 17 20:30:48
-	Von welcher IP aus hat sich Nutzer hwarren verbunden?
+	    Von welcher IP aus hat sich Nutzer hwarren verbunden?
 		172.17.130.196
 Level 2:
-	Mit welcher Verschlüsselung hat sich Nutzer hwarren verbunden?
+	    Mit welcher Verschlüsselung hat sich Nutzer hwarren verbunden?
 		ssh2: RSA SHA256
 Level 3:
-	Wie viele verschiedene Nutzer haben sich eingeloggt?
+	    Wie viele verschiedene Nutzer haben sich eingeloggt?
 		2
 	x Weshalb existieren so viele Sessions für root?
 	x	Cron
@@ -69,73 +62,73 @@ Level 3:
 Dnsmasq.log:
 
 Level 0:
-	Wurde eine Anfrage aus dem Cache beantwortet?
+	    Wurde eine Anfrage aus dem Cache beantwortet?
 		Nein
 Level 1:
-	Welche IP korrespondiert zu mgiep.unesco.org?
+	    Welche IP korrespondiert zu mgiep.unesco.org?
 		13.234.72.214
-	Wann wurde facebook.com angefragt?
+	    Wann wurde facebook.com angefragt?
 		Jan 19 14:05:20
 Level 2:
-	Von welchen IPs wurden Anfragen getätigt?
+	    Von welchen IPs wurden Anfragen getätigt?
 		172.17.130.196 und 10.35.33.144
-	Welche Seiten werden aufgerufen?
+	    Welche Seiten werden aufgerufen?
 		clients1.google.com, facebook.com, secure.gravatar, 
 		mgiep.unesco, r2.o.tencr.org, akamai.net, edgesuite.net, 
 		googletagmanager, twitter, paperform.co, vimeo.com
 Level 3:
-	Wie viele verschiedene Anfragen wurden getätigt?
+	    Wie viele verschiedene Anfragen wurden getätigt?
 		15
-	Was bedeutet A und AAAA?
+	    Was bedeutet A und AAAA?
 		Ipv4 und Ipv6
-	Was ist die IP des Nameservers?
+	    Was ist die IP des Nameservers?
 		192.168.255.254
 
 Apache Access Log:
 
 Level 0:
-	Gibt es gescheiterte Anfragen?
+	    Gibt es gescheiterte Anfragen?
 		Ja
 Level 1:
-	Was ist die Quelle der Anfrage an 
-	"/wp-content/plugins/wpdiscuz/assets/third-party/
-	font-awesome-5.13.0/webfonts/fa-brands-400.woff2"?
+	    Was ist die Quelle der Anfrage an 
+	    "/wp-content/plugins/wpdiscuz/assets/third-party/
+	    font-awesome-5.13.0/webfonts/fa-brands-400.woff2"?
 		https://intranet.price.fox.org/wp-content/
 		plugins/wpdiscuz/assets/third-party/font-awesome-5.13.0
 		/css/fa.min.css?ver=7.0.4
 Level 2:
-	Welche verschiedenen Ressourcen werden angefragt?
+	    Welche verschiedenen Ressourcen werden angefragt?
 		wp-content, wp-includes, wp-admin
-	Von welchen IPs werden Anfragen gestellt?
+	    Von welchen IPs werden Anfragen gestellt?
 		10.35.33.116 und 172.17.130.196 
-	Was für Betriebssysteme und Browser verwendeten die Nutzer?
+	    Was für Betriebssysteme und Browser verwendeten die Nutzer?
 		Linux Mozila Applewebkit Headlesschrome Safari
 Level 3:
-	Gibt es gescheiterte Anfragen? Welche?
+	    Gibt es gescheiterte Anfragen? Welche?
 		Ja, 404 bei favicon.ico um 18/Jan/2022:10:06:05
-	In welchem Zeitraum sind die Anfragen?
+	    In welchem Zeitraum sind die Anfragen?
 		18/Jan/2022:09:49:13 bis 18/Jan/2022:10:06:05
-	Was ist die Größe der zurückgelieferten Ressource 
-	"/wp-content/plugins/wpdiscuz/assets/img/loading.gif"?
+	    Was ist die Größe der zurückgelieferten Ressource 
+	    "/wp-content/plugins/wpdiscuz/assets/img/loading.gif"?
 		4096
 
 Apache Error Log:
 
 Level 0:
-	Gibt es Einträge mit dem Emergency Level "crit"?
+	    Gibt es Einträge mit dem Emergency Level "crit"?
 		Nein
-	Gibt es Einträg mit dem Emergency Level "error"?
+	    Gibt es Einträg mit dem Emergency Level "error"?
 		Ja
 Level 1:
-	Was war der Grund des Fehlers des Prozesses mit ID 28567?
+	    Was war der Grund des Fehlers des Prozesses mit ID 28567?
 		Client denied by Server Configuration
 Level 2:
-	Wie viele verschiedene Clients tauchen auf?
+	    Wie viele verschiedene Clients tauchen auf?
 		1: 172.17.130.196
-	Von welchen Modulen stammen die Einträge?
+	    Von welchen Modulen stammen die Einträge?
 		php7, autoindex, authz_core
 Level 3:
-	In welchem Zeitraum ereignen sich die Einträge?
+	    In welchem Zeitraum ereignen sich die Einträge?
 		Tue Jan 18 12:27:53.815754 2022 bis 
 		Tue Jan 18 12:28:18.971233 2022
 
@@ -143,27 +136,27 @@ Openvpn.log:
 
 
 Level 0:
-	Existieren fehlgeschlagene Verbindungsversuche? 
+	    Existieren fehlgeschlagene Verbindungsversuche? 
 		Nein
 Level 1:
-	Zu welcher Zeit ereignete sich der Verbindungsversuch von hwarren?
+	    Zu welcher Zeit ereignete sich der Verbindungsversuch von hwarren?
 		2022-01-16 15:35:24
-	Welches Betriebssystem verwendet bpotter?
+	    Welches Betriebssystem verwendet bpotter?
 		linux
-	Welche OpenVPN Version verwendet bpotter?
+	    Welche OpenVPN Version verwendet bpotter?
 		2.4.4
 Level 2:
-	Von welcher Stadt, Organisation und Email Adresse stammt der 
-	Verbindungsversuch von jwright?
+	    Von welcher Stadt, Organisation und Email Adresse stammt der 
+	    Verbindungsversuch von jwright?
 		Vienna, Some Organisation Gmbh, 
 		admin@organisation.cyberrange.at
-	Wie ist der Anmeldeversuch von hwarren verschlüsselt?
+	    Wie ist der Anmeldeversuch von hwarren verschlüsselt?
 		160 bit hash SHA1 mit HMAC authentication &
 		AES-256-CBC mit 256 bit key
-	Welche Verschlüsselung verwendet hwarrens Control Channel?
+	    Welche Verschlüsselung verwendet hwarrens Control Channel?
 		TLS_AES_256_GCM_SHA384, 4096 RSA, Signatur 4096 RSA_SHA_256
 Level 3:
-	Welche Nutzer mit welcher IP wollen sich verbinden?
+	    Welche Nutzer mit welcher IP wollen sich verbinden?
 		jwright mit 192.168.128.107
 		hwarren mit 192.168.129.254
 		bpotter mit 192.168.128.152

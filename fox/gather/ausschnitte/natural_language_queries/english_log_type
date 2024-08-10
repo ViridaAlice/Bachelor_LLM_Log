@@ -1,0 +1,326 @@
+Which log type does the following excerpt belong to? Answer in five words or less:
+"{"@timestamp":"2022-01-18T23:53:09.322Z","service":{"type":"system"},"tags":["beats_input_raw_event"],"@version":"1","agent":{"type":"metricbeat","hostname":"intranet-server","version":"7.13.2","id":"a0c41e4e-ff4a-481f-adda-21fc96889b28","name":"intranet-server","ephemeral_id":"ae20c47b-0a81-4e05-a749-cbe0dacd5e36"},"system":{"cpu":{"softirq":{"pct":0.0012,"norm":{"pct":0.0012}},"iowait":{"pct":5.0E-4,"norm":{"pct":5.0E-4}},"cores":1,"nice":{"pct":0,"norm":{"pct":0}},"idle":{"pct":0.9194,"norm":{"pct":0.9194}},"system":{"pct":0.0394,"norm":{"pct":0.0394}},"total":{"pct":0.0801,"norm":{"pct":0.0801}},"steal":{"pct":0.0059,"norm":{"pct":0.0059}},"user":{"pct":0.0335,"norm":{"pct":0.0335}},"irq":{"pct":0,"norm":{"pct":0}}}},"event":{"duration":9338788,"module":"system","dataset":"system.cpu"},"metricset":{"name":"cpu","period":45000},"ecs":{"version":"1.9.0"},"host":{"cpu":{"pct":0.0801},"name":"intranet-server"}}
+{"@timestamp":"2022-01-18T23:53:54.321Z","service":{"type":"system"},"tags":["beats_input_raw_event"],"@version":"1","agent":{"type":"metricbeat","hostname":"intranet-server","version":"7.13.2","id":"a0c41e4e-ff4a-481f-adda-21fc96889b28","name":"intranet-server","ephemeral_id":"ae20c47b-0a81-4e05-a749-cbe0dacd5e36"},"system":{"cpu":{"softirq":{"pct":5.0E-4,"norm":{"pct":5.0E-4}},"cores":1,"iowait":{"pct":9.0E-4,"norm":{"pct":9.0E-4}},"nice":{"pct":0,"norm":{"pct":0}},"idle":{"pct":0.9189,"norm":{"pct":0.9189}},"system":{"pct":0.0394,"norm":{"pct":0.0394}},"total":{"pct":0.0802,"norm":{"pct":0.0802}},"steal":{"pct":0.005,"norm":{"pct":0.005}},"user":{"pct":0.0354,"norm":{"pct":0.0354}},"irq":{"pct":0,"norm":{"pct":0}}}},"event":{"duration":560044,"dataset":"system.cpu","module":"system"},"metricset":{"name":"cpu","period":45000},"ecs":{"version":"1.9.0"},"host":{"cpu":{"pct":0.0802},"name":"intranet-server"}}"
+
+Which log type does the following excerpt belong to?: Answer in five words or less:
+"type=USER_ACCT msg=audit(1642239193.489:661): pid=13953 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting acct="hwarren" exe="/usr/sbin/sshd" hostname=172.17.130.196 addr=172.17.130.196 terminal=ssh res=success'
+type=CRED_ACQ msg=audit(1642239193.493:662): pid=13953 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred acct="hwarren" exe="/usr/sbin/sshd" hostname=172.17.130.196 addr=172.17.130.196 terminal=ssh res=success'
+type=LOGIN msg=audit(1642239193.493:663): pid=13953 uid=0 old-auid=4294967295 auid=1002 tty=(none) old-ses=4294967295 ses=98 res=1
+type=USER_ACCT msg=audit(1642239193.533:664): pid=13955 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting acct="hwarren" exe="/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+type=CRED_ACQ msg=audit(1642239193.537:665): pid=13955 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred acct="hwarren" exe="/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+type=LOGIN msg=audit(1642239193.537:666): pid=13955 uid=0 old-auid=4294967295 auid=1002 tty=(none) old-ses=4294967295 ses=99 res=1
+type=USER_START msg=audit(1642239193.537:667): pid=13955 uid=0 auid=1002 ses=99 msg='op=PAM:session_open acct="hwarren" exe="/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+type=SERVICE_START msg=audit(1642239193.601:668): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=user@1002 comm="systemd" exe="/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+type=USER_START msg=audit(1642239194.865:669): pid=13953 uid=0 auid=1002 ses=98 msg='op=PAM:session_open acct="hwarren" exe="/usr/sbin/sshd" hostname=172.17.130.196 addr=172.17.130.196 terminal=ssh res=success'
+type=CRED_ACQ msg=audit(1642239194.869:670): pid=14069 uid=0 auid=1002 ses=98 msg='op=PAM:setcred acct="hwarren" exe="/usr/sbin/sshd" hostname=172.17.130.196 addr=172.17.130.196 terminal=ssh res=success'
+type=USER_LOGIN msg=audit(1642239194.917:671): pid=13953 uid=0 auid=1002 ses=98 msg='op=login id=1002 exe="/usr/sbin/sshd" hostname=172.17.130.196 addr=172.17.130.196 terminal=/dev/pts/0 res=success'
+type=USER_CMD msg=audit(1642239200.113:672): pid=14091 uid=1002 auid=1002 ses=98 msg='cwd="/home/hwarren" cmd=7461696C202F7661722F6C6F672F7379736C6F67 terminal=pts/0 res=success'
+type=CRED_REFR msg=audit(1642239200.117:673): pid=14091 uid=0 auid=1002 ses=98 msg='op=PAM:setcred acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+type=USER_START msg=audit(1642239200.117:674): pid=14091 uid=0 auid=1002 ses=98 msg='op=PAM:session_open acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+type=USER_END msg=audit(1642239200.121:675): pid=14091 uid=0 auid=1002 ses=98 msg='op=PAM:session_close acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+type=CRED_DISP msg=audit(1642239200.121:676): pid=14091 uid=0 auid=1002 ses=98 msg='op=PAM:setcred acct="root" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 res=success'
+type=USER_ACCT msg=audit(1642239541.816:677): pid=14096 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
+type=CRED_ACQ msg=audit(1642239541.820:678): pid=14096 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
+type=LOGIN msg=audit(1642239541.820:679): pid=14096 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=100 res=1
+type=USER_START msg=audit(1642239541.824:680): pid=14096 uid=0 auid=0 ses=100 msg='op=PAM:session_open acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
+type=CRED_DISP msg=audit(1642239541.828:681): pid=14096 uid=0 auid=0 ses=100 msg='op=PAM:setcred acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
+type=USER_END msg=audit(1642239541.828:682): pid=14096 uid=0 auid=0 ses=100 msg='op=PAM:session_close acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
+type=SERVICE_START msg=audit(1642239564.131:683): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=phpsessionclean comm="systemd" exe="/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+type=SERVICE_STOP msg=audit(1642239564.131:684): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=phpsessionclean comm="systemd" exe="/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+type=USER_ACCT msg=audit(1642241341.856:685): pid=14189 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
+type=CRED_ACQ msg=audit(1642241341.856:686): pid=14189 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
+type=LOGIN msg=audit(1642241341.856:687): pid=14189 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=101 res=1
+type=USER_START msg=audit(1642241341.856:688): pid=14189 uid=0 auid=0 ses=101 msg='op=PAM:session_open acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
+type=CRED_DISP msg=audit(1642241341.868:689): pid=14189 uid=0 auid=0 ses=101 msg='op=PAM:setcred acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
+type=USER_END msg=audit(1642241341.872:690): pid=14189 uid=0 auid=0 ses=101 msg='op=PAM:session_close acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
+type=SERVICE_START msg=audit(1642241363.991:691): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=phpsessionclean comm="systemd" exe="/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+type=SERVICE_STOP msg=audit(1642241363.991:692): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=phpsessionclean comm="systemd" exe="/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+type=USER_ACCT msg=audit(1642241821.880:693): pid=14263 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
+type=CRED_ACQ msg=audit(1642241821.880:694): pid=14263 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
+type=LOGIN msg=audit(1642241821.880:695): pid=14263 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=102 res=1
+"
+
+Which log type does the following excerpt belong to? Answer in five words or less:
+"Jan 17 09:17:01 intranet-server CRON[23725]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 17 09:17:01 intranet-server CRON[23725]: pam_unix(cron:session): session closed for user root
+Jan 17 09:39:01 intranet-server CRON[23752]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 17 09:39:01 intranet-server CRON[23752]: pam_unix(cron:session): session closed for user root
+Jan 17 10:09:01 intranet-server CRON[23842]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 17 10:09:01 intranet-server CRON[23842]: pam_unix(cron:session): session closed for user root
+Jan 17 10:17:01 intranet-server CRON[23918]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 17 10:17:01 intranet-server CRON[23918]: pam_unix(cron:session): session closed for user root
+Jan 17 10:39:01 intranet-server CRON[23930]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 17 10:39:01 intranet-server CRON[23930]: pam_unix(cron:session): session closed for user root
+Jan 17 11:09:01 intranet-server CRON[24006]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 17 11:09:01 intranet-server CRON[24006]: pam_unix(cron:session): session closed for user root
+Jan 17 11:17:01 intranet-server CRON[24074]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 17 11:17:01 intranet-server CRON[24074]: pam_unix(cron:session): session closed for user root
+Jan 17 11:39:01 intranet-server CRON[24082]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 17 11:39:01 intranet-server CRON[24082]: pam_unix(cron:session): session closed for user root
+Jan 17 12:09:01 intranet-server CRON[24152]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 17 12:09:01 intranet-server CRON[24152]: pam_unix(cron:session): session closed for user root
+Jan 17 12:17:01 intranet-server CRON[24224]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 17 12:17:01 intranet-server CRON[24224]: pam_unix(cron:session): session closed for user root
+Jan 17 12:39:01 intranet-server CRON[24231]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 17 12:39:01 intranet-server CRON[24231]: pam_unix(cron:session): session closed for user root
+Jan 17 13:09:01 intranet-server CRON[24304]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 17 13:09:01 intranet-server CRON[24304]: pam_unix(cron:session): session closed for user root
+Jan 17 13:17:01 intranet-server CRON[24380]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 17 13:17:01 intranet-server CRON[24380]: pam_unix(cron:session): session closed for user root
+Jan 17 13:39:01 intranet-server CRON[24385]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 17 13:39:01 intranet-server CRON[24385]: pam_unix(cron:session): session closed for user root
+Jan 17 14:09:01 intranet-server CRON[24467]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 17 14:09:01 intranet-server CRON[24467]: pam_unix(cron:session): session closed for user root
+Jan 17 14:17:02 intranet-server CRON[24536]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 17 14:17:02 intranet-server CRON[24536]: pam_unix(cron:session): session closed for user root
+Jan 17 14:39:02 intranet-server CRON[24595]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 17 14:39:02 intranet-server CRON[24595]: pam_unix(cron:session): session closed for user root
+Jan 17 15:09:01 intranet-server CRON[24683]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 17 15:09:01 intranet-server CRON[24683]: pam_unix(cron:session): session closed for user root
+Jan 17 15:17:01 intranet-server CRON[24758]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 17 15:17:01 intranet-server CRON[24758]: pam_unix(cron:session): session closed for user root
+Jan 17 15:39:01 intranet-server CRON[24766]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 17 15:39:01 intranet-server CRON[24766]: pam_unix(cron:session): session closed for user root
+Jan 17 16:09:01 intranet-server CRON[24846]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 17 16:09:01 intranet-server CRON[24846]: pam_unix(cron:session): session closed for user root
+Jan 17 16:17:01 intranet-server CRON[24919]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 17 16:17:01 intranet-server CRON[24919]: pam_unix(cron:session): session closed for user root
+Jan 17 16:39:01 intranet-server CRON[24929]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 17 16:39:01 intranet-server CRON[24929]: pam_unix(cron:session): session closed for user root
+Jan 17 17:09:01 intranet-server CRON[25037]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 17 17:09:01 intranet-server CRON[25037]: pam_unix(cron:session): session closed for user root
+Jan 17 17:17:01 intranet-server CRON[25107]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 17 17:17:01 intranet-server CRON[25107]: pam_unix(cron:session): session closed for user root
+Jan 17 17:39:01 intranet-server CRON[25114]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 17 17:39:01 intranet-server CRON[25114]: pam_unix(cron:session): session closed for user root
+Jan 17 17:55:29 intranet-server sshd[13953]: pam_unix(sshd:session): session closed for user hwarren
+Jan 17 17:55:29 intranet-server systemd-logind[1011]: Removed session 98.
+Jan 17 18:09:01 intranet-server CRON[25187]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 17 18:09:01 intranet-server CRON[25187]: pam_unix(cron:session): session closed for user root
+Jan 17 18:17:01 intranet-server CRON[25254]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 17 18:17:01 intranet-server CRON[25254]: pam_unix(cron:session): session closed for user root
+Jan 17 18:39:01 intranet-server CRON[25260]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 17 18:39:01 intranet-server CRON[25260]: pam_unix(cron:session): session closed for user root
+Jan 17 19:09:01 intranet-server CRON[25337]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 17 19:09:01 intranet-server CRON[25337]: pam_unix(cron:session): session closed for user root
+Jan 17 19:17:01 intranet-server CRON[25412]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 17 19:17:01 intranet-server CRON[25412]: pam_unix(cron:session): session closed for user root
+Jan 17 19:39:01 intranet-server CRON[25417]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 17 19:39:01 intranet-server CRON[25417]: pam_unix(cron:session): session closed for user root
+Jan 17 20:09:01 intranet-server CRON[25486]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 17 20:09:01 intranet-server CRON[25486]: pam_unix(cron:session): session closed for user root
+Jan 17 20:17:01 intranet-server CRON[25560]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 17 20:17:01 intranet-server CRON[25560]: pam_unix(cron:session): session closed for user root
+Jan 17 20:30:48 intranet-server sshd[25565]: Accepted publickey for hwarren from 172.17.130.196 port 42972 ssh2: RSA SHA256:8wFbiaYPevKS/wYKnePO20v0iymTcrRh4Kr+1uRS1UM
+Jan 17 20:30:48 intranet-server sshd[25565]: pam_unix(sshd:session): session opened for user hwarren by (uid=0)
+Jan 17 20:30:48 intranet-server systemd-logind[1011]: New session 283 of user hwarren.
+Jan 17 20:30:48 intranet-server systemd: pam_unix(systemd-user:session): session opened for user hwarren by (uid=0)
+Jan 17 20:39:01 intranet-server CRON[25725]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 17 20:39:01 intranet-server CRON[25725]: pam_unix(cron:session): session closed for user root
+Jan 17 21:09:01 intranet-server CRON[25803]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 17 21:09:01 intranet-server CRON[25803]: pam_unix(cron:session): session closed for user root
+Jan 17 21:17:01 intranet-server CRON[25872]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 17 21:17:01 intranet-server CRON[25872]: pam_unix(cron:session): session closed for user root
+Jan 17 21:39:01 intranet-server CRON[25878]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 17 21:39:01 intranet-server CRON[25878]: pam_unix(cron:session): session closed for user root
+Jan 17 22:09:01 intranet-server CRON[25951]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 17 22:09:01 intranet-server CRON[25951]: pam_unix(cron:session): session closed for user root
+Jan 17 22:17:01 intranet-server CRON[26023]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 17 22:17:01 intranet-server CRON[26023]: pam_unix(cron:session): session closed for user root
+Jan 17 22:39:01 intranet-server CRON[26031]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 17 22:39:01 intranet-server CRON[26031]: pam_unix(cron:session): session closed for user root
+Jan 17 23:09:01 intranet-server CRON[26102]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 17 23:09:01 intranet-server CRON[26102]: pam_unix(cron:session): session closed for user root
+Jan 17 23:17:02 intranet-server CRON[26171]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 17 23:17:02 intranet-server CRON[26171]: pam_unix(cron:session): session closed for user root
+Jan 17 23:39:01 intranet-server CRON[26262]: pam_unix(cron:session): session opened for user root by (uid=0)"
+
+Which log type does the following excerpt belong to? Answer in five words or less:
+"Jan 19 14:05:18 dnsmasq[14522]: reply scontent.xx.fbcdn.net is 2a03:2880:f007:8:face:b00c:0:1
+Jan 19 14:05:19 dnsmasq[14522]: query[A] clients1.google.com from 172.17.130.196
+Jan 19 14:05:19 dnsmasq[14522]: forwarded clients1.google.com to 192.168.255.254
+Jan 19 14:05:19 dnsmasq[14522]: query[AAAA] clients1.google.com from 172.17.130.196
+Jan 19 14:05:19 dnsmasq[14522]: forwarded clients1.google.com to 192.168.255.254
+Jan 19 14:05:19 dnsmasq[14522]: reply clients1.google.com is <CNAME>
+Jan 19 14:05:19 dnsmasq[14522]: reply clients.l.google.com is 142.250.180.206
+Jan 19 14:05:19 dnsmasq[14522]: reply clients1.google.com is <CNAME>
+Jan 19 14:05:19 dnsmasq[14522]: reply clients.l.google.com is 2a00:1450:400d:806::200e
+Jan 19 14:05:20 dnsmasq[14522]: query[A] www.facebook.com from 172.17.130.196
+Jan 19 14:05:20 dnsmasq[14522]: forwarded www.facebook.com to 192.168.255.254
+Jan 19 14:05:20 dnsmasq[14522]: query[AAAA] www.facebook.com from 172.17.130.196
+Jan 19 14:05:20 dnsmasq[14522]: forwarded www.facebook.com to 192.168.255.254
+Jan 19 14:05:20 dnsmasq[14522]: reply www.facebook.com is <CNAME>
+Jan 19 14:05:20 dnsmasq[14522]: reply star-mini.c10r.facebook.com is 157.240.20.35
+Jan 19 14:05:20 dnsmasq[14522]: reply www.facebook.com is <CNAME>
+Jan 19 14:05:20 dnsmasq[14522]: reply star-mini.c10r.facebook.com is 2a03:2880:f107:83:face:b00c:0:25de
+Jan 19 14:06:19 dnsmasq[14522]: query[A] secure.gravatar.com from 10.35.33.144
+Jan 19 14:06:19 dnsmasq[14522]: forwarded secure.gravatar.com to 192.168.255.254
+Jan 19 14:06:19 dnsmasq[14522]: reply secure.gravatar.com is 192.0.73.2
+Jan 19 14:06:28 dnsmasq[14522]: query[A] mgiep.unesco.org from 172.17.130.196
+Jan 19 14:06:28 dnsmasq[14522]: forwarded mgiep.unesco.org to 192.168.255.254
+Jan 19 14:06:28 dnsmasq[14522]: query[AAAA] mgiep.unesco.org from 172.17.130.196
+Jan 19 14:06:28 dnsmasq[14522]: forwarded mgiep.unesco.org to 192.168.255.254
+Jan 19 14:06:28 dnsmasq[14522]: reply mgiep.unesco.org is 13.234.72.214
+Jan 19 14:06:28 dnsmasq[14522]: reply mgiep.unesco.org is NODATA-IPv6
+Jan 19 14:06:29 dnsmasq[14522]: query[A] r3.o.lencr.org from 172.17.130.196
+Jan 19 14:06:29 dnsmasq[14522]: forwarded r3.o.lencr.org to 192.168.255.254
+Jan 19 14:06:29 dnsmasq[14522]: query[AAAA] r3.o.lencr.org from 172.17.130.196
+Jan 19 14:06:29 dnsmasq[14522]: forwarded r3.o.lencr.org to 192.168.255.254
+Jan 19 14:06:29 dnsmasq[14522]: reply r3.o.lencr.org is <CNAME>
+Jan 19 14:06:29 dnsmasq[14522]: reply o.lencr.edgesuite.net is <CNAME>
+Jan 19 14:06:29 dnsmasq[14522]: reply a1887.dscq.akamai.net is 81.3.192.89
+Jan 19 14:06:29 dnsmasq[14522]: reply a1887.dscq.akamai.net is 81.3.192.17
+Jan 19 14:06:29 dnsmasq[14522]: reply r3.o.lencr.org is <CNAME>
+Jan 19 14:06:29 dnsmasq[14522]: reply o.lencr.edgesuite.net is <CNAME>
+Jan 19 14:06:29 dnsmasq[14522]: reply a1887.dscq.akamai.net is 2a02:26f0:dc::213:c50b
+Jan 19 14:06:29 dnsmasq[14522]: reply a1887.dscq.akamai.net is 2a02:26f0:dc::213:c529
+Jan 19 14:06:30 dnsmasq[14522]: query[A] www-googletagmanager.l.google.com from 172.17.130.196
+Jan 19 14:06:30 dnsmasq[14522]: forwarded www-googletagmanager.l.google.com to 192.168.255.254
+Jan 19 14:06:30 dnsmasq[14522]: reply www-googletagmanager.l.google.com is 142.250.180.200
+Jan 19 14:06:30 dnsmasq[14522]: query[A] platform.twitter.com from 172.17.130.196
+Jan 19 14:06:30 dnsmasq[14522]: forwarded platform.twitter.com to 192.168.255.254
+Jan 19 14:06:30 dnsmasq[14522]: query[AAAA] platform.twitter.com from 172.17.130.196
+Jan 19 14:06:30 dnsmasq[14522]: forwarded platform.twitter.com to 192.168.255.254
+Jan 19 14:06:30 dnsmasq[14522]: query[A] paperform.co from 172.17.130.196
+Jan 19 14:06:30 dnsmasq[14522]: forwarded paperform.co to 192.168.255.254
+Jan 19 14:06:30 dnsmasq[14522]: query[AAAA] paperform.co from 172.17.130.196
+Jan 19 14:06:30 dnsmasq[14522]: forwarded paperform.co to 192.168.255.254
+Jan 19 14:06:30 dnsmasq[14522]: query[A] player.vimeo.com from 172.17.130.196
+Jan 19 14:06:30 dnsmasq[14522]: forwarded player.vimeo.com to 192.168.255.254"
+
+Which log type does the following excerpt belong to? Answer in five words or less:
+"10.35.33.116 - - [18/Jan/2022:09:49:13 +0000] "GET / HTTP/1.1" 200 6128 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/95.0.4638.69 Safari/537.36"
+172.17.130.196 - - [18/Jan/2022:10:01:06 +0000] "GET /?p=5 HTTP/1.1" 200 39269 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/95.0.4638.69 Safari/537.36"
+172.17.130.196 - - [18/Jan/2022:10:01:07 +0000] "GET /wp-content/plugins/wpdiscuz/assets/third-party/font-awesome-5.13.0/css/fa.min.css?ver=7.0.4 HTTP/1.1" 200 3464 "https://intranet.price.fox.org/?p=5" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/95.0.4638.69 Safari/537.36"
+172.17.130.196 - - [18/Jan/2022:10:01:07 +0000] "GET /wp-includes/css/dist/block-library/style.min.css?ver=5.8.3 HTTP/1.1" 200 11510 "https://intranet.price.fox.org/?p=5" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/95.0.4638.69 Safari/537.36"
+172.17.130.196 - - [18/Jan/2022:10:01:07 +0000] "GET /wp-content/plugins/wpdiscuz/assets/css/wpdiscuz-combo.min.css?ver=5.8.3 HTTP/1.1" 200 6799 "https://intranet.price.fox.org/?p=5" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/95.0.4638.69 Safari/537.36"
+172.17.130.196 - - [18/Jan/2022:10:01:07 +0000] "GET /wp-content/plugins/wpdiscuz/themes/default/style.css?ver=7.0.4 HTTP/1.1" 200 20302 "https://intranet.price.fox.org/?p=5" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/95.0.4638.69 Safari/537.36"
+172.17.130.196 - - [18/Jan/2022:10:01:07 +0000] "GET /wp-content/themes/go/dist/css/design-styles/style-traditional.min.css?ver=1.5.1 HTTP/1.1" 200 1511 "https://intranet.price.fox.org/?p=5" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/95.0.4638.69 Safari/537.36"
+172.17.130.196 - - [18/Jan/2022:10:01:07 +0000] "GET /wp-content/themes/go/dist/css/style-shared.min.css?ver=1.5.1 HTTP/1.1" 200 23299 "https://intranet.price.fox.org/?p=5" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/95.0.4638.69 Safari/537.36"
+172.17.130.196 - - [18/Jan/2022:10:01:07 +0000] "GET /wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2 HTTP/1.1" 200 7567 "https://intranet.price.fox.org/?p=5" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/95.0.4638.69 Safari/537.36"
+172.17.130.196 - - [18/Jan/2022:10:01:07 +0000] "GET /wp-includes/js/jquery/jquery.min.js?ver=3.6.0 HTTP/1.1" 200 34374 "https://intranet.price.fox.org/?p=5" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/95.0.4638.69 Safari/537.36"
+172.17.130.196 - - [18/Jan/2022:10:01:07 +0000] "GET /wp-includes/js/wp-emoji-release.min.js?ver=5.8.3 HTTP/1.1" 200 5331 "https://intranet.price.fox.org/?p=5" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/95.0.4638.69 Safari/537.36"
+172.17.130.196 - - [18/Jan/2022:10:01:07 +0000] "GET /wp-content/plugins/wpdiscuz/themes/default/css/fonts/sqr721c-webfont.woff2 HTTP/1.1" 200 18908 "https://intranet.price.fox.org/wp-content/plugins/wpdiscuz/themes/default/style.css?ver=7.0.4" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/95.0.4638.69 Safari/537.36"
+172.17.130.196 - - [18/Jan/2022:10:01:07 +0000] "GET /wp-content/plugins/wpdiscuz/assets/third-party/font-awesome-5.13.0/webfonts/fa-regular-400.woff2 HTTP/1.1" 200 13874 "https://intranet.price.fox.org/wp-content/plugins/wpdiscuz/assets/third-party/font-awesome-5.13.0/css/fa.min.css?ver=7.0.4" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/95.0.4638.69 Safari/537.36"
+172.17.130.196 - - [18/Jan/2022:10:01:07 +0000] "GET /wp-content/plugins/wpdiscuz/assets/third-party/font-awesome-5.13.0/webfonts/fa-brands-400.woff2 HTTP/1.1" 200 76991 "https://intranet.price.fox.org/wp-content/plugins/wpdiscuz/assets/third-party/font-awesome-5.13.0/css/fa.min.css?ver=7.0.4" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/95.0.4638.69 Safari/537.36"
+172.17.130.196 - - [18/Jan/2022:10:01:07 +0000] "GET /wp-content/plugins/wpdiscuz/assets/third-party/font-awesome-5.13.0/webfonts/fa-solid-900.woff2 HTTP/1.1" 200 79823 "https://intranet.price.fox.org/wp-content/plugins/wpdiscuz/assets/third-party/font-awesome-5.13.0/css/fa.min.css?ver=7.0.4" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/95.0.4638.69 Safari/537.36"
+172.17.130.196 - - [18/Jan/2022:10:01:08 +0000] "GET /wp-includes/js/comment-reply.min.js?ver=5.8.3 HTTP/1.1" 200 1702 "https://intranet.price.fox.org/?p=5" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/95.0.4638.69 Safari/537.36"
+172.17.130.196 - - [18/Jan/2022:10:01:08 +0000] "GET /wp-includes/js/wp-embed.min.js?ver=5.8.3 HTTP/1.1" 200 1120 "https://intranet.price.fox.org/?p=5" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/95.0.4638.69 Safari/537.36"
+172.17.130.196 - - [18/Jan/2022:10:01:08 +0000] "GET /wp-content/themes/go/dist/js/frontend.min.js?ver=1.5.1 HTTP/1.1" 200 11687 "https://intranet.price.fox.org/?p=5" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/95.0.4638.69 Safari/537.36"
+172.17.130.196 - - [18/Jan/2022:10:01:08 +0000] "GET /wp-content/plugins/wpdiscuz/assets/js/wpdiscuz-combo.min.js?ver=7.0.4 HTTP/1.1" 200 71266 "https://intranet.price.fox.org/?p=5" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/95.0.4638.69 Safari/537.36"
+::1 - - [18/Jan/2022:10:01:16 +0000] "OPTIONS * HTTP/1.0" 200 110 "-" "Apache/2.4.29 (Ubuntu) OpenSSL/1.1.1 (internal dummy connection)"
+172.17.130.196 - - [18/Jan/2022:10:05:54 +0000] "GET /wp-content/plugins/wpdiscuz/assets/img/loading.gif HTTP/1.1" 200 4069 "https://intranet.price.fox.org/wp-content/plugins/wpdiscuz/themes/default/style.css?ver=7.0.4" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/95.0.4638.69 Safari/537.36"
+172.17.130.196 - - [18/Jan/2022:10:05:54 +0000] "POST /wp-admin/admin-ajax.php HTTP/1.1" 200 5453 "https://intranet.price.fox.org/?p=5" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/95.0.4638.69 Safari/537.36"
+172.17.130.196 - - [18/Jan/2022:10:05:54 +0000] "POST /wp-admin/admin-ajax.php HTTP/1.1" 200 537 "https://intranet.price.fox.org/?p=5" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/95.0.4638.69 Safari/537.36"
+10.35.35.118 - - [18/Jan/2022:10:06:04 +0000] "GET / HTTP/1.1" 200 6128 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:86.0) Gecko/20100101 Firefox/86.0"
+10.35.35.118 - - [18/Jan/2022:10:06:05 +0000] "GET /wp-includes/css/dist/block-library/style.min.css?ver=5.8.3 HTTP/1.1" 200 10846 "http://intranet.price.fox.org/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:86.0) Gecko/20100101 Firefox/86.0"
+10.35.35.118 - - [18/Jan/2022:10:06:05 +0000] "GET /wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2 HTTP/1.1" 200 4505 "http://intranet.price.fox.org/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:86.0) Gecko/20100101 Firefox/86.0"
+10.35.35.118 - - [18/Jan/2022:10:06:05 +0000] "GET /wp-includes/js/wp-embed.min.js?ver=5.8.3 HTTP/1.1" 200 1099 "http://intranet.price.fox.org/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:86.0) Gecko/20100101 Firefox/86.0"
+10.35.35.118 - - [18/Jan/2022:10:06:05 +0000] "GET /wp-content/themes/go/dist/js/frontend.min.js?ver=1.5.1 HTTP/1.1" 200 11600 "http://intranet.price.fox.org/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:86.0) Gecko/20100101 Firefox/86.0"
+10.35.35.118 - - [18/Jan/2022:10:06:05 +0000] "GET /wp-content/themes/go/dist/css/design-styles/style-traditional.min.css?ver=1.5.1 HTTP/1.1" 200 1489 "http://intranet.price.fox.org/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:86.0) Gecko/20100101 Firefox/86.0"
+10.35.35.118 - - [18/Jan/2022:10:06:05 +0000] "GET /wp-includes/js/wp-emoji-release.min.js?ver=5.8.3 HTTP/1.1" 200 5265 "http://intranet.price.fox.org/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:86.0) Gecko/20100101 Firefox/86.0"
+10.35.35.118 - - [18/Jan/2022:10:06:05 +0000] "GET /wp-content/themes/go/dist/css/style-shared.min.css?ver=1.5.1 HTTP/1.1" 200 23190 "http://intranet.price.fox.org/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:86.0) Gecko/20100101 Firefox/86.0"
+10.35.35.118 - - [18/Jan/2022:10:06:05 +0000] "GET /wp-includes/js/jquery/jquery.min.js?ver=3.6.0 HTTP/1.1" 200 31246 "http://intranet.price.fox.org/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:86.0) Gecko/20100101 Firefox/86.0"
+10.35.35.118 - - [18/Jan/2022:10:06:05 +0000] "GET /favicon.ico HTTP/1.1" 404 396 "http://intranet.price.fox.org/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:86.0) Gecko/20100101 Firefox/86.0""
+
+Which log type does the following excerpt belong to? Answer in five words or less:
+"[Tue Jan 18 12:27:53.815754 2022] [php7:error] [pid 28575] [client 172.17.130.196:59224] script '/var/www/intranet.price.fox.org/wp-includes/blocks/html/xmlrpc.php' not found or unable to stat
+[Tue Jan 18 12:27:53.820436 2022] [php7:error] [pid 28575] [client 172.17.130.196:59224] script '/var/www/intranet.price.fox.org/wp-includes/blocks/html/xmlrpc_server.php' not found or unable to stat
+[Tue Jan 18 12:27:53.967800 2022] [autoindex:error] [pid 28567] [client 172.17.130.196:59226] AH01276: Cannot serve directory /var/www/intranet.price.fox.org/wp-includes/blocks/image/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue Jan 18 12:27:53.989214 2022] [authz_core:error] [pid 28567] [client 172.17.130.196:59226] AH01630: client denied by server configuration: /var/www/intranet.price.fox.org/wp-includes/blocks/image/.hta
+[Tue Jan 18 12:27:53.992331 2022] [authz_core:error] [pid 28567] [client 172.17.130.196:59226] AH01630: client denied by server configuration: /var/www/intranet.price.fox.org/wp-includes/blocks/image/.hta_
+[Tue Jan 18 12:27:53.994397 2022] [authz_core:error] [pid 28567] [client 172.17.130.196:59226] AH01630: client denied by server configuration: /var/www/intranet.price.fox.org/wp-includes/blocks/image/.htaccess
+[Tue Jan 18 12:27:53.996564 2022] [authz_core:error] [pid 28567] [client 172.17.130.196:59226] AH01630: client denied by server configuration: /var/www/intranet.price.fox.org/wp-includes/blocks/image/.htaccess_
+[Tue Jan 18 12:27:53.998563 2022] [authz_core:error] [pid 28567] [client 172.17.130.196:59226] AH01630: client denied by server configuration: /var/www/intranet.price.fox.org/wp-includes/blocks/image/.htpasswd
+[Tue Jan 18 12:27:54.003645 2022] [authz_core:error] [pid 28567] [client 172.17.130.196:59226] AH01630: client denied by server configuration: /var/www/intranet.price.fox.org/wp-includes/blocks/image/.htpasswd_
+[Tue Jan 18 12:27:54.726453 2022] [php7:error] [pid 28239] [client 172.17.130.196:59232] script '/var/www/intranet.price.fox.org/wp-includes/blocks/image/admin.php' not found or unable to stat
+[Tue Jan 18 12:27:59.903721 2022] [php7:error] [pid 28575] [client 172.17.130.196:59264] script '/var/www/intranet.price.fox.org/wp-includes/blocks/image/index.php' not found or unable to stat
+[Tue Jan 18 12:27:59.979785 2022] [php7:error] [pid 28567] [client 172.17.130.196:59266] script '/var/www/intranet.price.fox.org/wp-includes/blocks/image/info.php' not found or unable to stat
+[Tue Jan 18 12:28:02.333841 2022] [php7:error] [pid 28490] [client 172.17.130.196:59282] script '/var/www/intranet.price.fox.org/wp-includes/blocks/image/phpinfo.php' not found or unable to stat
+[Tue Jan 18 12:28:06.408767 2022] [php7:error] [pid 28408] [client 172.17.130.196:59314] script '/var/www/intranet.price.fox.org/wp-includes/blocks/image/xmlrpc.php' not found or unable to stat
+[Tue Jan 18 12:28:06.413244 2022] [php7:error] [pid 28408] [client 172.17.130.196:59314] script '/var/www/intranet.price.fox.org/wp-includes/blocks/image/xmlrpc_server.php' not found or unable to stat
+[Tue Jan 18 12:28:06.526379 2022] [autoindex:error] [pid 28408] [client 172.17.130.196:59314] AH01276: Cannot serve directory /var/www/intranet.price.fox.org/wp-includes/blocks/list/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue Jan 18 12:28:06.549707 2022] [authz_core:error] [pid 28408] [client 172.17.130.196:59314] AH01630: client denied by server configuration: /var/www/intranet.price.fox.org/wp-includes/blocks/list/.hta
+[Tue Jan 18 12:28:06.551776 2022] [authz_core:error] [pid 28408] [client 172.17.130.196:59314] AH01630: client denied by server configuration: /var/www/intranet.price.fox.org/wp-includes/blocks/list/.hta_
+[Tue Jan 18 12:28:06.554320 2022] [authz_core:error] [pid 28408] [client 172.17.130.196:59314] AH01630: client denied by server configuration: /var/www/intranet.price.fox.org/wp-includes/blocks/list/.htaccess
+[Tue Jan 18 12:28:06.556635 2022] [authz_core:error] [pid 28408] [client 172.17.130.196:59314] AH01630: client denied by server configuration: /var/www/intranet.price.fox.org/wp-includes/blocks/list/.htaccess_
+[Tue Jan 18 12:28:06.558914 2022] [authz_core:error] [pid 28408] [client 172.17.130.196:59314] AH01630: client denied by server configuration: /var/www/intranet.price.fox.org/wp-includes/blocks/list/.htpasswd
+[Tue Jan 18 12:28:06.561142 2022] [authz_core:error] [pid 28408] [client 172.17.130.196:59314] AH01630: client denied by server configuration: /var/www/intranet.price.fox.org/wp-includes/blocks/list/.htpasswd_
+[Tue Jan 18 12:28:07.247023 2022] [php7:error] [pid 28576] [client 172.17.130.196:59320] script '/var/www/intranet.price.fox.org/wp-includes/blocks/list/admin.php' not found or unable to stat
+[Tue Jan 18 12:28:12.469103 2022] [php7:error] [pid 28408] [client 172.17.130.196:59354] script '/var/www/intranet.price.fox.org/wp-includes/blocks/list/index.php' not found or unable to stat
+[Tue Jan 18 12:28:12.512732 2022] [php7:error] [pid 28408] [client 172.17.130.196:59354] script '/var/www/intranet.price.fox.org/wp-includes/blocks/list/info.php' not found or unable to stat
+[Tue Jan 18 12:28:14.767448 2022] [php7:error] [pid 28409] [client 172.17.130.196:59370] script '/var/www/intranet.price.fox.org/wp-includes/blocks/list/phpinfo.php' not found or unable to stat
+[Tue Jan 18 12:28:18.824618 2022] [php7:error] [pid 28490] [client 172.17.130.196:59402] script '/var/www/intranet.price.fox.org/wp-includes/blocks/list/xmlrpc.php' not found or unable to stat
+[Tue Jan 18 12:28:18.829119 2022] [php7:error] [pid 28490] [client 172.17.130.196:59402] script '/var/www/intranet.price.fox.org/wp-includes/blocks/list/xmlrpc_server.php' not found or unable to stat
+[Tue Jan 18 12:28:18.940775 2022] [autoindex:error] [pid 28490] [client 172.17.130.196:59402] AH01276: Cannot serve directory /var/www/intranet.price.fox.org/wp-includes/blocks/missing/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue Jan 18 12:28:18.963869 2022] [authz_core:error] [pid 28490] [client 172.17.130.196:59402] AH01630: client denied by server configuration: /var/www/intranet.price.fox.org/wp-includes/blocks/missing/.hta
+[Tue Jan 18 12:28:18.966233 2022] [authz_core:error] [pid 28490] [client 172.17.130.196:59402] AH01630: client denied by server configuration: /var/www/intranet.price.fox.org/wp-includes/blocks/missing/.hta_
+[Tue Jan 18 12:28:18.968666 2022] [authz_core:error] [pid 28490] [client 172.17.130.196:59402] AH01630: client denied by server configuration: /var/www/intranet.price.fox.org/wp-includes/blocks/missing/.htaccess
+[Tue Jan 18 12:28:18.971233 2022] [authz_core:error] [pid 28490] [client 172.17.130.196:59402] AH01630: client denied by server configuration: /var/www/intranet.price.fox.org/wp-includes/blocks/missing/.htaccess_"
+
+Which log type does the following excerpt belong to? Answer in five words or less:
+"2022-01-16 15:34:20 jwright/192.168.128.107:57949 TLS: soft reset sec=3270/3270 bytes=4026072/-1 pkts=7186/0
+2022-01-16 15:34:20 jwright/192.168.128.107:57949 VERIFY OK: depth=1, C=AT, ST=Vienna, L=Vienna, O=Some Organisation GmbH, CN=OpenVPN CA, emailAddress=admin@organisation.cyberrange.at
+2022-01-16 15:34:20 jwright/192.168.128.107:57949 VERIFY KU OK
+2022-01-16 15:34:20 jwright/192.168.128.107:57949 Validating certificate extended key usage
+2022-01-16 15:34:20 jwright/192.168.128.107:57949 ++ Certificate has EKU (str) TLS Web Client Authentication, expects TLS Web Client Authentication
+2022-01-16 15:34:20 jwright/192.168.128.107:57949 VERIFY EKU OK
+2022-01-16 15:34:20 jwright/192.168.128.107:57949 VERIFY OK: depth=0, CN=jwright
+2022-01-16 15:34:20 jwright/192.168.128.107:57949 peer info: IV_VER=2.4.4
+2022-01-16 15:34:20 jwright/192.168.128.107:57949 peer info: IV_PLAT=linux
+2022-01-16 15:34:20 jwright/192.168.128.107:57949 peer info: IV_PROTO=2
+2022-01-16 15:34:20 jwright/192.168.128.107:57949 peer info: IV_LZ4=1
+2022-01-16 15:34:20 jwright/192.168.128.107:57949 peer info: IV_LZ4v2=1
+2022-01-16 15:34:20 jwright/192.168.128.107:57949 peer info: IV_LZO=1
+2022-01-16 15:34:20 jwright/192.168.128.107:57949 peer info: IV_COMP_STUB=1
+2022-01-16 15:34:20 jwright/192.168.128.107:57949 peer info: IV_COMP_STUBv2=1
+2022-01-16 15:34:20 jwright/192.168.128.107:57949 peer info: IV_TCPNL=1
+2022-01-16 15:34:20 jwright/192.168.128.107:57949 Outgoing Data Channel: Cipher 'AES-256-CBC' initialized with 256 bit key
+2022-01-16 15:34:20 jwright/192.168.128.107:57949 Outgoing Data Channel: Using 160 bit message hash 'SHA1' for HMAC authentication
+2022-01-16 15:34:20 jwright/192.168.128.107:57949 Incoming Data Channel: Cipher 'AES-256-CBC' initialized with 256 bit key
+2022-01-16 15:34:20 jwright/192.168.128.107:57949 Incoming Data Channel: Using 160 bit message hash 'SHA1' for HMAC authentication
+2022-01-16 15:34:20 jwright/192.168.128.107:57949 Control Channel: TLSv1.3, cipher TLSv1.3 TLS_AES_256_GCM_SHA384, peer certificate: 4096 bit RSA, signature: RSA-SHA256
+2022-01-16 15:35:24 hwarren/192.168.129.254:34841 TLS: soft reset sec=3411/3411 bytes=56676/-1 pkts=703/0
+2022-01-16 15:35:24 hwarren/192.168.129.254:34841 VERIFY OK: depth=1, C=AT, ST=Vienna, L=Vienna, O=Some Organisation GmbH, CN=OpenVPN CA, emailAddress=admin@organisation.cyberrange.at
+2022-01-16 15:35:24 hwarren/192.168.129.254:34841 VERIFY KU OK
+2022-01-16 15:35:24 hwarren/192.168.129.254:34841 Validating certificate extended key usage
+2022-01-16 15:35:24 hwarren/192.168.129.254:34841 ++ Certificate has EKU (str) TLS Web Client Authentication, expects TLS Web Client Authentication
+2022-01-16 15:35:24 hwarren/192.168.129.254:34841 VERIFY EKU OK
+2022-01-16 15:35:24 hwarren/192.168.129.254:34841 VERIFY OK: depth=0, CN=hwarren
+2022-01-16 15:35:24 hwarren/192.168.129.254:34841 peer info: IV_VER=2.4.4
+2022-01-16 15:35:24 hwarren/192.168.129.254:34841 peer info: IV_PLAT=linux
+2022-01-16 15:35:24 hwarren/192.168.129.254:34841 peer info: IV_PROTO=2
+2022-01-16 15:35:24 hwarren/192.168.129.254:34841 peer info: IV_LZ4=1
+2022-01-16 15:35:24 hwarren/192.168.129.254:34841 peer info: IV_LZ4v2=1
+2022-01-16 15:35:24 hwarren/192.168.129.254:34841 peer info: IV_LZO=1
+2022-01-16 15:35:24 hwarren/192.168.129.254:34841 peer info: IV_COMP_STUB=1
+2022-01-16 15:35:24 hwarren/192.168.129.254:34841 peer info: IV_COMP_STUBv2=1
+2022-01-16 15:35:24 hwarren/192.168.129.254:34841 peer info: IV_TCPNL=1
+2022-01-16 15:35:24 hwarren/192.168.129.254:34841 Outgoing Data Channel: Cipher 'AES-256-CBC' initialized with 256 bit key
+2022-01-16 15:35:24 hwarren/192.168.129.254:34841 Outgoing Data Channel: Using 160 bit message hash 'SHA1' for HMAC authentication
+2022-01-16 15:35:24 hwarren/192.168.129.254:34841 Incoming Data Channel: Cipher 'AES-256-CBC' initialized with 256 bit key
+2022-01-16 15:35:24 hwarren/192.168.129.254:34841 Incoming Data Channel: Using 160 bit message hash 'SHA1' for HMAC authentication
+2022-01-16 15:35:24 hwarren/192.168.129.254:34841 Control Channel: TLSv1.3, cipher TLSv1.3 TLS_AES_256_GCM_SHA384, peer certificate: 4096 bit RSA, signature: RSA-SHA256
+2022-01-16 15:51:02 bpotter/192.168.128.152:40201 TLS: soft reset sec=3257/3257 bytes=2912036/-1 pkts=5409/0
+2022-01-16 15:51:02 bpotter/192.168.128.152:40201 VERIFY OK: depth=1, C=AT, ST=Vienna, L=Vienna, O=Some Organisation GmbH, CN=OpenVPN CA, emailAddress=admin@organisation.cyberrange.at
+2022-01-16 15:51:02 bpotter/192.168.128.152:40201 VERIFY KU OK
+2022-01-16 15:51:02 bpotter/192.168.128.152:40201 Validating certificate extended key usage
+2022-01-16 15:51:02 bpotter/192.168.128.152:40201 ++ Certificate has EKU (str) TLS Web Client Authentication, expects TLS Web Client Authentication
+2022-01-16 15:51:02 bpotter/192.168.128.152:40201 VERIFY EKU OK
+2022-01-16 15:51:02 bpotter/192.168.128.152:40201 VERIFY OK: depth=0, CN=bpotter
+2022-01-16 15:51:02 bpotter/192.168.128.152:40201 peer info: IV_VER=2.4.4
+2022-01-16 15:51:02 bpotter/192.168.128.152:40201 peer info: IV_PLAT=linux
+2022-01-16 15:51:02 bpotter/192.168.128.152:40201 peer info: IV_PROTO=2
+2022-01-16 15:51:02 bpotter/192.168.128.152:40201 peer info: IV_LZ4=1
+2022-01-16 15:51:02 bpotter/192.168.128.152:40201 peer info: IV_LZ4v2=1
+2022-01-16 15:51:02 bpotter/192.168.128.152:40201 peer info: IV_LZO=1
+2022-01-16 15:51:02 bpotter/192.168.128.152:40201 peer info: IV_COMP_STUB=1
+2022-01-16 15:51:02 bpotter/192.168.128.152:40201 peer info: IV_COMP_STUBv2=1
+2022-01-16 15:51:02 bpotter/192.168.128.152:40201 peer info: IV_TCPNL=1
+2022-01-16 15:51:02 bpotter/192.168.128.152:40201 Outgoing Data Channel: Cipher 'AES-256-CBC' initialized with 256 bit key
+2022-01-16 15:51:02 bpotter/192.168.128.152:40201 Outgoing Data Channel: Using 160 bit message hash 'SHA1' for HMAC authentication
+2022-01-16 15:51:02 bpotter/192.168.128.152:40201 Incoming Data Channel: Cipher 'AES-256-CBC' initialized with 256 bit key
+2022-01-16 15:51:02 bpotter/192.168.128.152:40201 Incoming Data Channel: Using 160 bit message hash 'SHA1' for HMAC authentication"
+
+Answer in five words or less.
+

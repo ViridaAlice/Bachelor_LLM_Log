@@ -1,4 +1,3 @@
-Jan 19 14:05:18 dnsmasq[14522]: reply scontent.xx.fbcdn.net is 2a03:2880:f007:8:face:b00c:0:1
 Jan 19 14:05:19 dnsmasq[14522]: query[A] clients1.google.com from 172.17.130.196
 Jan 19 14:05:19 dnsmasq[14522]: forwarded clients1.google.com to 192.168.255.254
 Jan 19 14:05:19 dnsmasq[14522]: query[AAAA] clients1.google.com from 172.17.130.196

@@ -33,12 +33,4 @@ type=SERVICE_STOP msg=audit(1642241363.991:692): pid=1 uid=0 auid=4294967295 ses
 type=USER_ACCT msg=audit(1642241821.880:693): pid=14263 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
 type=CRED_ACQ msg=audit(1642241821.880:694): pid=14263 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
 type=LOGIN msg=audit(1642241821.880:695): pid=14263 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=102 res=1
-type=USER_START msg=audit(1642241821.880:696): pid=14263 uid=0 auid=0 ses=102 msg='op=PAM:session_open acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
-type=CRED_DISP msg=audit(1642241821.888:697): pid=14263 uid=0 auid=0 ses=102 msg='op=PAM:setcred acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
-type=USER_END msg=audit(1642241821.888:698): pid=14263 uid=0 auid=0 ses=102 msg='op=PAM:session_close acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
-type=USER_ACCT msg=audit(1642243141.908:699): pid=14275 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
-type=CRED_ACQ msg=audit(1642243141.912:700): pid=14275 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
-type=LOGIN msg=audit(1642243141.912:701): pid=14275 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=103 res=1
-type=USER_START msg=audit(1642243141.916:702): pid=14275 uid=0 auid=0 ses=103 msg='op=PAM:session_open acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
-type=CRED_DISP msg=audit(1642243141.920:703): pid=14275 uid=0 auid=0 ses=103 msg='op=PAM:setcred acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
-type=USER_END msg=audit(1642243141.920:704): pid=14275 uid=0 auid=0 ses=103 msg='op=PAM:session_close acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
+
