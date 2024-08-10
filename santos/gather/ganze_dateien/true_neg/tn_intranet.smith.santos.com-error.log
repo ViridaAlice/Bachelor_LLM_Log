@@ -1,0 +1,4 @@
+[
+  "[Mon Jan 17 11:22:02.607946 2022] [authz_core:error] [pid 20320] [client 172.21.128.119:44498] AH01630: client denied by server configuration: /var/www/intranet.smith.santos.com/.hta",
+  "[Mon Jan 17 12:52:51.550938 2022] [php7:warn] [pid 20788] [client 192.168.104.155:41854] PHP Warning:  scandir(): (errno 2): No such file or directory in /var/www/intranet.smith.santos.com/wp-content/plugins/wpdiscuz/utils/class.WpdiscuzCache.php on line 190"
+]

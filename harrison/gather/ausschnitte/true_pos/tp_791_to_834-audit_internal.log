@@ -1,0 +1,65 @@
+{
+  "data": [
+    "type=USER_END msg=audit(1644304021.543:952): pid=4600 uid=0 auid=0 ses=155 msg='op=PAM:session_close acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=SERVICE_START msg=audit(1644304441.936:953): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-tmpfiles-clean comm=\"systemd\" exe=\"/lib/systemd/systemd\" hostname=? addr=? terminal=? res=success'",
+    "type=SERVICE_STOP msg=audit(1644304441.936:954): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=systemd-tmpfiles-clean comm=\"systemd\" exe=\"/lib/systemd/systemd\" hostname=? addr=? terminal=? res=success'",
+    "type=USER_ACCT msg=audit(1644304621.561:955): pid=5109 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=CRED_ACQ msg=audit(1644304621.561:956): pid=5109 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=LOGIN msg=audit(1644304621.565:957): pid=5109 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=156 res=1",
+    "type=USER_START msg=audit(1644304621.569:958): pid=5109 uid=0 auid=0 ses=156 msg='op=PAM:session_open acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=CRED_DISP msg=audit(1644304621.581:959): pid=5109 uid=0 auid=0 ses=156 msg='op=PAM:setcred acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=USER_END msg=audit(1644304621.585:960): pid=5109 uid=0 auid=0 ses=156 msg='op=PAM:session_close acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=USER_ACCT msg=audit(1644308221.635:961): pid=8160 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=CRED_ACQ msg=audit(1644308221.635:962): pid=8160 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=LOGIN msg=audit(1644308221.635:963): pid=8160 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=157 res=1",
+    "type=USER_START msg=audit(1644308221.639:964): pid=8160 uid=0 auid=0 ses=157 msg='op=PAM:session_open acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=CRED_DISP msg=audit(1644308221.663:965): pid=8160 uid=0 auid=0 ses=157 msg='op=PAM:setcred acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=USER_END msg=audit(1644308221.663:966): pid=8160 uid=0 auid=0 ses=157 msg='op=PAM:session_close acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=SERVICE_START msg=audit(1644311700.834:967): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=autem comm=\"systemd\" exe=\"/lib/systemd/systemd\" hostname=? addr=? terminal=? res=success'",
+    "type=SERVICE_STOP msg=audit(1644311700.834:968): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=autem comm=\"systemd\" exe=\"/lib/systemd/systemd\" hostname=? addr=? terminal=? res=success'",
+    "type=USER_ACCT msg=audit(1644311821.708:969): pid=10882 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=CRED_ACQ msg=audit(1644311821.708:970): pid=10882 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=LOGIN msg=audit(1644311821.708:971): pid=10882 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=158 res=1",
+    "type=USER_START msg=audit(1644311821.712:972): pid=10882 uid=0 auid=0 ses=158 msg='op=PAM:session_open acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=CRED_DISP msg=audit(1644311821.728:973): pid=10882 uid=0 auid=0 ses=158 msg='op=PAM:setcred acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=USER_END msg=audit(1644311821.728:974): pid=10882 uid=0 auid=0 ses=158 msg='op=PAM:session_close acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=USER_ACCT msg=audit(1644315421.776:975): pid=11091 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=CRED_ACQ msg=audit(1644315421.780:976): pid=11091 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=LOGIN msg=audit(1644315421.780:977): pid=11091 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=159 res=1",
+    "type=USER_START msg=audit(1644315421.780:978): pid=11091 uid=0 auid=0 ses=159 msg='op=PAM:session_open acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=CRED_DISP msg=audit(1644315421.800:979): pid=11091 uid=0 auid=0 ses=159 msg='op=PAM:setcred acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=USER_END msg=audit(1644315421.800:980): pid=11091 uid=0 auid=0 ses=159 msg='op=PAM:session_close acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=USER_ACCT msg=audit(1644319021.845:981): pid=11299 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=CRED_ACQ msg=audit(1644319021.849:982): pid=11299 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=LOGIN msg=audit(1644319021.849:983): pid=11299 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=160 res=1",
+    "type=USER_START msg=audit(1644319021.849:984): pid=11299 uid=0 auid=0 ses=160 msg='op=PAM:session_open acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=CRED_DISP msg=audit(1644319021.869:985): pid=11299 uid=0 auid=0 ses=160 msg='op=PAM:setcred acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=USER_END msg=audit(1644319021.869:986): pid=11299 uid=0 auid=0 ses=160 msg='op=PAM:session_close acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=SERVICE_START msg=audit(1644320515.302:987): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=apt-daily comm=\"systemd\" exe=\"/lib/systemd/systemd\" hostname=? addr=? terminal=? res=success'",
+    "type=SERVICE_STOP msg=audit(1644320515.302:988): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=apt-daily comm=\"systemd\" exe=\"/lib/systemd/systemd\" hostname=? addr=? terminal=? res=success'",
+    "type=USER_ACCT msg=audit(1644322621.922:989): pid=11617 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=CRED_ACQ msg=audit(1644322621.922:990): pid=11617 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=LOGIN msg=audit(1644322621.922:991): pid=11617 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=161 res=1",
+    "type=USER_START msg=audit(1644322621.926:992): pid=11617 uid=0 auid=0 ses=161 msg='op=PAM:session_open acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=CRED_DISP msg=audit(1644322621.938:993): pid=11617 uid=0 auid=0 ses=161 msg='op=PAM:setcred acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=USER_END msg=audit(1644322621.938:994): pid=11617 uid=0 auid=0 ses=161 msg='op=PAM:session_close acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'"
+  ],
+  "lines": [
+    791,
+    834
+  ],
+  "labels": {
+    "dnsteal": [
+      16,
+      17
+    ],
+    "exfiltration-service": [
+      16,
+      17
+    ],
+    "attacker": [
+      16,
+      17
+    ]
+  }
+}

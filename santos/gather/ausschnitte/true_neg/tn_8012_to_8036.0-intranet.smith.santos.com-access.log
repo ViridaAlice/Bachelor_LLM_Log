@@ -1,0 +1,34 @@
+{
+  "data": [
+    "172.21.128.119 - - [17/Jan/2022:11:22:42 +0000] \"HEAD /1.sql HTTP/1.1\" 404 146 \"https://intranet.smith.santos.com\" \"WPScan v3.8.20 (https://wpscan.com/wordpress-security-scanner)\"",
+    "172.21.128.119 - - [17/Jan/2022:11:22:42 +0000] \"HEAD /2012.sql HTTP/1.1\" 404 146 \"https://intranet.smith.santos.com\" \"WPScan v3.8.20 (https://wpscan.com/wordpress-security-scanner)\"",
+    "172.21.128.119 - - [17/Jan/2022:11:22:42 +0000] \"HEAD /2015.sql HTTP/1.1\" 404 146 \"https://intranet.smith.santos.com\" \"WPScan v3.8.20 (https://wpscan.com/wordpress-security-scanner)\"",
+    "172.21.128.119 - - [17/Jan/2022:11:22:42 +0000] \"HEAD /2017.sql HTTP/1.1\" 404 146 \"https://intranet.smith.santos.com\" \"WPScan v3.8.20 (https://wpscan.com/wordpress-security-scanner)\"",
+    "172.21.128.119 - - [17/Jan/2022:11:22:42 +0000] \"HEAD /2016.sql HTTP/1.1\" 404 146 \"https://intranet.smith.santos.com\" \"WPScan v3.8.20 (https://wpscan.com/wordpress-security-scanner)\"",
+    "172.21.128.119 - - [17/Jan/2022:11:22:42 +0000] \"HEAD /2020.sql HTTP/1.1\" 404 146 \"https://intranet.smith.santos.com\" \"WPScan v3.8.20 (https://wpscan.com/wordpress-security-scanner)\"",
+    "172.21.128.119 - - [17/Jan/2022:11:22:42 +0000] \"HEAD /2018.sql HTTP/1.1\" 404 146 \"https://intranet.smith.santos.com\" \"WPScan v3.8.20 (https://wpscan.com/wordpress-security-scanner)\"",
+    "172.21.128.119 - - [17/Jan/2022:11:22:42 +0000] \"HEAD /2019.sql HTTP/1.1\" 404 146 \"https://intranet.smith.santos.com\" \"WPScan v3.8.20 (https://wpscan.com/wordpress-security-scanner)\"",
+    "172.21.128.119 - - [17/Jan/2022:11:22:42 +0000] \"HEAD /backup.sql HTTP/1.1\" 404 146 \"https://intranet.smith.santos.com\" \"WPScan v3.8.20 (https://wpscan.com/wordpress-security-scanner)\"",
+    "172.21.128.119 - - [17/Jan/2022:11:22:42 +0000] \"HEAD /2021.sql HTTP/1.1\" 404 146 \"https://intranet.smith.santos.com\" \"WPScan v3.8.20 (https://wpscan.com/wordpress-security-scanner)\"",
+    "172.21.128.119 - - [17/Jan/2022:11:22:42 +0000] \"HEAD /backup/db.sql HTTP/1.1\" 404 146 \"https://intranet.smith.santos.com\" \"WPScan v3.8.20 (https://wpscan.com/wordpress-security-scanner)\"",
+    "172.21.128.119 - - [17/Jan/2022:11:22:42 +0000] \"HEAD /backup/data.sql HTTP/1.1\" 404 146 \"https://intranet.smith.santos.com\" \"WPScan v3.8.20 (https://wpscan.com/wordpress-security-scanner)\"",
+    "172.21.128.119 - - [17/Jan/2022:11:22:42 +0000] \"HEAD /backup/database.sql HTTP/1.1\" 404 146 \"https://intranet.smith.santos.com\" \"WPScan v3.8.20 (https://wpscan.com/wordpress-security-scanner)\"",
+    "172.21.128.119 - - [17/Jan/2022:11:22:42 +0000] \"HEAD /backup/db_backup.sql HTTP/1.1\" 404 146 \"https://intranet.smith.santos.com\" \"WPScan v3.8.20 (https://wpscan.com/wordpress-security-scanner)\"",
+    "172.21.128.119 - - [17/Jan/2022:11:22:42 +0000] \"HEAD /backup/dbdump.sql HTTP/1.1\" 404 146 \"https://intranet.smith.santos.com\" \"WPScan v3.8.20 (https://wpscan.com/wordpress-security-scanner)\"",
+    "172.21.128.119 - - [17/Jan/2022:11:22:42 +0000] \"HEAD /backup/site.sql HTTP/1.1\" 404 146 \"https://intranet.smith.santos.com\" \"WPScan v3.8.20 (https://wpscan.com/wordpress-security-scanner)\"",
+    "172.21.128.119 - - [17/Jan/2022:11:22:42 +0000] \"HEAD /backup/mysql.sql HTTP/1.1\" 404 146 \"https://intranet.smith.santos.com\" \"WPScan v3.8.20 (https://wpscan.com/wordpress-security-scanner)\"",
+    "172.21.128.119 - - [17/Jan/2022:11:22:42 +0000] \"HEAD /backup/dump.sql HTTP/1.1\" 404 146 \"https://intranet.smith.santos.com\" \"WPScan v3.8.20 (https://wpscan.com/wordpress-security-scanner)\"",
+    "172.21.128.119 - - [17/Jan/2022:11:22:42 +0000] \"HEAD /backup/wordpress.sql HTTP/1.1\" 404 146 \"https://intranet.smith.santos.com\" \"WPScan v3.8.20 (https://wpscan.com/wordpress-security-scanner)\"",
+    "172.21.128.119 - - [17/Jan/2022:11:22:42 +0000] \"HEAD /backup/santos.sql HTTP/1.1\" 404 146 \"https://intranet.smith.santos.com\" \"WPScan v3.8.20 (https://wpscan.com/wordpress-security-scanner)\"",
+    "172.21.128.119 - - [17/Jan/2022:11:22:42 +0000] \"HEAD /backup/intranet.smith.santos.sql.gz HTTP/1.1\" 404 146 \"https://intranet.smith.santos.com\" \"WPScan v3.8.20 (https://wpscan.com/wordpress-security-scanner)\"",
+    "172.21.128.119 - - [17/Jan/2022:11:22:42 +0000] \"HEAD /backup/santos.sql.gz HTTP/1.1\" 404 146 \"https://intranet.smith.santos.com\" \"WPScan v3.8.20 (https://wpscan.com/wordpress-security-scanner)\"",
+    "172.21.128.119 - - [17/Jan/2022:11:22:42 +0000] \"HEAD /backup/intranet.smith.santos.sql HTTP/1.1\" 404 146 \"https://intranet.smith.santos.com\" \"WPScan v3.8.20 (https://wpscan.com/wordpress-security-scanner)\"",
+    "172.21.128.119 - - [17/Jan/2022:11:22:42 +0000] \"HEAD /backup/intranet.smith.santos.zip HTTP/1.1\" 404 146 \"https://intranet.smith.santos.com\" \"WPScan v3.8.20 (https://wpscan.com/wordpress-security-scanner)\"",
+    "172.21.128.119 - - [17/Jan/2022:11:22:42 +0000] \"HEAD /backup/santos.zip HTTP/1.1\" 404 146 \"https://intranet.smith.santos.com\" \"WPScan v3.8.20 (https://wpscan.com/wordpress-security-scanner)\""
+  ],
+  "lines": [
+    8012,
+    8036.0
+  ],
+  "labels": []
+}

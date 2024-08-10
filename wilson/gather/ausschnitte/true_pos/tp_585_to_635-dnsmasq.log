@@ -1,0 +1,75 @@
+{
+  "data": [
+    "Feb  3 00:44:57 dnsmasq[14481]: query[A] 3x6-.554-.FwCrL2qsvkCo4MDdEYOl223AwJCc/KIc7wI1Hwh0tf7EzpLG-.bBqOTCKjdDpu46JceW1g41s3WEYoNbCgALDEvlcW0wlTXtKJ-.1z0v5PXBHQtJwy/KLMDXI0jMoqp8vQD4*uOC49bhU6d7XQjs-.customers_2017.xlsx.jagwgfpkvsawgaysmkwcilvqcp.com from 172.26.240.200",
+    "Feb  3 00:44:57 dnsmasq[14481]: forwarded 3x6-.554-.FwCrL2qsvkCo4MDdEYOl223AwJCc/KIc7wI1Hwh0tf7EzpLG-.bBqOTCKjdDpu46JceW1g41s3WEYoNbCgALDEvlcW0wlTXtKJ-.1z0v5PXBHQtJwy/KLMDXI0jMoqp8vQD4*uOC49bhU6d7XQjs-.customers_2017.xlsx.jagwgfpkvsawgaysmkwcilvqcp.com to 192.168.239.254",
+    "Feb  3 00:44:57 dnsmasq[14481]: reply 3x6-.554-.FwCrL2qsvkCo4MDdEYOl223AwJCc/KIc7wI1Hwh0tf7EzpLG-.bBqOTCKjdDpu46JceW1g41s3WEYoNbCgALDEvlcW0wlTXtKJ-.1z0v5PXBHQtJwy/KLMDXI0jMoqp8vQD4*uOC49bhU6d7XQjs-.customers_2017.xlsx.jagwgfpkvsawgaysmkwcilvqcp.com is 195.128.194.168",
+    "Feb  3 00:45:06 dnsmasq[14481]: query[TXT] current.cvd.clamav.net from 10.182.193.181",
+    "Feb  3 00:45:06 dnsmasq[14481]: forwarded current.cvd.clamav.net to 192.168.239.254",
+    "Feb  3 00:45:06 dnsmasq[14481]: reply current.cvd.clamav.net is 0.103.5:62:26441:1643840940:1:90:49192:333",
+    "Feb  3 00:45:06 dnsmasq[14481]: query[A] db.local.clamav.net from 10.182.193.181",
+    "Feb  3 00:45:06 dnsmasq[14481]: forwarded db.local.clamav.net to 192.168.239.254",
+    "Feb  3 00:45:06 dnsmasq[14481]: query[AAAA] db.local.clamav.net from 10.182.193.181",
+    "Feb  3 00:45:06 dnsmasq[14481]: forwarded db.local.clamav.net to 192.168.239.254",
+    "Feb  3 00:45:06 dnsmasq[14481]: reply db.local.clamav.net is <CNAME>",
+    "Feb  3 00:45:06 dnsmasq[14481]: reply db.local.clamav.net.cdn.cloudflare.net is 104.16.218.84",
+    "Feb  3 00:45:06 dnsmasq[14481]: reply db.local.clamav.net.cdn.cloudflare.net is 104.16.219.84",
+    "Feb  3 00:45:06 dnsmasq[14481]: reply db.local.clamav.net is <CNAME>",
+    "Feb  3 00:45:06 dnsmasq[14481]: reply db.local.clamav.net.cdn.cloudflare.net is 2606:4700::6810:da54",
+    "Feb  3 00:45:06 dnsmasq[14481]: reply db.local.clamav.net.cdn.cloudflare.net is 2606:4700::6810:db54",
+    "Feb  3 00:45:09 dnsmasq[14481]: query[A] 3x6-.555-.Kp*vA/kUCLKzXOYFXHaLIFfZHjqjDbd3zf3fhiNEyFCtDnMe-.fKIl0UJZIt2OA1sURNVzxbllWlNf5FG7JCJvDlpUHHa/KdZz-.uK4DQY5eotpNosrLC4CXP5ZBax0*dfoZiORxL0tQSruNAc8W-.customers_2017.xlsx.jagwgfpkvsawgaysmkwcilvqcp.com from 172.26.240.200",
+    "Feb  3 00:45:09 dnsmasq[14481]: forwarded 3x6-.555-.Kp*vA/kUCLKzXOYFXHaLIFfZHjqjDbd3zf3fhiNEyFCtDnMe-.fKIl0UJZIt2OA1sURNVzxbllWlNf5FG7JCJvDlpUHHa/KdZz-.uK4DQY5eotpNosrLC4CXP5ZBax0*dfoZiORxL0tQSruNAc8W-.customers_2017.xlsx.jagwgfpkvsawgaysmkwcilvqcp.com to 192.168.239.254",
+    "Feb  3 00:45:09 dnsmasq[14481]: reply 3x6-.555-.Kp*vA/kUCLKzXOYFXHaLIFfZHjqjDbd3zf3fhiNEyFCtDnMe-.fKIl0UJZIt2OA1sURNVzxbllWlNf5FG7JCJvDlpUHHa/KdZz-.uK4DQY5eotpNosrLC4CXP5ZBax0*dfoZiORxL0tQSruNAc8W-.customers_2017.xlsx.jagwgfpkvsawgaysmkwcilvqcp.com is 195.128.194.168",
+    "Feb  3 00:45:11 dnsmasq[14481]: query[TXT] current.cvd.clamav.net from 10.182.193.181",
+    "Feb  3 00:45:11 dnsmasq[14481]: forwarded current.cvd.clamav.net to 192.168.239.254",
+    "Feb  3 00:45:11 dnsmasq[14481]: reply current.cvd.clamav.net is 0.103.5:62:26441:1643848140:1:90:49192:333",
+    "Feb  3 00:45:11 dnsmasq[14481]: query[A] db.local.clamav.net from 10.182.193.181",
+    "Feb  3 00:45:11 dnsmasq[14481]: forwarded db.local.clamav.net to 192.168.239.254",
+    "Feb  3 00:45:11 dnsmasq[14481]: query[AAAA] db.local.clamav.net from 10.182.193.181",
+    "Feb  3 00:45:11 dnsmasq[14481]: forwarded db.local.clamav.net to 192.168.239.254",
+    "Feb  3 00:45:11 dnsmasq[14481]: reply db.local.clamav.net is <CNAME>",
+    "Feb  3 00:45:11 dnsmasq[14481]: reply db.local.clamav.net.cdn.cloudflare.net is 104.16.218.84",
+    "Feb  3 00:45:11 dnsmasq[14481]: reply db.local.clamav.net.cdn.cloudflare.net is 104.16.219.84",
+    "Feb  3 00:45:11 dnsmasq[14481]: reply db.local.clamav.net is <CNAME>",
+    "Feb  3 00:45:11 dnsmasq[14481]: reply db.local.clamav.net.cdn.cloudflare.net is 2606:4700::6810:db54",
+    "Feb  3 00:45:11 dnsmasq[14481]: reply db.local.clamav.net.cdn.cloudflare.net is 2606:4700::6810:da54",
+    "Feb  3 00:45:16 dnsmasq[14481]: query[TXT] current.cvd.clamav.net from 10.182.193.181",
+    "Feb  3 00:45:16 dnsmasq[14481]: forwarded current.cvd.clamav.net to 192.168.239.254",
+    "Feb  3 00:45:16 dnsmasq[14481]: reply current.cvd.clamav.net is 0.103.5:62:26441:1643848140:1:90:49192:333",
+    "Feb  3 00:45:16 dnsmasq[14481]: query[A] db.local.clamav.net from 10.182.193.181",
+    "Feb  3 00:45:16 dnsmasq[14481]: cached db.local.clamav.net is <CNAME>",
+    "Feb  3 00:45:16 dnsmasq[14481]: cached db.local.clamav.net.cdn.cloudflare.net is 104.16.219.84",
+    "Feb  3 00:45:16 dnsmasq[14481]: cached db.local.clamav.net.cdn.cloudflare.net is 104.16.218.84",
+    "Feb  3 00:45:16 dnsmasq[14481]: query[AAAA] db.local.clamav.net from 10.182.193.181",
+    "Feb  3 00:45:16 dnsmasq[14481]: cached db.local.clamav.net is <CNAME>",
+    "Feb  3 00:45:16 dnsmasq[14481]: cached db.local.clamav.net.cdn.cloudflare.net is 2606:4700::6810:da54",
+    "Feb  3 00:45:16 dnsmasq[14481]: cached db.local.clamav.net.cdn.cloudflare.net is 2606:4700::6810:db54",
+    "Feb  3 00:45:21 dnsmasq[14481]: query[TXT] current.cvd.clamav.net from 10.182.193.181",
+    "Feb  3 00:45:21 dnsmasq[14481]: forwarded current.cvd.clamav.net to 192.168.239.254",
+    "Feb  3 00:45:21 dnsmasq[14481]: reply current.cvd.clamav.net is 0.103.5:62:26441:1643840940:1:90:49192:333",
+    "Feb  3 00:45:21 dnsmasq[14481]: query[A] db.local.clamav.net from 10.182.193.181",
+    "Feb  3 00:45:21 dnsmasq[14481]: cached db.local.clamav.net is <CNAME>",
+    "Feb  3 00:45:21 dnsmasq[14481]: cached db.local.clamav.net.cdn.cloudflare.net is 104.16.218.84",
+    "Feb  3 00:45:21 dnsmasq[14481]: cached db.local.clamav.net.cdn.cloudflare.net is 104.16.219.84"
+  ],
+  "lines": [
+    585,
+    635
+  ],
+  "labels": {
+    "dnsteal": [
+      17,
+      18,
+      19
+    ],
+    "attacker": [
+      17,
+      18,
+      19
+    ],
+    "dnsteal-received": [
+      17,
+      18,
+      19
+    ]
+  }
+}
