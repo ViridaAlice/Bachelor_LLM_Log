@@ -1,0 +1,43 @@
+1: type=CRED_ACQ msg=audit(1643386621.235:902): pid=8846 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
+2: type=LOGIN msg=audit(1643386621.235:903): pid=8846 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=148 res=1
+3: type=USER_START msg=audit(1643386621.239:904): pid=8846 uid=0 auid=0 ses=148 msg='op=PAM:session_open acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
+4: type=CRED_DISP msg=audit(1643386621.247:905): pid=8846 uid=0 auid=0 ses=148 msg='op=PAM:setcred acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
+5: type=USER_END msg=audit(1643386621.247:906): pid=8846 uid=0 auid=0 ses=148 msg='op=PAM:session_close acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
+6: type=USER_ACCT msg=audit(1643390221.290:907): pid=11898 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
+7: type=CRED_ACQ msg=audit(1643390221.290:908): pid=11898 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
+8: type=LOGIN msg=audit(1643390221.290:909): pid=11898 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=149 res=1
+9: type=USER_START msg=audit(1643390221.294:910): pid=11898 uid=0 auid=0 ses=149 msg='op=PAM:session_open acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
+10: type=CRED_DISP msg=audit(1643390221.298:911): pid=11898 uid=0 auid=0 ses=149 msg='op=PAM:setcred acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
+11: type=USER_END msg=audit(1643390221.298:912): pid=11898 uid=0 auid=0 ses=149 msg='op=PAM:session_close acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
+12: type=USER_ACCT msg=audit(1643393821.335:913): pid=14827 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
+13: type=CRED_ACQ msg=audit(1643393821.339:914): pid=14827 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
+14: type=LOGIN msg=audit(1643393821.339:915): pid=14827 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=150 res=1
+15: type=USER_START msg=audit(1643393821.339:916): pid=14827 uid=0 auid=0 ses=150 msg='op=PAM:session_open acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
+16: type=CRED_DISP msg=audit(1643393821.347:917): pid=14827 uid=0 auid=0 ses=150 msg='op=PAM:setcred acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
+17: type=USER_END msg=audit(1643393821.351:918): pid=14827 uid=0 auid=0 ses=150 msg='op=PAM:session_close acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
+18: type=USER_ACCT msg=audit(1643397421.388:919): pid=17706 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
+19: type=CRED_ACQ msg=audit(1643397421.388:920): pid=17706 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
+20: type=LOGIN msg=audit(1643397421.388:921): pid=17706 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=151 res=1
+21: type=USER_START msg=audit(1643397421.392:922): pid=17706 uid=0 auid=0 ses=151 msg='op=PAM:session_open acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
+22: type=CRED_DISP msg=audit(1643397421.396:923): pid=17706 uid=0 auid=0 ses=151 msg='op=PAM:setcred acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
+23: type=USER_END msg=audit(1643397421.396:924): pid=17706 uid=0 auid=0 ses=151 msg='op=PAM:session_close acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
+24: type=USER_ACCT msg=audit(1643401021.430:925): pid=20571 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
+25: type=CRED_ACQ msg=audit(1643401021.434:926): pid=20571 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
+26: type=LOGIN msg=audit(1643401021.434:927): pid=20571 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=152 res=1
+27: type=USER_START msg=audit(1643401021.434:928): pid=20571 uid=0 auid=0 ses=152 msg='op=PAM:session_open acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
+28: type=CRED_DISP msg=audit(1643401021.442:929): pid=20571 uid=0 auid=0 ses=152 msg='op=PAM:setcred acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
+29: type=USER_END msg=audit(1643401021.446:930): pid=20571 uid=0 auid=0 ses=152 msg='op=PAM:session_close acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
+30: type=SERVICE_START msg=audit(1643403955.881:931): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=motd-news comm="systemd" exe="/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+31: type=SERVICE_STOP msg=audit(1643403955.881:932): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=motd-news comm="systemd" exe="/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+32: type=SERVICE_START msg=audit(1643404081.491:933): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=hic comm="systemd" exe="/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+33: type=SERVICE_STOP msg=audit(1643404081.491:934): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=hic comm="systemd" exe="/lib/systemd/systemd" hostname=? addr=? terminal=? res=success'
+34: type=USER_ACCT msg=audit(1643404621.486:935): pid=23146 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
+35: type=CRED_ACQ msg=audit(1643404621.490:936): pid=23146 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
+36: type=LOGIN msg=audit(1643404621.490:937): pid=23146 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=153 res=1
+37: type=USER_START msg=audit(1643404621.490:938): pid=23146 uid=0 auid=0 ses=153 msg='op=PAM:session_open acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
+38: type=CRED_DISP msg=audit(1643404621.498:939): pid=23146 uid=0 auid=0 ses=153 msg='op=PAM:setcred acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
+39: type=USER_END msg=audit(1643404621.498:940): pid=23146 uid=0 auid=0 ses=153 msg='op=PAM:session_close acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
+40: type=USER_ACCT msg=audit(1643408221.536:941): pid=23425 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
+41: type=CRED_ACQ msg=audit(1643408221.536:942): pid=23425 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'
+42: type=LOGIN msg=audit(1643408221.536:943): pid=23425 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=154 res=1
+43: type=USER_START msg=audit(1643408221.536:944): pid=23425 uid=0 auid=0 ses=154 msg='op=PAM:session_open acct="root" exe="/usr/sbin/cron" hostname=? addr=? terminal=cron res=success'

@@ -1,0 +1,61 @@
+1: 2022-01-23 12:07:29 dhunt/192.168.96.254:45085 VERIFY KU OK
+2: 2022-01-23 12:07:29 dhunt/192.168.96.254:45085 Validating certificate extended key usage
+3: 2022-01-23 12:07:29 dhunt/192.168.96.254:45085 ++ Certificate has EKU (str) TLS Web Client Authentication, expects TLS Web Client Authentication
+4: 2022-01-23 12:07:29 dhunt/192.168.96.254:45085 VERIFY EKU OK
+5: 2022-01-23 12:07:29 dhunt/192.168.96.254:45085 VERIFY OK: depth=0, CN=dhunt
+6: 2022-01-23 12:07:29 dhunt/192.168.96.254:45085 peer info: IV_VER=2.4.4
+7: 2022-01-23 12:07:29 dhunt/192.168.96.254:45085 peer info: IV_PLAT=linux
+8: 2022-01-23 12:07:29 dhunt/192.168.96.254:45085 peer info: IV_PROTO=2
+9: 2022-01-23 12:07:29 dhunt/192.168.96.254:45085 peer info: IV_LZ4=1
+10: 2022-01-23 12:07:29 dhunt/192.168.96.254:45085 peer info: IV_LZ4v2=1
+11: 2022-01-23 12:07:29 dhunt/192.168.96.254:45085 peer info: IV_LZO=1
+12: 2022-01-23 12:07:29 dhunt/192.168.96.254:45085 peer info: IV_COMP_STUB=1
+13: 2022-01-23 12:07:29 dhunt/192.168.96.254:45085 peer info: IV_COMP_STUBv2=1
+14: 2022-01-23 12:07:29 dhunt/192.168.96.254:45085 peer info: IV_TCPNL=1
+15: 2022-01-23 12:07:29 dhunt/192.168.96.254:45085 Outgoing Data Channel: Cipher 'AES-256-CBC' initialized with 256 bit key
+16: 2022-01-23 12:07:29 dhunt/192.168.96.254:45085 Outgoing Data Channel: Using 160 bit message hash 'SHA1' for HMAC authentication
+17: 2022-01-23 12:07:29 dhunt/192.168.96.254:45085 Incoming Data Channel: Cipher 'AES-256-CBC' initialized with 256 bit key
+18: 2022-01-23 12:07:29 dhunt/192.168.96.254:45085 Incoming Data Channel: Using 160 bit message hash 'SHA1' for HMAC authentication
+19: 2022-01-23 12:07:29 dhunt/192.168.96.254:45085 Control Channel: TLSv1.3, cipher TLSv1.3 TLS_AES_256_GCM_SHA384, peer certificate: 4096 bit RSA, signature: RSA-SHA256
+20: 2022-01-23 12:10:00 192.168.96.3:42036 TLS: Initial packet from [AF_INET]192.168.96.3:42036, sid=7da28fc8 abddec7e
+21: 2022-01-23 12:10:00 192.168.96.3:42036 VERIFY OK: depth=1, C=AT, ST=Vienna, L=Vienna, O=Some Organisation GmbH, CN=OpenVPN CA, emailAddress=admin@organisation.cyberrange.at
+22: 2022-01-23 12:10:00 192.168.96.3:42036 VERIFY KU OK
+23: 2022-01-23 12:10:00 192.168.96.3:42036 Validating certificate extended key usage
+24: 2022-01-23 12:10:00 192.168.96.3:42036 ++ Certificate has EKU (str) TLS Web Client Authentication, expects TLS Web Client Authentication
+25: 2022-01-23 12:10:00 192.168.96.3:42036 VERIFY EKU OK
+26: 2022-01-23 12:10:00 192.168.96.3:42036 VERIFY OK: depth=0, CN=kwhite
+27: 2022-01-23 12:10:00 192.168.96.3:42036 peer info: IV_VER=2.4.4
+28: 2022-01-23 12:10:00 192.168.96.3:42036 peer info: IV_PLAT=linux
+29: 2022-01-23 12:10:00 192.168.96.3:42036 peer info: IV_PROTO=2
+30: 2022-01-23 12:10:00 192.168.96.3:42036 peer info: IV_NCP=2
+31: 2022-01-23 12:10:00 192.168.96.3:42036 peer info: IV_LZ4=1
+32: 2022-01-23 12:10:00 192.168.96.3:42036 peer info: IV_LZ4v2=1
+33: 2022-01-23 12:10:00 192.168.96.3:42036 peer info: IV_LZO=1
+34: 2022-01-23 12:10:00 192.168.96.3:42036 peer info: IV_COMP_STUB=1
+35: 2022-01-23 12:10:00 192.168.96.3:42036 peer info: IV_COMP_STUBv2=1
+36: 2022-01-23 12:10:00 192.168.96.3:42036 peer info: IV_TCPNL=1
+37: 2022-01-23 12:10:00 192.168.96.3:42036 Control Channel: TLSv1.3, cipher TLSv1.3 TLS_AES_256_GCM_SHA384, peer certificate: 4096 bit RSA, signature: RSA-SHA256
+38: 2022-01-23 12:10:00 192.168.96.3:42036 [kwhite] Peer Connection Initiated with [AF_INET]192.168.96.3:42036
+39: 2022-01-23 12:10:00 kwhite/192.168.96.3:42036 MULTI_sva: pool returned IPv4=10.9.0.18, IPv6=(Not enabled)
+40: 2022-01-23 12:10:00 kwhite/192.168.96.3:42036 MULTI: Learn: 10.9.0.18 -> kwhite/192.168.96.3:42036
+41: 2022-01-23 12:10:00 kwhite/192.168.96.3:42036 MULTI: primary virtual IP for kwhite/192.168.96.3:42036: 10.9.0.18
+42: 2022-01-23 12:10:00 kwhite/192.168.96.3:42036 Outgoing Data Channel: Cipher 'AES-256-CBC' initialized with 256 bit key
+43: 2022-01-23 12:10:00 kwhite/192.168.96.3:42036 Outgoing Data Channel: Using 160 bit message hash 'SHA1' for HMAC authentication
+44: 2022-01-23 12:10:00 kwhite/192.168.96.3:42036 Incoming Data Channel: Cipher 'AES-256-CBC' initialized with 256 bit key
+45: 2022-01-23 12:10:00 kwhite/192.168.96.3:42036 Incoming Data Channel: Using 160 bit message hash 'SHA1' for HMAC authentication
+46: 2022-01-23 12:10:01 kwhite/192.168.96.3:42036 PUSH: Received control message: 'PUSH_REQUEST'
+47: 2022-01-23 12:10:01 kwhite/192.168.96.3:42036 SENT CONTROL [kwhite]: 'PUSH_REPLY,redirect-gateway def1,block-outside-dns,route 10.9.0.1,topology net30,ping 10,ping-restart 120,ifconfig 10.9.0.18 10.9.0.17,peer-id 3,cipher AES-256-CBC' (status=1)
+48: 2022-01-23 12:10:08 hwhite/192.168.98.90:34380 TLS: soft reset sec=3301/3301 bytes=54536/-1 pkts=700/0
+49: 2022-01-23 12:10:08 hwhite/192.168.98.90:34380 VERIFY OK: depth=1, C=AT, ST=Vienna, L=Vienna, O=Some Organisation GmbH, CN=OpenVPN CA, emailAddress=admin@organisation.cyberrange.at
+50: 2022-01-23 12:10:08 hwhite/192.168.98.90:34380 VERIFY KU OK
+51: 2022-01-23 12:10:08 hwhite/192.168.98.90:34380 Validating certificate extended key usage
+52: 2022-01-23 12:10:08 hwhite/192.168.98.90:34380 ++ Certificate has EKU (str) TLS Web Client Authentication, expects TLS Web Client Authentication
+53: 2022-01-23 12:10:08 hwhite/192.168.98.90:34380 VERIFY EKU OK
+54: 2022-01-23 12:10:08 hwhite/192.168.98.90:34380 VERIFY OK: depth=0, CN=hwhite
+55: 2022-01-23 12:10:08 hwhite/192.168.98.90:34380 peer info: IV_VER=2.4.4
+56: 2022-01-23 12:10:08 hwhite/192.168.98.90:34380 peer info: IV_PLAT=linux
+57: 2022-01-23 12:10:08 hwhite/192.168.98.90:34380 peer info: IV_PROTO=2
+58: 2022-01-23 12:10:08 hwhite/192.168.98.90:34380 peer info: IV_LZ4=1
+59: 2022-01-23 12:10:08 hwhite/192.168.98.90:34380 peer info: IV_LZ4v2=1
+60: 2022-01-23 12:10:08 hwhite/192.168.98.90:34380 peer info: IV_LZO=1
+61: 2022-01-23 12:10:08 hwhite/192.168.98.90:34380 peer info: IV_COMP_STUB=1

@@ -1,0 +1,50 @@
+1: Jan 29 14:37:28 dnsmasq[14596]: nameserver 127.0.0.1 refused to do a recursive query
+2: Jan 29 14:37:28 dnsmasq[14596]: reply 192.168.188.169 is employee02.intranet.thomasmurray.shaw.info
+3: Jan 29 14:37:28 dnsmasq[14596]: query[PTR] 179.188.168.192.in-addr.arpa from 172.24.249.224
+4: Jan 29 14:37:28 dnsmasq[14596]: forwarded 179.188.168.192.in-addr.arpa to 127.0.0.1
+5: Jan 29 14:37:28 dnsmasq[14596]: nameserver 127.0.0.1 refused to do a recursive query
+6: Jan 29 14:37:28 dnsmasq[14596]: reply 192.168.188.179 is intranet.thomasmurray.shaw.info
+7: Jan 29 14:37:44 dnsmasq[14596]: query[AAAA] mail.thomasmurray.shaw.info from 192.168.188.162
+8: Jan 29 14:37:44 dnsmasq[14596]: forwarded mail.thomasmurray.shaw.info to 127.0.0.1
+9: Jan 29 14:37:44 dnsmasq[14596]: nameserver 127.0.0.1 refused to do a recursive query
+10: Jan 29 14:37:44 dnsmasq[14596]: reply mail.thomasmurray.shaw.info is NODATA-IPv6
+11: Jan 29 14:38:27 dnsmasq[14596]: query[PTR] 2.248.24.172.in-addr.arpa from 172.24.249.224
+12: Jan 29 14:38:27 dnsmasq[14596]: forwarded 2.248.24.172.in-addr.arpa to 10.70.63.254
+13: Jan 29 14:38:27 dnsmasq[14596]: query[PTR] 97.248.24.172.in-addr.arpa from 172.24.249.224
+14: Jan 29 14:38:27 dnsmasq[14596]: forwarded 97.248.24.172.in-addr.arpa to 10.70.63.254
+15: Jan 29 14:38:27 dnsmasq[14596]: query[PTR] 212.249.24.172.in-addr.arpa from 172.24.249.224
+16: Jan 29 14:38:27 dnsmasq[14596]: forwarded 212.249.24.172.in-addr.arpa to 127.0.0.1
+17: Jan 29 14:38:27 dnsmasq[14596]: query[PTR] 224.249.24.172.in-addr.arpa from 172.24.249.224
+18: Jan 29 14:38:27 dnsmasq[14596]: forwarded 224.249.24.172.in-addr.arpa to 127.0.0.1
+19: Jan 29 14:38:27 dnsmasq[14596]: forwarded 224.249.24.172.in-addr.arpa to 127.0.0.1
+20: Jan 29 14:38:27 dnsmasq[14596]: query[PTR] 86.251.24.172.in-addr.arpa from 172.24.249.224
+21: Jan 29 14:38:27 dnsmasq[14596]: forwarded 86.251.24.172.in-addr.arpa to 127.0.0.1
+22: Jan 29 14:38:27 dnsmasq[14596]: nameserver 127.0.0.1 refused to do a recursive query
+23: Jan 29 14:38:27 dnsmasq[14596]: reply 172.24.249.212 is cloud.dmz.thomasmurray.shaw.info
+24: Jan 29 14:38:27 dnsmasq[14596]: query[PTR] 90.251.24.172.in-addr.arpa from 172.24.249.224
+25: Jan 29 14:38:27 dnsmasq[14596]: forwarded 90.251.24.172.in-addr.arpa to 127.0.0.1
+26: Jan 29 14:38:27 dnsmasq[14596]: forwarded 90.251.24.172.in-addr.arpa to 127.0.0.1
+27: Jan 29 14:38:27 dnsmasq[14596]: nameserver 127.0.0.1 refused to do a recursive query
+28: Jan 29 14:38:27 dnsmasq[14596]: reply 172.24.251.90 is mail.dmz.thomasmurray.shaw.info
+29: Jan 29 14:38:27 dnsmasq[14596]: reply 172.24.251.90 is mailserver.thomasmurray.shaw.info
+30: Jan 29 14:38:27 dnsmasq[14596]: nameserver 127.0.0.1 refused to do a recursive query
+31: Jan 29 14:38:27 dnsmasq[14596]: reply 172.24.249.224 is vpn.dmz.thomasmurray.shaw.info
+32: Jan 29 14:38:27 dnsmasq[14596]: reply 172.24.249.224 is vpn.thomasmurray.shaw.info
+33: Jan 29 14:38:27 dnsmasq[14596]: nameserver 127.0.0.1 refused to do a recursive query
+34: Jan 29 14:38:27 dnsmasq[14596]: reply 172.24.251.86 is proxy.thomasmurray.shaw.info
+35: Jan 29 14:38:38 dnsmasq[14596]: query[PTR] 254.63.70.10.in-addr.arpa from 172.24.249.224
+36: Jan 29 14:38:38 dnsmasq[14596]: forwarded 254.63.70.10.in-addr.arpa to 10.70.63.254
+37: Jan 29 14:38:38 dnsmasq[14596]: reply 10.70.63.254 is dns.shaw.info
+38: Jan 29 14:38:50 dnsmasq[14596]: query[A] data.wpscan.org from 172.24.249.224
+39: Jan 29 14:38:50 dnsmasq[14596]: forwarded data.wpscan.org to 10.70.63.254
+40: Jan 29 14:38:50 dnsmasq[14596]: query[AAAA] data.wpscan.org from 172.24.249.224
+41: Jan 29 14:38:50 dnsmasq[14596]: forwarded data.wpscan.org to 10.70.63.254
+42: Jan 29 14:38:50 dnsmasq[14596]: reply data.wpscan.org is 2606:4700:3030::ac43:9171
+43: Jan 29 14:38:50 dnsmasq[14596]: reply data.wpscan.org is 2606:4700:3037::6815:3f72
+44: Jan 29 14:38:50 dnsmasq[14596]: reply data.wpscan.org is 104.21.63.114
+45: Jan 29 14:38:50 dnsmasq[14596]: reply data.wpscan.org is 172.67.145.113
+46: Jan 29 14:39:17 dnsmasq[14596]: query[AAAA] cloud.thomasmurray.shaw.info from 192.168.188.49
+47: Jan 29 14:39:17 dnsmasq[14596]: forwarded cloud.thomasmurray.shaw.info to 127.0.0.1
+48: Jan 29 14:39:17 dnsmasq[14596]: nameserver 127.0.0.1 refused to do a recursive query
+49: Jan 29 14:39:17 dnsmasq[14596]: reply cloud.thomasmurray.shaw.info is NODATA-IPv6
+50: Jan 29 14:39:47 dnsmasq[14596]: query[AAAA] mail.thomasmurray.shaw.info from 172.24.249.224

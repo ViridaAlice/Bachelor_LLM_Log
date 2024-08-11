@@ -1,0 +1,51 @@
+1: Jan 26 15:51:05 dnsmasq[14596]: nameserver 127.0.0.1 refused to do a recursive query
+2: Jan 26 15:51:05 dnsmasq[14596]: reply cloud.thomasmurray.shaw.info is 172.24.251.86
+3: Jan 26 15:51:05 dnsmasq[14596]: query[AAAA] cloud.thomasmurray.shaw.info from 172.24.249.224
+4: Jan 26 15:51:05 dnsmasq[14596]: forwarded cloud.thomasmurray.shaw.info to 127.0.0.1
+5: Jan 26 15:51:05 dnsmasq[14596]: nameserver 127.0.0.1 refused to do a recursive query
+6: Jan 26 15:51:05 dnsmasq[14596]: reply cloud.thomasmurray.shaw.info is NODATA-IPv6
+7: Jan 26 15:51:05 dnsmasq[14596]: query[A] cloud.thomasmurray.shaw.info from 172.24.249.224
+8: Jan 26 15:51:05 dnsmasq[14596]: forwarded cloud.thomasmurray.shaw.info to 127.0.0.1
+9: Jan 26 15:51:05 dnsmasq[14596]: nameserver 127.0.0.1 refused to do a recursive query
+10: Jan 26 15:51:05 dnsmasq[14596]: reply cloud.thomasmurray.shaw.info is 172.24.251.86
+11: Jan 26 15:51:05 dnsmasq[14596]: query[AAAA] cloud.thomasmurray.shaw.info from 172.24.249.224
+12: Jan 26 15:51:05 dnsmasq[14596]: forwarded cloud.thomasmurray.shaw.info to 127.0.0.1
+13: Jan 26 15:51:05 dnsmasq[14596]: nameserver 127.0.0.1 refused to do a recursive query
+14: Jan 26 15:51:05 dnsmasq[14596]: reply cloud.thomasmurray.shaw.info is NODATA-IPv6
+15: Jan 26 15:51:05 dnsmasq[14596]: query[A] cloud.thomasmurray.shaw.info from 172.24.249.224
+16: Jan 26 15:51:05 dnsmasq[14596]: forwarded cloud.thomasmurray.shaw.info to 127.0.0.1
+17: Jan 26 15:51:05 dnsmasq[14596]: nameserver 127.0.0.1 refused to do a recursive query
+18: Jan 26 15:51:05 dnsmasq[14596]: reply cloud.thomasmurray.shaw.info is 172.24.251.86
+19: Jan 26 15:51:05 dnsmasq[14596]: query[AAAA] cloud.thomasmurray.shaw.info from 172.24.249.224
+20: Jan 26 15:51:05 dnsmasq[14596]: forwarded cloud.thomasmurray.shaw.info to 127.0.0.1
+21: Jan 26 15:51:05 dnsmasq[14596]: nameserver 127.0.0.1 refused to do a recursive query
+22: Jan 26 15:51:05 dnsmasq[14596]: reply cloud.thomasmurray.shaw.info is NODATA-IPv6
+23: Jan 26 15:51:05 dnsmasq[14596]: query[A] cloud.thomasmurray.shaw.info from 172.24.249.224
+24: Jan 26 15:51:05 dnsmasq[14596]: forwarded cloud.thomasmurray.shaw.info to 127.0.0.1
+25: Jan 26 15:51:05 dnsmasq[14596]: nameserver 127.0.0.1 refused to do a recursive query
+26: Jan 26 15:51:05 dnsmasq[14596]: reply cloud.thomasmurray.shaw.info is 172.24.251.86
+27: Jan 26 15:51:05 dnsmasq[14596]: query[AAAA] cloud.thomasmurray.shaw.info from 172.24.249.224
+28: Jan 26 15:51:05 dnsmasq[14596]: forwarded cloud.thomasmurray.shaw.info to 127.0.0.1
+29: Jan 26 15:51:05 dnsmasq[14596]: nameserver 127.0.0.1 refused to do a recursive query
+30: Jan 26 15:51:05 dnsmasq[14596]: reply cloud.thomasmurray.shaw.info is NODATA-IPv6
+31: Jan 26 15:51:05 dnsmasq[14596]: query[A] cloud.thomasmurray.shaw.info from 172.24.249.224
+32: Jan 26 15:51:05 dnsmasq[14596]: forwarded cloud.thomasmurray.shaw.info to 127.0.0.1
+33: Jan 26 15:51:05 dnsmasq[14596]: nameserver 127.0.0.1 refused to do a recursive query
+34: Jan 26 15:51:05 dnsmasq[14596]: reply cloud.thomasmurray.shaw.info is 172.24.251.86
+35: Jan 26 15:51:05 dnsmasq[14596]: query[AAAA] cloud.thomasmurray.shaw.info from 172.24.249.224
+36: Jan 26 15:51:05 dnsmasq[14596]: forwarded cloud.thomasmurray.shaw.info to 127.0.0.1
+37: Jan 26 15:51:05 dnsmasq[14596]: nameserver 127.0.0.1 refused to do a recursive query
+38: Jan 26 15:51:05 dnsmasq[14596]: reply cloud.thomasmurray.shaw.info is NODATA-IPv6
+39: Jan 26 15:51:05 dnsmasq[14596]: query[A] cloud.thomasmurray.shaw.info from 172.24.249.224
+40: Jan 26 15:51:05 dnsmasq[14596]: forwarded cloud.thomasmurray.shaw.info to 127.0.0.1
+41: Jan 26 15:51:05 dnsmasq[14596]: nameserver 127.0.0.1 refused to do a recursive query
+42: Jan 26 15:51:05 dnsmasq[14596]: reply cloud.thomasmurray.shaw.info is 172.24.251.86
+43: Jan 26 15:51:05 dnsmasq[14596]: query[AAAA] cloud.thomasmurray.shaw.info from 172.24.249.224
+44: Jan 26 15:51:05 dnsmasq[14596]: forwarded cloud.thomasmurray.shaw.info to 127.0.0.1
+45: Jan 26 15:51:05 dnsmasq[14596]: nameserver 127.0.0.1 refused to do a recursive query
+46: Jan 26 15:51:05 dnsmasq[14596]: reply cloud.thomasmurray.shaw.info is NODATA-IPv6
+47: Jan 26 15:51:05 dnsmasq[14596]: query[A] cloud.thomasmurray.shaw.info from 172.24.249.224
+48: Jan 26 15:51:05 dnsmasq[14596]: forwarded cloud.thomasmurray.shaw.info to 127.0.0.1
+49: Jan 26 15:51:05 dnsmasq[14596]: nameserver 127.0.0.1 refused to do a recursive query
+50: Jan 26 15:51:05 dnsmasq[14596]: reply cloud.thomasmurray.shaw.info is 172.24.251.86
+51: Jan 26 15:51:05 dnsmasq[14596]: query[AAAA] cloud.thomasmurray.shaw.info from 172.24.249.224

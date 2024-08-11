@@ -1,0 +1,62 @@
+1: 2022-01-19 21:37:32 mallen/192.168.98.196:43356 VERIFY OK: depth=1, C=AT, ST=Vienna, L=Vienna, O=Some Organisation GmbH, CN=OpenVPN CA, emailAddress=admin@organisation.cyberrange.at
+2: 2022-01-19 21:37:32 mallen/192.168.98.196:43356 VERIFY KU OK
+3: 2022-01-19 21:37:32 mallen/192.168.98.196:43356 Validating certificate extended key usage
+4: 2022-01-19 21:37:32 mallen/192.168.98.196:43356 ++ Certificate has EKU (str) TLS Web Client Authentication, expects TLS Web Client Authentication
+5: 2022-01-19 21:37:32 mallen/192.168.98.196:43356 VERIFY EKU OK
+6: 2022-01-19 21:37:32 mallen/192.168.98.196:43356 VERIFY OK: depth=0, CN=mallen
+7: 2022-01-19 21:37:32 mallen/192.168.98.196:43356 peer info: IV_VER=2.4.4
+8: 2022-01-19 21:37:32 mallen/192.168.98.196:43356 peer info: IV_PLAT=linux
+9: 2022-01-19 21:37:32 mallen/192.168.98.196:43356 peer info: IV_PROTO=2
+10: 2022-01-19 21:37:32 mallen/192.168.98.196:43356 peer info: IV_LZ4=1
+11: 2022-01-19 21:37:32 mallen/192.168.98.196:43356 peer info: IV_LZ4v2=1
+12: 2022-01-19 21:37:32 mallen/192.168.98.196:43356 peer info: IV_LZO=1
+13: 2022-01-19 21:37:32 mallen/192.168.98.196:43356 peer info: IV_COMP_STUB=1
+14: 2022-01-19 21:37:32 mallen/192.168.98.196:43356 peer info: IV_COMP_STUBv2=1
+15: 2022-01-19 21:37:32 mallen/192.168.98.196:43356 peer info: IV_TCPNL=1
+16: 2022-01-19 21:37:32 mallen/192.168.98.196:43356 Outgoing Data Channel: Cipher 'AES-256-CBC' initialized with 256 bit key
+17: 2022-01-19 21:37:32 mallen/192.168.98.196:43356 Outgoing Data Channel: Using 160 bit message hash 'SHA1' for HMAC authentication
+18: 2022-01-19 21:37:32 mallen/192.168.98.196:43356 Incoming Data Channel: Cipher 'AES-256-CBC' initialized with 256 bit key
+19: 2022-01-19 21:37:32 mallen/192.168.98.196:43356 Incoming Data Channel: Using 160 bit message hash 'SHA1' for HMAC authentication
+20: 2022-01-19 21:37:32 mallen/192.168.98.196:43356 Control Channel: TLSv1.3, cipher TLSv1.3 TLS_AES_256_GCM_SHA384, peer certificate: 4096 bit RSA, signature: RSA-SHA256
+21: 2022-01-19 21:41:37 lcooper/192.168.99.189:33596 TLS: soft reset sec=3373/3373 bytes=659152/-1 pkts=2915/0
+22: 2022-01-19 21:41:37 lcooper/192.168.99.189:33596 VERIFY OK: depth=1, C=AT, ST=Vienna, L=Vienna, O=Some Organisation GmbH, CN=OpenVPN CA, emailAddress=admin@organisation.cyberrange.at
+23: 2022-01-19 21:41:37 lcooper/192.168.99.189:33596 VERIFY KU OK
+24: 2022-01-19 21:41:37 lcooper/192.168.99.189:33596 Validating certificate extended key usage
+25: 2022-01-19 21:41:37 lcooper/192.168.99.189:33596 ++ Certificate has EKU (str) TLS Web Client Authentication, expects TLS Web Client Authentication
+26: 2022-01-19 21:41:37 lcooper/192.168.99.189:33596 VERIFY EKU OK
+27: 2022-01-19 21:41:37 lcooper/192.168.99.189:33596 VERIFY OK: depth=0, CN=lcooper
+28: 2022-01-19 21:41:37 lcooper/192.168.99.189:33596 peer info: IV_VER=2.4.4
+29: 2022-01-19 21:41:37 lcooper/192.168.99.189:33596 peer info: IV_PLAT=linux
+30: 2022-01-19 21:41:37 lcooper/192.168.99.189:33596 peer info: IV_PROTO=2
+31: 2022-01-19 21:41:37 lcooper/192.168.99.189:33596 peer info: IV_LZ4=1
+32: 2022-01-19 21:41:37 lcooper/192.168.99.189:33596 peer info: IV_LZ4v2=1
+33: 2022-01-19 21:41:37 lcooper/192.168.99.189:33596 peer info: IV_LZO=1
+34: 2022-01-19 21:41:37 lcooper/192.168.99.189:33596 peer info: IV_COMP_STUB=1
+35: 2022-01-19 21:41:37 lcooper/192.168.99.189:33596 peer info: IV_COMP_STUBv2=1
+36: 2022-01-19 21:41:37 lcooper/192.168.99.189:33596 peer info: IV_TCPNL=1
+37: 2022-01-19 21:41:37 lcooper/192.168.99.189:33596 Outgoing Data Channel: Cipher 'AES-256-CBC' initialized with 256 bit key
+38: 2022-01-19 21:41:37 lcooper/192.168.99.189:33596 Outgoing Data Channel: Using 160 bit message hash 'SHA1' for HMAC authentication
+39: 2022-01-19 21:41:37 lcooper/192.168.99.189:33596 Incoming Data Channel: Cipher 'AES-256-CBC' initialized with 256 bit key
+40: 2022-01-19 21:41:37 lcooper/192.168.99.189:33596 Incoming Data Channel: Using 160 bit message hash 'SHA1' for HMAC authentication
+41: 2022-01-19 21:41:37 lcooper/192.168.99.189:33596 Control Channel: TLSv1.3, cipher TLSv1.3 TLS_AES_256_GCM_SHA384, peer certificate: 4096 bit RSA, signature: RSA-SHA256
+42: 2022-01-19 21:55:05 mallen/192.168.98.196:43356 [mallen] Inactivity timeout (--ping-restart), restarting
+43: 2022-01-19 21:55:05 mallen/192.168.98.196:43356 SIGUSR1[soft,ping-restart] received, client-instance restarting
+44: 2022-01-19 22:23:02 lcooper/192.168.99.189:33596 [lcooper] Inactivity timeout (--ping-restart), restarting
+45: 2022-01-19 22:23:02 lcooper/192.168.99.189:33596 SIGUSR1[soft,ping-restart] received, client-instance restarting
+46: 2022-01-19 22:25:45 hwhite/192.168.98.90:56753 TLS: soft reset sec=3553/3553 bytes=65236/-1 pkts=756/0
+47: 2022-01-19 22:25:45 hwhite/192.168.98.90:56753 VERIFY OK: depth=1, C=AT, ST=Vienna, L=Vienna, O=Some Organisation GmbH, CN=OpenVPN CA, emailAddress=admin@organisation.cyberrange.at
+48: 2022-01-19 22:25:45 hwhite/192.168.98.90:56753 VERIFY KU OK
+49: 2022-01-19 22:25:45 hwhite/192.168.98.90:56753 Validating certificate extended key usage
+50: 2022-01-19 22:25:45 hwhite/192.168.98.90:56753 ++ Certificate has EKU (str) TLS Web Client Authentication, expects TLS Web Client Authentication
+51: 2022-01-19 22:25:45 hwhite/192.168.98.90:56753 VERIFY EKU OK
+52: 2022-01-19 22:25:45 hwhite/192.168.98.90:56753 VERIFY OK: depth=0, CN=hwhite
+53: 2022-01-19 22:25:45 hwhite/192.168.98.90:56753 peer info: IV_VER=2.4.4
+54: 2022-01-19 22:25:45 hwhite/192.168.98.90:56753 peer info: IV_PLAT=linux
+55: 2022-01-19 22:25:45 hwhite/192.168.98.90:56753 peer info: IV_PROTO=2
+56: 2022-01-19 22:25:45 hwhite/192.168.98.90:56753 peer info: IV_LZ4=1
+57: 2022-01-19 22:25:45 hwhite/192.168.98.90:56753 peer info: IV_LZ4v2=1
+58: 2022-01-19 22:25:45 hwhite/192.168.98.90:56753 peer info: IV_LZO=1
+59: 2022-01-19 22:25:45 hwhite/192.168.98.90:56753 peer info: IV_COMP_STUB=1
+60: 2022-01-19 22:25:45 hwhite/192.168.98.90:56753 peer info: IV_COMP_STUBv2=1
+61: 2022-01-19 22:25:45 hwhite/192.168.98.90:56753 peer info: IV_TCPNL=1
+62: 2022-01-19 22:25:45 hwhite/192.168.98.90:56753 Outgoing Data Channel: Cipher 'AES-256-CBC' initialized with 256 bit key
