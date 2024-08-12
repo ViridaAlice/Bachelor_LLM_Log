@@ -1,0 +1,62 @@
+{
+  "data": [
+    "type=USER_ACCT msg=audit(1642691821.029:457): pid=23582 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=CRED_ACQ msg=audit(1642691821.033:458): pid=23582 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=LOGIN msg=audit(1642691821.033:459): pid=23582 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=80 res=1",
+    "type=USER_START msg=audit(1642691821.037:460): pid=23582 uid=0 auid=0 ses=80 msg='op=PAM:session_open acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=CRED_DISP msg=audit(1642691821.041:461): pid=23582 uid=0 auid=0 ses=80 msg='op=PAM:setcred acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=USER_END msg=audit(1642691821.045:462): pid=23582 uid=0 auid=0 ses=80 msg='op=PAM:session_close acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=USER_ACCT msg=audit(1642695421.081:463): pid=27787 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=CRED_ACQ msg=audit(1642695421.081:464): pid=27787 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=LOGIN msg=audit(1642695421.081:465): pid=27787 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=81 res=1",
+    "type=USER_START msg=audit(1642695421.081:466): pid=27787 uid=0 auid=0 ses=81 msg='op=PAM:session_open acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=CRED_DISP msg=audit(1642695421.089:467): pid=27787 uid=0 auid=0 ses=81 msg='op=PAM:setcred acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=USER_END msg=audit(1642695421.089:468): pid=27787 uid=0 auid=0 ses=81 msg='op=PAM:session_close acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=USER_ACCT msg=audit(1642699021.128:469): pid=32021 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=CRED_ACQ msg=audit(1642699021.132:470): pid=32021 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=LOGIN msg=audit(1642699021.132:471): pid=32021 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=82 res=1",
+    "type=USER_START msg=audit(1642699021.132:472): pid=32021 uid=0 auid=0 ses=82 msg='op=PAM:session_open acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=CRED_DISP msg=audit(1642699021.136:473): pid=32021 uid=0 auid=0 ses=82 msg='op=PAM:setcred acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=USER_END msg=audit(1642699021.136:474): pid=32021 uid=0 auid=0 ses=82 msg='op=PAM:session_close acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=USER_ACCT msg=audit(1642702621.180:475): pid=3766 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=CRED_ACQ msg=audit(1642702621.184:476): pid=3766 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=LOGIN msg=audit(1642702621.184:477): pid=3766 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=83 res=1",
+    "type=USER_START msg=audit(1642702621.184:478): pid=3766 uid=0 auid=0 ses=83 msg='op=PAM:session_open acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=CRED_DISP msg=audit(1642702621.192:479): pid=3766 uid=0 auid=0 ses=83 msg='op=PAM:setcred acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=USER_END msg=audit(1642702621.192:480): pid=3766 uid=0 auid=0 ses=83 msg='op=PAM:session_close acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=USER_ACCT msg=audit(1642706221.232:481): pid=7941 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=CRED_ACQ msg=audit(1642706221.236:482): pid=7941 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=LOGIN msg=audit(1642706221.236:483): pid=7941 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=84 res=1",
+    "type=USER_START msg=audit(1642706221.236:484): pid=7941 uid=0 auid=0 ses=84 msg='op=PAM:session_open acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=CRED_DISP msg=audit(1642706221.244:485): pid=7941 uid=0 auid=0 ses=84 msg='op=PAM:setcred acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=USER_END msg=audit(1642706221.244:486): pid=7941 uid=0 auid=0 ses=84 msg='op=PAM:session_close acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=USER_ACCT msg=audit(1642709821.288:487): pid=12139 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=CRED_ACQ msg=audit(1642709821.292:488): pid=12139 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=LOGIN msg=audit(1642709821.292:489): pid=12139 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=85 res=1",
+    "type=USER_START msg=audit(1642709821.296:490): pid=12139 uid=0 auid=0 ses=85 msg='op=PAM:session_open acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=CRED_DISP msg=audit(1642709821.304:491): pid=12139 uid=0 auid=0 ses=85 msg='op=PAM:setcred acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=USER_END msg=audit(1642709821.304:492): pid=12139 uid=0 auid=0 ses=85 msg='op=PAM:session_close acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=USER_ACCT msg=audit(1642713421.345:493): pid=16131 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=CRED_ACQ msg=audit(1642713421.345:494): pid=16131 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=LOGIN msg=audit(1642713421.345:495): pid=16131 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=86 res=1",
+    "type=USER_START msg=audit(1642713421.345:496): pid=16131 uid=0 auid=0 ses=86 msg='op=PAM:session_open acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=CRED_DISP msg=audit(1642713421.377:497): pid=16131 uid=0 auid=0 ses=86 msg='op=PAM:setcred acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=USER_END msg=audit(1642713421.377:498): pid=16131 uid=0 auid=0 ses=86 msg='op=PAM:session_close acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=SERVICE_START msg=audit(1642716748.495:499): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=officia comm=\"systemd\" exe=\"/lib/systemd/systemd\" hostname=? addr=? terminal=? res=success'"
+  ],
+  "lines": [
+    324,
+    367
+  ],
+  "labels": {
+    "dnsteal": [
+      43
+    ],
+    "exfiltration-service": [
+      43
+    ],
+    "attacker": [
+      43
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "data": [],
+  "lines": [
+    8290,
+    8322
+  ],
+  "labels": {
+    "webshell_cmd": [
+      32
+    ],
+    "escalate": [
+      32
+    ]
+  }
+}

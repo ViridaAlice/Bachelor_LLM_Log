@@ -1,0 +1,61 @@
+{
+  "data": [
+    "type=USER_START msg=audit(1643558941.587:3053): pid=6548 uid=0 auid=0 ses=428 msg='op=PAM:session_open acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=CRED_DISP msg=audit(1643558941.591:3054): pid=6548 uid=0 auid=0 ses=428 msg='op=PAM:setcred acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=USER_END msg=audit(1643558941.591:3055): pid=6548 uid=0 auid=0 ses=428 msg='op=PAM:session_close acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=SERVICE_START msg=audit(1643558954.751:3056): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=phpsessionclean comm=\"systemd\" exe=\"/lib/systemd/systemd\" hostname=? addr=? terminal=? res=success'",
+    "type=SERVICE_STOP msg=audit(1643558954.751:3057): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=phpsessionclean comm=\"systemd\" exe=\"/lib/systemd/systemd\" hostname=? addr=? terminal=? res=success'",
+    "type=USER_ACCT msg=audit(1643559421.600:3058): pid=6626 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=CRED_ACQ msg=audit(1643559421.600:3059): pid=6626 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=LOGIN msg=audit(1643559421.604:3060): pid=6626 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=429 res=1",
+    "type=USER_START msg=audit(1643559421.604:3061): pid=6626 uid=0 auid=0 ses=429 msg='op=PAM:session_open acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=CRED_DISP msg=audit(1643559421.612:3062): pid=6626 uid=0 auid=0 ses=429 msg='op=PAM:setcred acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=USER_END msg=audit(1643559421.612:3063): pid=6626 uid=0 auid=0 ses=429 msg='op=PAM:session_close acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=USER_ACCT msg=audit(1643560741.632:3064): pid=6636 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=CRED_ACQ msg=audit(1643560741.636:3065): pid=6636 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=LOGIN msg=audit(1643560741.636:3066): pid=6636 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=430 res=1",
+    "type=USER_START msg=audit(1643560741.640:3067): pid=6636 uid=0 auid=0 ses=430 msg='op=PAM:session_open acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=CRED_DISP msg=audit(1643560741.644:3068): pid=6636 uid=0 auid=0 ses=430 msg='op=PAM:setcred acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=USER_END msg=audit(1643560741.644:3069): pid=6636 uid=0 auid=0 ses=430 msg='op=PAM:session_close acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=SERVICE_START msg=audit(1643560754.751:3070): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=phpsessionclean comm=\"systemd\" exe=\"/lib/systemd/systemd\" hostname=? addr=? terminal=? res=success'",
+    "type=SERVICE_STOP msg=audit(1643560754.751:3071): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=phpsessionclean comm=\"systemd\" exe=\"/lib/systemd/systemd\" hostname=? addr=? terminal=? res=success'",
+    "type=USER_ACCT msg=audit(1643562541.664:3072): pid=6716 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=CRED_ACQ msg=audit(1643562541.668:3073): pid=6716 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=LOGIN msg=audit(1643562541.668:3074): pid=6716 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=431 res=1",
+    "type=USER_START msg=audit(1643562541.672:3075): pid=6716 uid=0 auid=0 ses=431 msg='op=PAM:session_open acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=CRED_DISP msg=audit(1643562541.676:3076): pid=6716 uid=0 auid=0 ses=431 msg='op=PAM:setcred acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=USER_END msg=audit(1643562541.676:3077): pid=6716 uid=0 auid=0 ses=431 msg='op=PAM:session_close acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=SERVICE_START msg=audit(1643562554.756:3078): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=phpsessionclean comm=\"systemd\" exe=\"/lib/systemd/systemd\" hostname=? addr=? terminal=? res=success'",
+    "type=SERVICE_STOP msg=audit(1643562554.756:3079): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=phpsessionclean comm=\"systemd\" exe=\"/lib/systemd/systemd\" hostname=? addr=? terminal=? res=success'",
+    "type=USER_ACCT msg=audit(1643563021.681:3080): pid=6789 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=CRED_ACQ msg=audit(1643563021.685:3081): pid=6789 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=LOGIN msg=audit(1643563021.685:3082): pid=6789 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=432 res=1",
+    "type=USER_START msg=audit(1643563021.685:3083): pid=6789 uid=0 auid=0 ses=432 msg='op=PAM:session_open acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=CRED_DISP msg=audit(1643563021.693:3084): pid=6789 uid=0 auid=0 ses=432 msg='op=PAM:setcred acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=USER_END msg=audit(1643563021.693:3085): pid=6789 uid=0 auid=0 ses=432 msg='op=PAM:session_close acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=USER_ACCT msg=audit(1643564341.708:3086): pid=6807 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:accounting acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=CRED_ACQ msg=audit(1643564341.712:3087): pid=6807 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:setcred acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=LOGIN msg=audit(1643564341.712:3088): pid=6807 uid=0 old-auid=4294967295 auid=0 tty=(none) old-ses=4294967295 ses=433 res=1",
+    "type=USER_START msg=audit(1643564341.712:3089): pid=6807 uid=0 auid=0 ses=433 msg='op=PAM:session_open acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=CRED_DISP msg=audit(1643564341.716:3090): pid=6807 uid=0 auid=0 ses=433 msg='op=PAM:setcred acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=USER_END msg=audit(1643564341.716:3091): pid=6807 uid=0 auid=0 ses=433 msg='op=PAM:session_close acct=\"root\" exe=\"/usr/sbin/cron\" hostname=? addr=? terminal=cron res=success'",
+    "type=SERVICE_START msg=audit(1643564354.904:3092): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=phpsessionclean comm=\"systemd\" exe=\"/lib/systemd/systemd\" hostname=? addr=? terminal=? res=success'",
+    "type=SERVICE_STOP msg=audit(1643564354.904:3093): pid=1 uid=0 auid=4294967295 ses=4294967295 msg='unit=phpsessionclean comm=\"systemd\" exe=\"/lib/systemd/systemd\" hostname=? addr=? terminal=? res=success'",
+    "type=USER_AUTH msg=audit(1643565112.699:3094): pid=6892 uid=33 auid=4294967295 ses=4294967295 msg='op=PAM:authentication acct=\"kford\" exe=\"/bin/su\" hostname=? addr=? terminal=/dev/pts/2 res=success'",
+    "type=USER_ACCT msg=audit(1643565112.699:3095): pid=6892 uid=33 auid=4294967295 ses=4294967295 msg='op=PAM:accounting acct=\"kford\" exe=\"/bin/su\" hostname=? addr=? terminal=/dev/pts/2 res=success'"
+  ],
+  "lines": [
+    2652,
+    2695
+  ],
+  "labels": {
+    "attacker_change_user": [
+      42,
+      43
+    ],
+    "escalate": [
+      42,
+      43
+    ]
+  }
+}
