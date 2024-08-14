@@ -1,14 +1,5 @@
 {
   "data": [
-    "Feb  4 00:00:07 dnsmasq[14664]: forwarded 3x6-.323-.c0MajfoD6d1cXxLVvXokd3VnZteXD7D6P7DgXHKfPmsFV9LdO0slAMhEgnaGLH-.9lbzkEjG1mRepfAtT/qbRpfPzU*S4aknu*mSeBGyeiN*8*yWa7SGAVFgS8nP5E-.customers_2013.xlsx.db-21.greer.biz to 172.28.255.254",
-    "Feb  4 00:00:07 dnsmasq[14664]: reply 3x6-.323-.c0MajfoD6d1cXxLVvXokd3VnZteXD7D6P7DgXHKfPmsFV9LdO0slAMhEgnaGLH-.9lbzkEjG1mRepfAtT/qbRpfPzU*S4aknu*mSeBGyeiN*8*yWa7SGAVFgS8nP5E-.customers_2013.xlsx.db-21.greer.biz is 194.172.28.195",
-    "Feb  4 00:00:10 dnsmasq[14664]: query[AAAA] mail from 10.237.2.255",
-    "Feb  4 00:00:10 dnsmasq[14664]: cached mail is NXDOMAIN",
-    "Feb  4 00:00:19 dnsmasq[14664]: query[A] 3x6-.324-.a1ZLv7u/TfLd0vltFVsaov9/J6hXYrwhXMc90ry*r5OH6*tr2MLK6*2OT8u09n-.0MjWaqfHwibQxCFlYNe96vYIVsBHd9Ue3/F6l/CVD/skT9y2oKOHRSIor5i/Tl-.customers_2013.xlsx.db-21.greer.biz from 192.168.131.109",
-    "Feb  4 00:00:19 dnsmasq[14664]: forwarded 3x6-.324-.a1ZLv7u/TfLd0vltFVsaov9/J6hXYrwhXMc90ry*r5OH6*tr2MLK6*2OT8u09n-.0MjWaqfHwibQxCFlYNe96vYIVsBHd9Ue3/F6l/CVD/skT9y2oKOHRSIor5i/Tl-.customers_2013.xlsx.db-21.greer.biz to 172.28.255.254",
-    "Feb  4 00:00:19 dnsmasq[14664]: reply 3x6-.324-.a1ZLv7u/TfLd0vltFVsaov9/J6hXYrwhXMc90ry*r5OH6*tr2MLK6*2OT8u09n-.0MjWaqfHwibQxCFlYNe96vYIVsBHd9Ue3/F6l/CVD/skT9y2oKOHRSIor5i/Tl-.customers_2013.xlsx.db-21.greer.biz is 194.172.28.195",
-    "Feb  4 00:00:27 dnsmasq[14664]: query[A] 3x6-.325-.JXS5RPjqLJ96NUXYuhCd/PUPsOa16WI5TebZLl9O9hUyGciIg/6h8NJGRHHn/b-.OIayINlcSde4owGsGqLMDSHxLPuI3chsYjU24BgEykMvEMXdLqFoYYvDp6LotR-.customers_2013.xlsx.db-21.greer.biz from 192.168.131.109",
-    "Feb  4 00:00:27 dnsmasq[14664]: forwarded 3x6-.325-.JXS5RPjqLJ96NUXYuhCd/PUPsOa16WI5TebZLl9O9hUyGciIg/6h8NJGRHHn/b-.OIayINlcSde4owGsGqLMDSHxLPuI3chsYjU24BgEykMvEMXdLqFoYYvDp6LotR-.customers_2013.xlsx.db-21.greer.biz to 172.28.255.254",
     "Feb  4 00:00:27 dnsmasq[14664]: reply 3x6-.325-.JXS5RPjqLJ96NUXYuhCd/PUPsOa16WI5TebZLl9O9hUyGciIg/6h8NJGRHHn/b-.OIayINlcSde4owGsGqLMDSHxLPuI3chsYjU24BgEykMvEMXdLqFoYYvDp6LotR-.customers_2013.xlsx.db-21.greer.biz is 194.172.28.195",
     "Feb  4 00:00:37 dnsmasq[14664]: query[A] 3x6-.326-.AAlEAU4LH*Ljp84/MxFU9pkHvDNEeOfzLaSSjSDX8wNUi9oi*9ju9i8vH1n*Wr-.GVIRPpU*P5/8g5ZtRtalRwYuAoE7DOvucXF9r3qYh0VBbIRl4e3MiwVa88KpEP-.customers_2013.xlsx.db-21.greer.biz from 192.168.131.109",
     "Feb  4 00:00:37 dnsmasq[14664]: forwarded 3x6-.326-.AAlEAU4LH*Ljp84/MxFU9pkHvDNEeOfzLaSSjSDX8wNUi9oi*9ju9i8vH1n*Wr-.GVIRPpU*P5/8g5ZtRtalRwYuAoE7DOvucXF9r3qYh0VBbIRl4e3MiwVa88KpEP-.customers_2013.xlsx.db-21.greer.biz to 172.28.255.254",
@@ -47,16 +38,19 @@
     "Feb  4 00:03:48 dnsmasq[14664]: forwarded 3x6-.337-.rCFCuGPURhouyQQW21f*CurOTO2OTHNag93BXh/c0ZA2y2H1MuzzIg5/keZXAM-.1/GjqLj5/6ZdvCUv53u8UeVjFDoKNNslwtErilNIJdb3*AdVrbb5Ng8g82*4Y7-.customers_2013.xlsx.db-21.greer.biz to 172.28.255.254",
     "Feb  4 00:03:48 dnsmasq[14664]: reply 3x6-.337-.rCFCuGPURhouyQQW21f*CurOTO2OTHNag93BXh/c0ZA2y2H1MuzzIg5/keZXAM-.1/GjqLj5/6ZdvCUv53u8UeVjFDoKNNslwtErilNIJdb3*AdVrbb5Ng8g82*4Y7-.customers_2013.xlsx.db-21.greer.biz is 194.172.28.195",
     "Feb  4 00:04:02 dnsmasq[14664]: query[A] 3x6-.338-.LJ035fkx5rY1ficI610r8nj93CJtE2AzAK1/zimNtPSZP1yedlnoYPOoEGFHkN-.3cbWHkIklXgbx/BI9kZasi9a8A6l*VqH*F6MAEXH8E5cPTsJEhlQLuLpWDS9PC-.customers_2013.xlsx.db-21.greer.biz from 192.168.131.109",
-    "Feb  4 00:04:02 dnsmasq[14664]: forwarded 3x6-.338-.LJ035fkx5rY1ficI610r8nj93CJtE2AzAK1/zimNtPSZP1yedlnoYPOoEGFHkN-.3cbWHkIklXgbx/BI9kZasi9a8A6l*VqH*F6MAEXH8E5cPTsJEhlQLuLpWDS9PC-.customers_2013.xlsx.db-21.greer.biz to 172.28.255.254",
-    "Feb  4 00:04:02 dnsmasq[14664]: reply 3x6-.338-.LJ035fkx5rY1ficI610r8nj93CJtE2AzAK1/zimNtPSZP1yedlnoYPOoEGFHkN-.3cbWHkIklXgbx/BI9kZasi9a8A6l*VqH*F6MAEXH8E5cPTsJEhlQLuLpWDS9PC-.customers_2013.xlsx.db-21.greer.biz is 194.172.28.195",
-    "Feb  4 00:04:22 dnsmasq[14664]: query[A] 3x6-.339-.oOv5F1a/1LLZJntdJdvtZvm6DDJnmPqP27gYp*6CyakiRvXa5P7xtk8u*fCODK-.LAwQnR/so5aVJEnHH3216i/ZF5BDe038/8x768i3qVjeki7a8B2l*VaP*jp86*-.customers_2013.xlsx.db-21.greer.biz from 192.168.131.109"
+    "Feb  4 00:04:02 dnsmasq[14664]: forwarded 3x6-.338-.LJ035fkx5rY1ficI610r8nj93CJtE2AzAK1/zimNtPSZP1yedlnoYPOoEGFHkN-.3cbWHkIklXgbx/BI9kZasi9a8A6l*VqH*F6MAEXH8E5cPTsJEhlQLuLpWDS9PC-.customers_2013.xlsx.db-21.greer.biz to 172.28.255.254"
   ],
   "lines": [
-    1,
-    51
+    10,
+    49
   ],
   "labels": {
     "dnsteal": [
+      0,
+      1,
+      2,
+      3,
+      4,
       5,
       6,
       7,
@@ -91,20 +85,14 @@
       36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44,
-      45,
-      46,
-      47,
-      48,
-      49,
-      50
+      39
     ],
     "attacker": [
+      0,
+      1,
+      2,
+      3,
+      4,
       5,
       6,
       7,
@@ -139,20 +127,14 @@
       36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44,
-      45,
-      46,
-      47,
-      48,
-      49,
-      50
+      39
     ],
     "dnsteal-received": [
+      0,
+      1,
+      2,
+      3,
+      4,
       5,
       6,
       7,
@@ -187,18 +169,7 @@
       36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44,
-      45,
-      46,
-      47,
-      48,
-      49,
-      50
+      39
     ]
   }
 }

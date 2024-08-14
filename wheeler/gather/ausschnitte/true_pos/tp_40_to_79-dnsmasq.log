@@ -1,23 +1,5 @@
 {
   "data": [
-    "Jan 26 00:01:50 dnsmasq[14167]: forwarded 3x6-.219-.ZaBadUv7HT53vjiGJ8mm*ScEdvolBR7tsMknA2s0Whp1sf4BlXt-.u*fubZtIKFrR7q/oJrMrodPhFuue*MpAyRTGsijAhcM8Ecfy98R-.52HEkXu3CxZ12/n*KNfW7aZZyHVTgyMGBktMv60zDuXrjjx8VPn-.customers_2013.xlsx.mttydlmfikviqpumsexff.info to 172.27.183.254",
-    "Jan 26 00:01:50 dnsmasq[14167]: reply 3x6-.219-.ZaBadUv7HT53vjiGJ8mm*ScEdvolBR7tsMknA2s0Whp1sf4BlXt-.u*fubZtIKFrR7q/oJrMrodPhFuue*MpAyRTGsijAhcM8Ecfy98R-.52HEkXu3CxZ12/n*KNfW7aZZyHVTgyMGBktMv60zDuXrjjx8VPn-.customers_2013.xlsx.mttydlmfikviqpumsexff.info is 194.172.27.194",
-    "Jan 26 00:02:02 dnsmasq[14167]: query[A] 3x6-.220-.n5QIbLxI/Y0IZvwRbMf5uat5noHy6y0MvVv8C5fb2iLb7uZV1Zf-.YcP2xFERSJYjiXrbMMLepRRFYSwKtuLczbZVgEdOWlno4Y6*vsj-.ME6uxsl27SeQ5n*GPw6pISRouUPwUof1qi/CmS4Q9vZwiqPluBJ-.customers_2013.xlsx.mttydlmfikviqpumsexff.info from 192.168.3.116",
-    "Jan 26 00:02:02 dnsmasq[14167]: forwarded 3x6-.220-.n5QIbLxI/Y0IZvwRbMf5uat5noHy6y0MvVv8C5fb2iLb7uZV1Zf-.YcP2xFERSJYjiXrbMMLepRRFYSwKtuLczbZVgEdOWlno4Y6*vsj-.ME6uxsl27SeQ5n*GPw6pISRouUPwUof1qi/CmS4Q9vZwiqPluBJ-.customers_2013.xlsx.mttydlmfikviqpumsexff.info to 172.27.183.254",
-    "Jan 26 00:02:02 dnsmasq[14167]: reply 3x6-.220-.n5QIbLxI/Y0IZvwRbMf5uat5noHy6y0MvVv8C5fb2iLb7uZV1Zf-.YcP2xFERSJYjiXrbMMLepRRFYSwKtuLczbZVgEdOWlno4Y6*vsj-.ME6uxsl27SeQ5n*GPw6pISRouUPwUof1qi/CmS4Q9vZwiqPluBJ-.customers_2013.xlsx.mttydlmfikviqpumsexff.info is 194.172.27.194",
-    "Jan 26 00:02:14 dnsmasq[14167]: query[A] 3x6-.221-.TNNDPiwXDnHF6yKw6DJxxdW7mofi*yv5QZMWkQ/b4NKElHDfE8u-.SyLVrJP6eFAn/dFtl4wNHEwCllqISBorlIwoNWUdPGweaCEJNkC-.4hyCGvHu6q7SxIutPAdafllh/iuSLV3KzCLjp3M4l3BKwiWEf8o-.customers_2013.xlsx.mttydlmfikviqpumsexff.info from 192.168.3.116",
-    "Jan 26 00:02:14 dnsmasq[14167]: forwarded 3x6-.221-.TNNDPiwXDnHF6yKw6DJxxdW7mofi*yv5QZMWkQ/b4NKElHDfE8u-.SyLVrJP6eFAn/dFtl4wNHEwCllqISBorlIwoNWUdPGweaCEJNkC-.4hyCGvHu6q7SxIutPAdafllh/iuSLV3KzCLjp3M4l3BKwiWEf8o-.customers_2013.xlsx.mttydlmfikviqpumsexff.info to 172.27.183.254",
-    "Jan 26 00:02:14 dnsmasq[14167]: reply 3x6-.221-.TNNDPiwXDnHF6yKw6DJxxdW7mofi*yv5QZMWkQ/b4NKElHDfE8u-.SyLVrJP6eFAn/dFtl4wNHEwCllqISBorlIwoNWUdPGweaCEJNkC-.4hyCGvHu6q7SxIutPAdafllh/iuSLV3KzCLjp3M4l3BKwiWEf8o-.customers_2013.xlsx.mttydlmfikviqpumsexff.info is 194.172.27.194",
-    "Jan 26 00:02:27 dnsmasq[14167]: query[A] 3x6-.222-.MuemBHQ2R/Pn6A5d67ZbM8TWZhhhYZrPGsNLGGCcKV88*487EId-.0coYRoWLYAW/sDRishQqzij5fAlMoeqHDMMO8rWgfJxDFl/rkr5-.Z7QYCKBAIICWAgEUybsPbGhIw9c9zHg1MWCcfW7gYiUMmUwOUPl-.customers_2013.xlsx.mttydlmfikviqpumsexff.info from 192.168.3.116",
-    "Jan 26 00:02:27 dnsmasq[14167]: forwarded 3x6-.222-.MuemBHQ2R/Pn6A5d67ZbM8TWZhhhYZrPGsNLGGCcKV88*487EId-.0coYRoWLYAW/sDRishQqzij5fAlMoeqHDMMO8rWgfJxDFl/rkr5-.Z7QYCKBAIICWAgEUybsPbGhIw9c9zHg1MWCcfW7gYiUMmUwOUPl-.customers_2013.xlsx.mttydlmfikviqpumsexff.info to 172.27.183.254",
-    "Jan 26 00:02:27 dnsmasq[14167]: reply 3x6-.222-.MuemBHQ2R/Pn6A5d67ZbM8TWZhhhYZrPGsNLGGCcKV88*487EId-.0coYRoWLYAW/sDRishQqzij5fAlMoeqHDMMO8rWgfJxDFl/rkr5-.Z7QYCKBAIICWAgEUybsPbGhIw9c9zHg1MWCcfW7gYiUMmUwOUPl-.customers_2013.xlsx.mttydlmfikviqpumsexff.info is 194.172.27.194",
-    "Jan 26 00:02:40 dnsmasq[14167]: query[A] 3x6-.223-.e264X3rD*SsCUH2ycixbj5Mm3T6LK3Sutcr6/lN7AYLcMWGXfbk-.QZo6VnNESZykBmEHL6ERiuJ4WNUC3cz2iR96cA709LvD*tJn*Rn-.awaPP74XAVcM0zjJ98kcNoPBt1NvrDyozZLV8vpMttvZ8lnxUaG-.customers_2013.xlsx.mttydlmfikviqpumsexff.info from 192.168.3.116",
-    "Jan 26 00:02:40 dnsmasq[14167]: forwarded 3x6-.223-.e264X3rD*SsCUH2ycixbj5Mm3T6LK3Sutcr6/lN7AYLcMWGXfbk-.QZo6VnNESZykBmEHL6ERiuJ4WNUC3cz2iR96cA709LvD*tJn*Rn-.awaPP74XAVcM0zjJ98kcNoPBt1NvrDyozZLV8vpMttvZ8lnxUaG-.customers_2013.xlsx.mttydlmfikviqpumsexff.info to 172.27.183.254",
-    "Jan 26 00:02:40 dnsmasq[14167]: reply 3x6-.223-.e264X3rD*SsCUH2ycixbj5Mm3T6LK3Sutcr6/lN7AYLcMWGXfbk-.QZo6VnNESZykBmEHL6ERiuJ4WNUC3cz2iR96cA709LvD*tJn*Rn-.awaPP74XAVcM0zjJ98kcNoPBt1NvrDyozZLV8vpMttvZ8lnxUaG-.customers_2013.xlsx.mttydlmfikviqpumsexff.info is 194.172.27.194",
-    "Jan 26 00:02:55 dnsmasq[14167]: query[A] 3x6-.224-.COb0lTs0uY*WS*F8f9*Cl8LMBbDgwka*rQ13Vqa4z/ov3y*R928-./AmROF0NWCC9i0OpGcG4rLpoZQPnTEuVPq/lfuJ4EQ92HSDIEFy-.*3r/uAdVUj3ycHqPyn9n3mrrdho0ImMGTGO/qKRM6RIv6cI5ERv-.customers_2013.xlsx.mttydlmfikviqpumsexff.info from 192.168.3.116",
-    "Jan 26 00:02:55 dnsmasq[14167]: forwarded 3x6-.224-.COb0lTs0uY*WS*F8f9*Cl8LMBbDgwka*rQ13Vqa4z/ov3y*R928-./AmROF0NWCC9i0OpGcG4rLpoZQPnTEuVPq/lfuJ4EQ92HSDIEFy-.*3r/uAdVUj3ycHqPyn9n3mrrdho0ImMGTGO/qKRM6RIv6cI5ERv-.customers_2013.xlsx.mttydlmfikviqpumsexff.info to 172.27.183.254",
-    "Jan 26 00:02:55 dnsmasq[14167]: reply 3x6-.224-.COb0lTs0uY*WS*F8f9*Cl8LMBbDgwka*rQ13Vqa4z/ov3y*R928-./AmROF0NWCC9i0OpGcG4rLpoZQPnTEuVPq/lfuJ4EQ92HSDIEFy-.*3r/uAdVUj3ycHqPyn9n3mrrdho0ImMGTGO/qKRM6RIv6cI5ERv-.customers_2013.xlsx.mttydlmfikviqpumsexff.info is 194.172.27.194",
-    "Jan 26 00:03:12 dnsmasq[14167]: query[A] 3x6-.225-.hEv8/rqXtcTNjGI7ddUKh/ElFZRTk1J3AebTZjwR4Dn7GeIThPi-./Rd5fwoQ0rTE*1OE94dZMgTlm1rC4XIE2Dm02QqclkjK/*ILKz9-.rn8lmlv7zVx44LRHafyyt27asIVRoQ7TUkmjDYH4MWuPId2Ki2v-.customers_2013.xlsx.mttydlmfikviqpumsexff.info from 192.168.3.116",
     "Jan 26 00:03:12 dnsmasq[14167]: forwarded 3x6-.225-.hEv8/rqXtcTNjGI7ddUKh/ElFZRTk1J3AebTZjwR4Dn7GeIThPi-./Rd5fwoQ0rTE*1OE94dZMgTlm1rC4XIE2Dm02QqclkjK/*ILKz9-.rn8lmlv7zVx44LRHafyyt27asIVRoQ7TUkmjDYH4MWuPId2Ki2v-.customers_2013.xlsx.mttydlmfikviqpumsexff.info to 172.27.183.254",
     "Jan 26 00:03:12 dnsmasq[14167]: reply 3x6-.225-.hEv8/rqXtcTNjGI7ddUKh/ElFZRTk1J3AebTZjwR4Dn7GeIThPi-./Rd5fwoQ0rTE*1OE94dZMgTlm1rC4XIE2Dm02QqclkjK/*ILKz9-.rn8lmlv7zVx44LRHafyyt27asIVRoQ7TUkmjDYH4MWuPId2Ki2v-.customers_2013.xlsx.mttydlmfikviqpumsexff.info is 194.172.27.194",
     "Jan 26 00:03:27 dnsmasq[14167]: query[A] 3x6-.226-.n9Wsqybf2fIf2xL6CiUwSGRahYWmT9KcD60xLrTxH6PmBjmJ4/S-.NU00bcl*TxP4bxFBDpff2Hl99q35TycJYuNM*pq6nYtponv2EyE-.24SIhgWjoBVW2l1MlZXOj6NKMLeBlVIxkAlUHZJIR*RwriKCvG9-.customers_2013.xlsx.mttydlmfikviqpumsexff.info from 192.168.3.116",
@@ -49,11 +31,18 @@
     "Jan 26 00:05:22 dnsmasq[14167]: reply 3x6-.234-.k*kAclBuSmHz*Qu/4tI5egNga04F6bjPqKcm7UabZoB5tE0d6Wv-.mBhk*yW2SaBdvkuNtjTchYMNCHQuH5VaXRF/p8B3PTpL1p8/NQv-.73CIcM5mlgfK5hDkVbJLIWtpYUB3rXJIZWrpP8naf2nhIxSZ*7O-.customers_2013.xlsx.mttydlmfikviqpumsexff.info is 194.172.27.194",
     "Jan 26 00:05:35 dnsmasq[14167]: query[A] 3x6-.235-.7Xd532z0inoeP5PbpqkPqzxct0nh6bJHbx2HA/4eUfw4N7xXX7i-.w2p/lXHWwi1RdNpIriLQn7aMg38FiZlsGKUQAGRAFYKQrAqvlhx-.NKQNP7l6hOOBiDAq2T7mn7AllaNdJbmocrWltvtvoLPwJL*I0l8-.customers_2013.xlsx.mttydlmfikviqpumsexff.info from 192.168.3.116",
     "Jan 26 00:05:35 dnsmasq[14167]: forwarded 3x6-.235-.7Xd532z0inoeP5PbpqkPqzxct0nh6bJHbx2HA/4eUfw4N7xXX7i-.w2p/lXHWwi1RdNpIriLQn7aMg38FiZlsGKUQAGRAFYKQrAqvlhx-.NKQNP7l6hOOBiDAq2T7mn7AllaNdJbmocrWltvtvoLPwJL*I0l8-.customers_2013.xlsx.mttydlmfikviqpumsexff.info to 172.27.183.254",
-    "Jan 26 00:05:35 dnsmasq[14167]: reply 3x6-.235-.7Xd532z0inoeP5PbpqkPqzxct0nh6bJHbx2HA/4eUfw4N7xXX7i-.w2p/lXHWwi1RdNpIriLQn7aMg38FiZlsGKUQAGRAFYKQrAqvlhx-.NKQNP7l6hOOBiDAq2T7mn7AllaNdJbmocrWltvtvoLPwJL*I0l8-.customers_2013.xlsx.mttydlmfikviqpumsexff.info is 194.172.27.194"
+    "Jan 26 00:05:35 dnsmasq[14167]: reply 3x6-.235-.7Xd532z0inoeP5PbpqkPqzxct0nh6bJHbx2HA/4eUfw4N7xXX7i-.w2p/lXHWwi1RdNpIriLQn7aMg38FiZlsGKUQAGRAFYKQrAqvlhx-.NKQNP7l6hOOBiDAq2T7mn7AllaNdJbmocrWltvtvoLPwJL*I0l8-.customers_2013.xlsx.mttydlmfikviqpumsexff.info is 194.172.27.194",
+    "Jan 26 00:05:47 dnsmasq[14167]: query[A] 3x6-.236-.*RHhPIqINfcdcsfjIRk3ni/IFayRB624j5Zz5Y5Uy5ksnS4dbB7-.BayYSDwgoY2M47HJZjAYwIBrAStEA9nv5/gisvlsEGsqhLzw0fo-.AtqxrpLMtDVVLbbyZepPgFOoLb2DAXQ6W8KoYmTPAhubq8eyDX3-.customers_2013.xlsx.mttydlmfikviqpumsexff.info from 192.168.3.116",
+    "Jan 26 00:05:47 dnsmasq[14167]: forwarded 3x6-.236-.*RHhPIqINfcdcsfjIRk3ni/IFayRB624j5Zz5Y5Uy5ksnS4dbB7-.BayYSDwgoY2M47HJZjAYwIBrAStEA9nv5/gisvlsEGsqhLzw0fo-.AtqxrpLMtDVVLbbyZepPgFOoLb2DAXQ6W8KoYmTPAhubq8eyDX3-.customers_2013.xlsx.mttydlmfikviqpumsexff.info to 172.27.183.254",
+    "Jan 26 00:05:47 dnsmasq[14167]: reply 3x6-.236-.*RHhPIqINfcdcsfjIRk3ni/IFayRB624j5Zz5Y5Uy5ksnS4dbB7-.BayYSDwgoY2M47HJZjAYwIBrAStEA9nv5/gisvlsEGsqhLzw0fo-.AtqxrpLMtDVVLbbyZepPgFOoLb2DAXQ6W8KoYmTPAhubq8eyDX3-.customers_2013.xlsx.mttydlmfikviqpumsexff.info is 194.172.27.194",
+    "Jan 26 00:06:04 dnsmasq[14167]: query[A] 3x6-.237-.toeJRuRqy6cyAgsts*VldZtY1EkjWan/W472ESqkmURaGUcE8Fi-.DlqR/GcA*X*qAxgfP3W*g4YK/L/*vU/9f4bNDBP5X6/32y2o8o9-.hv01/gNUE7UuOfvhLLXwCIyeDwdiSwZCOSZ8Gdq/yavuMDHMo*R-.customers_2013.xlsx.mttydlmfikviqpumsexff.info from 192.168.3.116",
+    "Jan 26 00:06:04 dnsmasq[14167]: forwarded 3x6-.237-.toeJRuRqy6cyAgsts*VldZtY1EkjWan/W472ESqkmURaGUcE8Fi-.DlqR/GcA*X*qAxgfP3W*g4YK/L/*vU/9f4bNDBP5X6/32y2o8o9-.hv01/gNUE7UuOfvhLLXwCIyeDwdiSwZCOSZ8Gdq/yavuMDHMo*R-.customers_2013.xlsx.mttydlmfikviqpumsexff.info to 172.27.183.254",
+    "Jan 26 00:06:04 dnsmasq[14167]: reply 3x6-.237-.toeJRuRqy6cyAgsts*VldZtY1EkjWan/W472ESqkmURaGUcE8Fi-.DlqR/GcA*X*qAxgfP3W*g4YK/L/*vU/9f4bNDBP5X6/32y2o8o9-.hv01/gNUE7UuOfvhLLXwCIyeDwdiSwZCOSZ8Gdq/yavuMDHMo*R-.customers_2013.xlsx.mttydlmfikviqpumsexff.info is 194.172.27.194",
+    "Jan 26 00:06:20 dnsmasq[14167]: query[A] 3x6-.238-.U00sZ3bi1ZWfUEKmKaCLKSyUCUfvr9KhvjRcqfA5T/aVZwfPzUr-.56SCLifbkNMGYJsLJLZJNvnAbEMBL2a/gtX01qeOvc3nAqEjNUe-.ejvjlBKlIkGEbdUJM6JOrq6f3aEZwZIZwNpLwTm3xorIRl4049T-.customers_2013.xlsx.mttydlmfikviqpumsexff.info from 192.168.3.116"
   ],
   "lines": [
-    22,
-    72
+    40,
+    79
   ],
   "labels": {
     "dnsteal": [
@@ -96,18 +85,7 @@
       36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44,
-      45,
-      46,
-      47,
-      48,
-      49,
-      50
+      39
     ],
     "attacker": [
       0,
@@ -149,18 +127,7 @@
       36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44,
-      45,
-      46,
-      47,
-      48,
-      49,
-      50
+      39
     ],
     "dnsteal-received": [
       0,
@@ -202,18 +169,7 @@
       36,
       37,
       38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44,
-      45,
-      46,
-      47,
-      48,
-      49,
-      50
+      39
     ]
   }
 }
