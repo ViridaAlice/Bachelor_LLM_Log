@@ -115,7 +115,7 @@ if __name__ == "__main__":
     for d_n in dir_names:
         for file in os.listdir(directory+"/"+d_n+"/gather/ausschnitte/true_pos/"):
             f_n = os.fsdecode(file)
-            if f_n.endswith("dnsmasq.log"): 
+            if f_n.startswith("!"): 
                 print("now working on "+ d_n +"/"+ f_n)
                 main(directory+"/"+d_n, f_n)
                 continue
