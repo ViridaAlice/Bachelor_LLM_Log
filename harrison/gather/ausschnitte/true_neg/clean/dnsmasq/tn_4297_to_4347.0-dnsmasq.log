@@ -1,0 +1,51 @@
+1: Feb  4 05:29:12 dnsmasq[14664]: query[AAAA] mail.mannsmith.harrison.com from 10.237.1.238
+2: Feb  4 05:29:12 dnsmasq[14664]: forwarded mail.mannsmith.harrison.com to 127.0.0.1
+3: Feb  4 05:29:12 dnsmasq[14664]: nameserver 127.0.0.1 refused to do a recursive query
+4: Feb  4 05:29:12 dnsmasq[14664]: reply mail.mannsmith.harrison.com is 10.237.0.166
+5: Feb  4 05:29:12 dnsmasq[14664]: nameserver 127.0.0.1 refused to do a recursive query
+6: Feb  4 05:29:12 dnsmasq[14664]: reply mail.mannsmith.harrison.com is NODATA-IPv6
+7: Feb  4 05:29:12 dnsmasq[14664]: query[A] mail.mannsmith.harrison.com from 10.237.1.238
+8: Feb  4 05:29:12 dnsmasq[14664]: forwarded mail.mannsmith.harrison.com to 127.0.0.1
+9: Feb  4 05:29:12 dnsmasq[14664]: query[AAAA] mail.mannsmith.harrison.com from 10.237.1.238
+10: Feb  4 05:29:12 dnsmasq[14664]: forwarded mail.mannsmith.harrison.com to 127.0.0.1
+11: Feb  4 05:29:12 dnsmasq[14664]: nameserver 127.0.0.1 refused to do a recursive query
+12: Feb  4 05:29:12 dnsmasq[14664]: reply mail.mannsmith.harrison.com is 10.237.0.166
+13: Feb  4 05:29:12 dnsmasq[14664]: nameserver 127.0.0.1 refused to do a recursive query
+14: Feb  4 05:29:12 dnsmasq[14664]: reply mail.mannsmith.harrison.com is NODATA-IPv6
+15: Feb  4 05:29:12 dnsmasq[14664]: query[A] mail.mannsmith.harrison.com from 10.237.1.238
+16: Feb  4 05:29:12 dnsmasq[14664]: forwarded mail.mannsmith.harrison.com to 127.0.0.1
+17: Feb  4 05:29:12 dnsmasq[14664]: query[AAAA] mail.mannsmith.harrison.com from 10.237.1.238
+18: Feb  4 05:29:12 dnsmasq[14664]: forwarded mail.mannsmith.harrison.com to 127.0.0.1
+19: Feb  4 05:29:12 dnsmasq[14664]: nameserver 127.0.0.1 refused to do a recursive query
+20: Feb  4 05:29:12 dnsmasq[14664]: reply mail.mannsmith.harrison.com is 10.237.0.166
+21: Feb  4 05:29:12 dnsmasq[14664]: nameserver 127.0.0.1 refused to do a recursive query
+22: Feb  4 05:29:12 dnsmasq[14664]: reply mail.mannsmith.harrison.com is NODATA-IPv6
+23: Feb  4 05:29:12 dnsmasq[14664]: query[A] mail.mannsmith.harrison.com from 10.237.1.238
+24: Feb  4 05:29:12 dnsmasq[14664]: forwarded mail.mannsmith.harrison.com to 127.0.0.1
+25: Feb  4 05:29:12 dnsmasq[14664]: query[AAAA] mail.mannsmith.harrison.com from 10.237.1.238
+26: Feb  4 05:29:12 dnsmasq[14664]: forwarded mail.mannsmith.harrison.com to 127.0.0.1
+27: Feb  4 05:29:12 dnsmasq[14664]: nameserver 127.0.0.1 refused to do a recursive query
+28: Feb  4 05:29:12 dnsmasq[14664]: reply mail.mannsmith.harrison.com is 10.237.0.166
+29: Feb  4 05:29:12 dnsmasq[14664]: nameserver 127.0.0.1 refused to do a recursive query
+30: Feb  4 05:29:12 dnsmasq[14664]: reply mail.mannsmith.harrison.com is NODATA-IPv6
+31: Feb  4 05:29:13 dnsmasq[14664]: query[A] mail.mannsmith.harrison.com from 10.237.1.238
+32: Feb  4 05:29:13 dnsmasq[14664]: forwarded mail.mannsmith.harrison.com to 127.0.0.1
+33: Feb  4 05:29:13 dnsmasq[14664]: query[AAAA] mail.mannsmith.harrison.com from 10.237.1.238
+34: Feb  4 05:29:13 dnsmasq[14664]: forwarded mail.mannsmith.harrison.com to 127.0.0.1
+35: Feb  4 05:29:13 dnsmasq[14664]: nameserver 127.0.0.1 refused to do a recursive query
+36: Feb  4 05:29:13 dnsmasq[14664]: reply mail.mannsmith.harrison.com is 10.237.0.166
+37: Feb  4 05:29:13 dnsmasq[14664]: nameserver 127.0.0.1 refused to do a recursive query
+38: Feb  4 05:29:13 dnsmasq[14664]: reply mail.mannsmith.harrison.com is NODATA-IPv6
+39: Feb  4 05:29:13 dnsmasq[14664]: query[A] mail.mannsmith.harrison.com from 10.237.1.238
+40: Feb  4 05:29:13 dnsmasq[14664]: forwarded mail.mannsmith.harrison.com to 127.0.0.1
+41: Feb  4 05:29:13 dnsmasq[14664]: query[AAAA] mail.mannsmith.harrison.com from 10.237.1.238
+42: Feb  4 05:29:13 dnsmasq[14664]: forwarded mail.mannsmith.harrison.com to 127.0.0.1
+43: Feb  4 05:29:13 dnsmasq[14664]: nameserver 127.0.0.1 refused to do a recursive query
+44: Feb  4 05:29:13 dnsmasq[14664]: reply mail.mannsmith.harrison.com is 10.237.0.166
+45: Feb  4 05:29:13 dnsmasq[14664]: nameserver 127.0.0.1 refused to do a recursive query
+46: Feb  4 05:29:13 dnsmasq[14664]: reply mail.mannsmith.harrison.com is NODATA-IPv6
+47: Feb  4 05:29:13 dnsmasq[14664]: query[A] mail.mannsmith.harrison.com from 10.237.1.238
+48: Feb  4 05:29:13 dnsmasq[14664]: forwarded mail.mannsmith.harrison.com to 127.0.0.1
+49: Feb  4 05:29:13 dnsmasq[14664]: query[AAAA] mail.mannsmith.harrison.com from 10.237.1.238
+50: Feb  4 05:29:13 dnsmasq[14664]: forwarded mail.mannsmith.harrison.com to 127.0.0.1
+51: Feb  4 05:29:13 dnsmasq[14664]: nameserver 127.0.0.1 refused to do a recursive query

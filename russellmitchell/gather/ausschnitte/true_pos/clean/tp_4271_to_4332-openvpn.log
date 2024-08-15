@@ -1,0 +1,61 @@
+1: 2022-01-24 00:33:42 jhall/192.168.230.165:59384 ++ Certificate has EKU (str) TLS Web Client Authentication, expects TLS Web Client Authentication
+2: 2022-01-24 00:33:42 jhall/192.168.230.165:59384 VERIFY EKU OK
+3: 2022-01-24 00:33:42 jhall/192.168.230.165:59384 VERIFY OK: depth=0, CN=jhall
+4: 2022-01-24 00:33:42 jhall/192.168.230.165:59384 peer info: IV_VER=2.4.4
+5: 2022-01-24 00:33:42 jhall/192.168.230.165:59384 peer info: IV_PLAT=linux
+6: 2022-01-24 00:33:42 jhall/192.168.230.165:59384 peer info: IV_PROTO=2
+7: 2022-01-24 00:33:42 jhall/192.168.230.165:59384 peer info: IV_LZ4=1
+8: 2022-01-24 00:33:42 jhall/192.168.230.165:59384 peer info: IV_LZ4v2=1
+9: 2022-01-24 00:33:42 jhall/192.168.230.165:59384 peer info: IV_LZO=1
+10: 2022-01-24 00:33:42 jhall/192.168.230.165:59384 peer info: IV_COMP_STUB=1
+11: 2022-01-24 00:33:42 jhall/192.168.230.165:59384 peer info: IV_COMP_STUBv2=1
+12: 2022-01-24 00:33:42 jhall/192.168.230.165:59384 peer info: IV_TCPNL=1
+13: 2022-01-24 00:33:42 jhall/192.168.230.165:59384 Outgoing Data Channel: Cipher 'AES-256-CBC' initialized with 256 bit key
+14: 2022-01-24 00:33:42 jhall/192.168.230.165:59384 Outgoing Data Channel: Using 160 bit message hash 'SHA1' for HMAC authentication
+15: 2022-01-24 00:33:42 jhall/192.168.230.165:59384 Incoming Data Channel: Cipher 'AES-256-CBC' initialized with 256 bit key
+16: 2022-01-24 00:33:42 jhall/192.168.230.165:59384 Incoming Data Channel: Using 160 bit message hash 'SHA1' for HMAC authentication
+17: 2022-01-24 00:33:42 jhall/192.168.230.165:59384 Control Channel: TLSv1.3, cipher TLSv1.3 TLS_AES_256_GCM_SHA384, peer certificate: 4096 bit RSA, signature: RSA-SHA256
+18: 2022-01-24 01:28:03 jhall/192.168.230.165:59384 TLS: soft reset sec=3261/3261 bytes=45260/-1 pkts=642/0
+19: 2022-01-24 01:28:03 jhall/192.168.230.165:59384 VERIFY OK: depth=1, C=AT, ST=Vienna, L=Vienna, O=Some Organisation GmbH, CN=OpenVPN CA, emailAddress=admin@organisation.cyberrange.at
+20: 2022-01-24 01:28:03 jhall/192.168.230.165:59384 VERIFY KU OK
+21: 2022-01-24 01:28:03 jhall/192.168.230.165:59384 Validating certificate extended key usage
+22: 2022-01-24 01:28:03 jhall/192.168.230.165:59384 ++ Certificate has EKU (str) TLS Web Client Authentication, expects TLS Web Client Authentication
+23: 2022-01-24 01:28:03 jhall/192.168.230.165:59384 VERIFY EKU OK
+24: 2022-01-24 01:28:03 jhall/192.168.230.165:59384 VERIFY OK: depth=0, CN=jhall
+25: 2022-01-24 01:28:03 jhall/192.168.230.165:59384 peer info: IV_VER=2.4.4
+26: 2022-01-24 01:28:03 jhall/192.168.230.165:59384 peer info: IV_PLAT=linux
+27: 2022-01-24 01:28:03 jhall/192.168.230.165:59384 peer info: IV_PROTO=2
+28: 2022-01-24 01:28:03 jhall/192.168.230.165:59384 peer info: IV_LZ4=1
+29: 2022-01-24 01:28:03 jhall/192.168.230.165:59384 peer info: IV_LZ4v2=1
+30: 2022-01-24 01:28:03 jhall/192.168.230.165:59384 peer info: IV_LZO=1
+31: 2022-01-24 01:28:03 jhall/192.168.230.165:59384 peer info: IV_COMP_STUB=1
+32: 2022-01-24 01:28:03 jhall/192.168.230.165:59384 peer info: IV_COMP_STUBv2=1
+33: 2022-01-24 01:28:03 jhall/192.168.230.165:59384 peer info: IV_TCPNL=1
+34: 2022-01-24 01:28:03 jhall/192.168.230.165:59384 Outgoing Data Channel: Cipher 'AES-256-CBC' initialized with 256 bit key
+35: 2022-01-24 01:28:03 jhall/192.168.230.165:59384 Outgoing Data Channel: Using 160 bit message hash 'SHA1' for HMAC authentication
+36: 2022-01-24 01:28:03 jhall/192.168.230.165:59384 Incoming Data Channel: Cipher 'AES-256-CBC' initialized with 256 bit key
+37: 2022-01-24 01:28:03 jhall/192.168.230.165:59384 Incoming Data Channel: Using 160 bit message hash 'SHA1' for HMAC authentication
+38: 2022-01-24 01:28:03 jhall/192.168.230.165:59384 Control Channel: TLSv1.3, cipher TLSv1.3 TLS_AES_256_GCM_SHA384, peer certificate: 4096 bit RSA, signature: RSA-SHA256
+39: 2022-01-24 02:22:24 jhall/192.168.230.165:59384 TLS: soft reset sec=3261/3261 bytes=44924/-1 pkts=639/0
+40: 2022-01-24 02:22:24 jhall/192.168.230.165:59384 VERIFY OK: depth=1, C=AT, ST=Vienna, L=Vienna, O=Some Organisation GmbH, CN=OpenVPN CA, emailAddress=admin@organisation.cyberrange.at
+41: 2022-01-24 02:22:24 jhall/192.168.230.165:59384 VERIFY KU OK
+42: 2022-01-24 02:22:24 jhall/192.168.230.165:59384 Validating certificate extended key usage
+43: 2022-01-24 02:22:24 jhall/192.168.230.165:59384 ++ Certificate has EKU (str) TLS Web Client Authentication, expects TLS Web Client Authentication
+44: 2022-01-24 02:22:24 jhall/192.168.230.165:59384 VERIFY EKU OK
+45: 2022-01-24 02:22:24 jhall/192.168.230.165:59384 VERIFY OK: depth=0, CN=jhall
+46: 2022-01-24 02:22:24 jhall/192.168.230.165:59384 peer info: IV_VER=2.4.4
+47: 2022-01-24 02:22:24 jhall/192.168.230.165:59384 peer info: IV_PLAT=linux
+48: 2022-01-24 02:22:24 jhall/192.168.230.165:59384 peer info: IV_PROTO=2
+49: 2022-01-24 02:22:24 jhall/192.168.230.165:59384 peer info: IV_LZ4=1
+50: 2022-01-24 02:22:24 jhall/192.168.230.165:59384 peer info: IV_LZ4v2=1
+51: 2022-01-24 02:22:24 jhall/192.168.230.165:59384 peer info: IV_LZO=1
+52: 2022-01-24 02:22:24 jhall/192.168.230.165:59384 peer info: IV_COMP_STUB=1
+53: 2022-01-24 02:22:24 jhall/192.168.230.165:59384 peer info: IV_COMP_STUBv2=1
+54: 2022-01-24 02:22:24 jhall/192.168.230.165:59384 peer info: IV_TCPNL=1
+55: 2022-01-24 02:22:24 jhall/192.168.230.165:59384 Outgoing Data Channel: Cipher 'AES-256-CBC' initialized with 256 bit key
+56: 2022-01-24 02:22:24 jhall/192.168.230.165:59384 Outgoing Data Channel: Using 160 bit message hash 'SHA1' for HMAC authentication
+57: 2022-01-24 02:22:24 jhall/192.168.230.165:59384 Incoming Data Channel: Cipher 'AES-256-CBC' initialized with 256 bit key
+58: 2022-01-24 02:22:24 jhall/192.168.230.165:59384 Incoming Data Channel: Using 160 bit message hash 'SHA1' for HMAC authentication
+59: 2022-01-24 02:22:24 jhall/192.168.230.165:59384 Control Channel: TLSv1.3, cipher TLSv1.3 TLS_AES_256_GCM_SHA384, peer certificate: 4096 bit RSA, signature: RSA-SHA256
+60: 2022-01-24 03:01:00 192.168.230.122:53581 TLS: Initial packet from [AF_INET]192.168.230.122:53581, sid=62b69fbd fc902a07
+61: 2022-01-24 03:01:00 192.168.230.122:53581 VERIFY OK: depth=1, C=AT, ST=Vienna, L=Vienna, O=Some Organisation GmbH, CN=OpenVPN CA, emailAddress=admin@organisation.cyberrange.at

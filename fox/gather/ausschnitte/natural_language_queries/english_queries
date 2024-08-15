@@ -185,4 +185,9 @@ Were there any connection attempts that failed?
         Yes
 
 
+Confusion Matrix:
+Examine the following log excerpt. The line numbers are given at the beginning of each line. Are there any entries that indicate an attack? Respond only with "no" or, if yes, with only the line numbers of all suspicious entries:
+
+Log type:
+Which log type does the following excerpt belong to? Answer in five words or less:
 

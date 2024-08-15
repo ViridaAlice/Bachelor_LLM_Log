@@ -1,6 +1,7 @@
 
 import json
 import os
+from pathlib import Path
 
 
 
@@ -8,6 +9,9 @@ def main(dir_name, file_name):
     direc = dir_name+"/gather/ausschnitte/true_pos/"
     file1 = direc+file_name
     output_pos = dir_name+"/gather/ausschnitte/true_pos/clean/"
+
+    Path(output_pos).mkdir(parents=True, exist_ok=True)
+
 
     with open(file1) as json_file:
         json_dict = json.load(json_file)
@@ -111,7 +115,7 @@ if __name__ == "__main__":
     for d_n in dir_names:
         for file in os.listdir(directory+"/"+d_n+"/gather/ausschnitte/true_pos/"):
             f_n = os.fsdecode(file)
-            if f_n.endswith(".log"): 
+            if f_n.endswith("dnsmasq.log"): 
                 print("now working on "+ d_n +"/"+ f_n)
                 main(directory+"/"+d_n, f_n)
                 continue

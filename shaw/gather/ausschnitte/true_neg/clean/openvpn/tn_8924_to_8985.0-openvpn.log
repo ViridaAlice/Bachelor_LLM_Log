@@ -1,0 +1,62 @@
+1: 2022-01-29 16:26:37 cortiz/10.70.35.111:59786 peer info: IV_VER=2.4.4
+2: 2022-01-29 16:26:37 cortiz/10.70.35.111:59786 peer info: IV_PLAT=linux
+3: 2022-01-29 16:26:37 cortiz/10.70.35.111:59786 peer info: IV_PROTO=2
+4: 2022-01-29 16:26:37 cortiz/10.70.35.111:59786 peer info: IV_LZ4=1
+5: 2022-01-29 16:26:37 cortiz/10.70.35.111:59786 peer info: IV_LZ4v2=1
+6: 2022-01-29 16:26:37 cortiz/10.70.35.111:59786 peer info: IV_LZO=1
+7: 2022-01-29 16:26:37 cortiz/10.70.35.111:59786 peer info: IV_COMP_STUB=1
+8: 2022-01-29 16:26:37 cortiz/10.70.35.111:59786 peer info: IV_COMP_STUBv2=1
+9: 2022-01-29 16:26:37 cortiz/10.70.35.111:59786 peer info: IV_TCPNL=1
+10: 2022-01-29 16:26:37 cortiz/10.70.35.111:59786 Outgoing Data Channel: Cipher 'AES-256-CBC' initialized with 256 bit key
+11: 2022-01-29 16:26:37 cortiz/10.70.35.111:59786 Outgoing Data Channel: Using 160 bit message hash 'SHA1' for HMAC authentication
+12: 2022-01-29 16:26:37 cortiz/10.70.35.111:59786 Incoming Data Channel: Cipher 'AES-256-CBC' initialized with 256 bit key
+13: 2022-01-29 16:26:37 cortiz/10.70.35.111:59786 Incoming Data Channel: Using 160 bit message hash 'SHA1' for HMAC authentication
+14: 2022-01-29 16:26:37 cortiz/10.70.35.111:59786 Control Channel: TLSv1.3, cipher TLSv1.3 TLS_AES_256_GCM_SHA384, peer certificate: 4096 bit RSA, signature: RSA-SHA256
+15: 2022-01-29 16:36:39 swallace/10.70.35.21:43829 TLS: soft reset sec=3471/3471 bytes=3491404/-1 pkts=6948/0
+16: 2022-01-29 16:36:39 swallace/10.70.35.21:43829 VERIFY OK: depth=1, C=AT, ST=Vienna, L=Vienna, O=Some Organisation GmbH, CN=OpenVPN CA, emailAddress=admin@organisation.cyberrange.at
+17: 2022-01-29 16:36:39 swallace/10.70.35.21:43829 VERIFY KU OK
+18: 2022-01-29 16:36:39 swallace/10.70.35.21:43829 Validating certificate extended key usage
+19: 2022-01-29 16:36:39 swallace/10.70.35.21:43829 ++ Certificate has EKU (str) TLS Web Client Authentication, expects TLS Web Client Authentication
+20: 2022-01-29 16:36:39 swallace/10.70.35.21:43829 VERIFY EKU OK
+21: 2022-01-29 16:36:39 swallace/10.70.35.21:43829 VERIFY OK: depth=0, CN=swallace
+22: 2022-01-29 16:36:39 swallace/10.70.35.21:43829 peer info: IV_VER=2.4.4
+23: 2022-01-29 16:36:39 swallace/10.70.35.21:43829 peer info: IV_PLAT=linux
+24: 2022-01-29 16:36:39 swallace/10.70.35.21:43829 peer info: IV_PROTO=2
+25: 2022-01-29 16:36:39 swallace/10.70.35.21:43829 peer info: IV_LZ4=1
+26: 2022-01-29 16:36:39 swallace/10.70.35.21:43829 peer info: IV_LZ4v2=1
+27: 2022-01-29 16:36:39 swallace/10.70.35.21:43829 peer info: IV_LZO=1
+28: 2022-01-29 16:36:39 swallace/10.70.35.21:43829 peer info: IV_COMP_STUB=1
+29: 2022-01-29 16:36:39 swallace/10.70.35.21:43829 peer info: IV_COMP_STUBv2=1
+30: 2022-01-29 16:36:39 swallace/10.70.35.21:43829 peer info: IV_TCPNL=1
+31: 2022-01-29 16:36:39 swallace/10.70.35.21:43829 Outgoing Data Channel: Cipher 'AES-256-CBC' initialized with 256 bit key
+32: 2022-01-29 16:36:39 swallace/10.70.35.21:43829 Outgoing Data Channel: Using 160 bit message hash 'SHA1' for HMAC authentication
+33: 2022-01-29 16:36:39 swallace/10.70.35.21:43829 Incoming Data Channel: Cipher 'AES-256-CBC' initialized with 256 bit key
+34: 2022-01-29 16:36:39 swallace/10.70.35.21:43829 Incoming Data Channel: Using 160 bit message hash 'SHA1' for HMAC authentication
+35: 2022-01-29 16:36:39 swallace/10.70.35.21:43829 Control Channel: TLSv1.3, cipher TLSv1.3 TLS_AES_256_GCM_SHA384, peer certificate: 4096 bit RSA, signature: RSA-SHA256
+36: 2022-01-29 16:42:30 swallace/10.70.35.21:43829 [swallace] Inactivity timeout (--ping-restart), restarting
+37: 2022-01-29 16:42:30 swallace/10.70.35.21:43829 SIGUSR1[soft,ping-restart] received, client-instance restarting
+38: 2022-01-29 16:47:10 hpalmer/10.70.33.29:42863 TLS: soft reset sec=3358/3357 bytes=2116644/-1 pkts=4934/0
+39: 2022-01-29 16:47:10 hpalmer/10.70.33.29:42863 VERIFY OK: depth=1, C=AT, ST=Vienna, L=Vienna, O=Some Organisation GmbH, CN=OpenVPN CA, emailAddress=admin@organisation.cyberrange.at
+40: 2022-01-29 16:47:10 hpalmer/10.70.33.29:42863 VERIFY KU OK
+41: 2022-01-29 16:47:10 hpalmer/10.70.33.29:42863 Validating certificate extended key usage
+42: 2022-01-29 16:47:10 hpalmer/10.70.33.29:42863 ++ Certificate has EKU (str) TLS Web Client Authentication, expects TLS Web Client Authentication
+43: 2022-01-29 16:47:10 hpalmer/10.70.33.29:42863 VERIFY EKU OK
+44: 2022-01-29 16:47:10 hpalmer/10.70.33.29:42863 VERIFY OK: depth=0, CN=hpalmer
+45: 2022-01-29 16:47:10 hpalmer/10.70.33.29:42863 peer info: IV_VER=2.4.4
+46: 2022-01-29 16:47:10 hpalmer/10.70.33.29:42863 peer info: IV_PLAT=linux
+47: 2022-01-29 16:47:10 hpalmer/10.70.33.29:42863 peer info: IV_PROTO=2
+48: 2022-01-29 16:47:10 hpalmer/10.70.33.29:42863 peer info: IV_LZ4=1
+49: 2022-01-29 16:47:10 hpalmer/10.70.33.29:42863 peer info: IV_LZ4v2=1
+50: 2022-01-29 16:47:10 hpalmer/10.70.33.29:42863 peer info: IV_LZO=1
+51: 2022-01-29 16:47:10 hpalmer/10.70.33.29:42863 peer info: IV_COMP_STUB=1
+52: 2022-01-29 16:47:10 hpalmer/10.70.33.29:42863 peer info: IV_COMP_STUBv2=1
+53: 2022-01-29 16:47:10 hpalmer/10.70.33.29:42863 peer info: IV_TCPNL=1
+54: 2022-01-29 16:47:10 hpalmer/10.70.33.29:42863 Outgoing Data Channel: Cipher 'AES-256-CBC' initialized with 256 bit key
+55: 2022-01-29 16:47:10 hpalmer/10.70.33.29:42863 Outgoing Data Channel: Using 160 bit message hash 'SHA1' for HMAC authentication
+56: 2022-01-29 16:47:10 hpalmer/10.70.33.29:42863 Incoming Data Channel: Cipher 'AES-256-CBC' initialized with 256 bit key
+57: 2022-01-29 16:47:10 hpalmer/10.70.33.29:42863 Incoming Data Channel: Using 160 bit message hash 'SHA1' for HMAC authentication
+58: 2022-01-29 16:47:10 hpalmer/10.70.33.29:42863 Control Channel: TLSv1.3, cipher TLSv1.3 TLS_AES_256_GCM_SHA384, peer certificate: 4096 bit RSA, signature: RSA-SHA256
+59: 2022-01-29 16:53:40 gmarsh/10.70.32.61:35134 [gmarsh] Inactivity timeout (--ping-restart), restarting
+60: 2022-01-29 16:53:40 gmarsh/10.70.32.61:35134 SIGUSR1[soft,ping-restart] received, client-instance restarting
+61: 2022-01-29 16:56:30 mthomas/10.70.35.140:40430 TLS: soft reset sec=3537/3537 bytes=1956336/-1 pkts=4370/0
+62: 2022-01-29 16:56:30 mthomas/10.70.35.140:40430 VERIFY OK: depth=1, C=AT, ST=Vienna, L=Vienna, O=Some Organisation GmbH, CN=OpenVPN CA, emailAddress=admin@organisation.cyberrange.at

@@ -1,0 +1,62 @@
+1: 2022-02-08 16:19:12 jfoster/172.28.192.70:44772 peer info: IV_PROTO=2
+2: 2022-02-08 16:19:12 jfoster/172.28.192.70:44772 peer info: IV_LZ4=1
+3: 2022-02-08 16:19:12 jfoster/172.28.192.70:44772 peer info: IV_LZ4v2=1
+4: 2022-02-08 16:19:12 jfoster/172.28.192.70:44772 peer info: IV_LZO=1
+5: 2022-02-08 16:19:12 jfoster/172.28.192.70:44772 peer info: IV_COMP_STUB=1
+6: 2022-02-08 16:19:12 jfoster/172.28.192.70:44772 peer info: IV_COMP_STUBv2=1
+7: 2022-02-08 16:19:12 jfoster/172.28.192.70:44772 peer info: IV_TCPNL=1
+8: 2022-02-08 16:19:12 jfoster/172.28.192.70:44772 Outgoing Data Channel: Cipher 'AES-256-CBC' initialized with 256 bit key
+9: 2022-02-08 16:19:12 jfoster/172.28.192.70:44772 Outgoing Data Channel: Using 160 bit message hash 'SHA1' for HMAC authentication
+10: 2022-02-08 16:19:12 jfoster/172.28.192.70:44772 Incoming Data Channel: Cipher 'AES-256-CBC' initialized with 256 bit key
+11: 2022-02-08 16:19:12 jfoster/172.28.192.70:44772 Incoming Data Channel: Using 160 bit message hash 'SHA1' for HMAC authentication
+12: 2022-02-08 16:19:12 jfoster/172.28.192.70:44772 Control Channel: TLSv1.3, cipher TLSv1.3 TLS_AES_256_GCM_SHA384, peer certificate: 4096 bit RSA, signature: RSA-SHA256
+13: 2022-02-08 16:24:04 jfoster/172.28.192.70:44772 [jfoster] Inactivity timeout (--ping-restart), restarting
+14: 2022-02-08 16:24:04 jfoster/172.28.192.70:44772 SIGUSR1[soft,ping-restart] received, client-instance restarting
+15: 2022-02-08 16:25:01 jgreen/172.28.192.61:50620 TLS: soft reset sec=3353/3353 bytes=2098748/-1 pkts=4196/0
+16: 2022-02-08 16:25:01 jgreen/172.28.192.61:50620 VERIFY OK: depth=1, C=AT, ST=Vienna, L=Vienna, O=Some Organisation GmbH, CN=OpenVPN CA, emailAddress=admin@organisation.cyberrange.at
+17: 2022-02-08 16:25:01 jgreen/172.28.192.61:50620 VERIFY KU OK
+18: 2022-02-08 16:25:01 jgreen/172.28.192.61:50620 Validating certificate extended key usage
+19: 2022-02-08 16:25:01 jgreen/172.28.192.61:50620 ++ Certificate has EKU (str) TLS Web Client Authentication, expects TLS Web Client Authentication
+20: 2022-02-08 16:25:01 jgreen/172.28.192.61:50620 VERIFY EKU OK
+21: 2022-02-08 16:25:01 jgreen/172.28.192.61:50620 VERIFY OK: depth=0, CN=jgreen
+22: 2022-02-08 16:25:01 jgreen/172.28.192.61:50620 peer info: IV_VER=2.4.4
+23: 2022-02-08 16:25:01 jgreen/172.28.192.61:50620 peer info: IV_PLAT=linux
+24: 2022-02-08 16:25:01 jgreen/172.28.192.61:50620 peer info: IV_PROTO=2
+25: 2022-02-08 16:25:01 jgreen/172.28.192.61:50620 peer info: IV_LZ4=1
+26: 2022-02-08 16:25:01 jgreen/172.28.192.61:50620 peer info: IV_LZ4v2=1
+27: 2022-02-08 16:25:01 jgreen/172.28.192.61:50620 peer info: IV_LZO=1
+28: 2022-02-08 16:25:01 jgreen/172.28.192.61:50620 peer info: IV_COMP_STUB=1
+29: 2022-02-08 16:25:01 jgreen/172.28.192.61:50620 peer info: IV_COMP_STUBv2=1
+30: 2022-02-08 16:25:01 jgreen/172.28.192.61:50620 peer info: IV_TCPNL=1
+31: 2022-02-08 16:25:01 jgreen/172.28.192.61:50620 Outgoing Data Channel: Cipher 'AES-256-CBC' initialized with 256 bit key
+32: 2022-02-08 16:25:01 jgreen/172.28.192.61:50620 Outgoing Data Channel: Using 160 bit message hash 'SHA1' for HMAC authentication
+33: 2022-02-08 16:25:01 jgreen/172.28.192.61:50620 Incoming Data Channel: Cipher 'AES-256-CBC' initialized with 256 bit key
+34: 2022-02-08 16:25:01 jgreen/172.28.192.61:50620 Incoming Data Channel: Using 160 bit message hash 'SHA1' for HMAC authentication
+35: 2022-02-08 16:25:01 jgreen/172.28.192.61:50620 Control Channel: TLSv1.3, cipher TLSv1.3 TLS_AES_256_GCM_SHA384, peer certificate: 4096 bit RSA, signature: RSA-SHA256
+36: 2022-02-08 16:33:09 rchambers/172.28.193.88:59214 TLS: soft reset sec=3284/3284 bytes=3724148/-1 pkts=6318/0
+37: 2022-02-08 16:33:09 rchambers/172.28.193.88:59214 VERIFY OK: depth=1, C=AT, ST=Vienna, L=Vienna, O=Some Organisation GmbH, CN=OpenVPN CA, emailAddress=admin@organisation.cyberrange.at
+38: 2022-02-08 16:33:09 rchambers/172.28.193.88:59214 VERIFY KU OK
+39: 2022-02-08 16:33:09 rchambers/172.28.193.88:59214 Validating certificate extended key usage
+40: 2022-02-08 16:33:09 rchambers/172.28.193.88:59214 ++ Certificate has EKU (str) TLS Web Client Authentication, expects TLS Web Client Authentication
+41: 2022-02-08 16:33:09 rchambers/172.28.193.88:59214 VERIFY EKU OK
+42: 2022-02-08 16:33:09 rchambers/172.28.193.88:59214 VERIFY OK: depth=0, CN=rchambers
+43: 2022-02-08 16:33:09 rchambers/172.28.193.88:59214 peer info: IV_VER=2.4.4
+44: 2022-02-08 16:33:09 rchambers/172.28.193.88:59214 peer info: IV_PLAT=linux
+45: 2022-02-08 16:33:09 rchambers/172.28.193.88:59214 peer info: IV_PROTO=2
+46: 2022-02-08 16:33:09 rchambers/172.28.193.88:59214 peer info: IV_LZ4=1
+47: 2022-02-08 16:33:09 rchambers/172.28.193.88:59214 peer info: IV_LZ4v2=1
+48: 2022-02-08 16:33:09 rchambers/172.28.193.88:59214 peer info: IV_LZO=1
+49: 2022-02-08 16:33:09 rchambers/172.28.193.88:59214 peer info: IV_COMP_STUB=1
+50: 2022-02-08 16:33:09 rchambers/172.28.193.88:59214 peer info: IV_COMP_STUBv2=1
+51: 2022-02-08 16:33:09 rchambers/172.28.193.88:59214 peer info: IV_TCPNL=1
+52: 2022-02-08 16:33:09 rchambers/172.28.193.88:59214 Outgoing Data Channel: Cipher 'AES-256-CBC' initialized with 256 bit key
+53: 2022-02-08 16:33:09 rchambers/172.28.193.88:59214 Outgoing Data Channel: Using 160 bit message hash 'SHA1' for HMAC authentication
+54: 2022-02-08 16:33:09 rchambers/172.28.193.88:59214 Incoming Data Channel: Cipher 'AES-256-CBC' initialized with 256 bit key
+55: 2022-02-08 16:33:09 rchambers/172.28.193.88:59214 Incoming Data Channel: Using 160 bit message hash 'SHA1' for HMAC authentication
+56: 2022-02-08 16:33:09 rchambers/172.28.193.88:59214 Control Channel: TLSv1.3, cipher TLSv1.3 TLS_AES_256_GCM_SHA384, peer certificate: 4096 bit RSA, signature: RSA-SHA256
+57: 2022-02-08 16:38:15 lwright/172.28.193.196:42159 TLS: soft reset sec=3498/3498 bytes=5442232/-1 pkts=8707/0
+58: 2022-02-08 16:38:15 lwright/172.28.193.196:42159 VERIFY OK: depth=1, C=AT, ST=Vienna, L=Vienna, O=Some Organisation GmbH, CN=OpenVPN CA, emailAddress=admin@organisation.cyberrange.at
+59: 2022-02-08 16:38:15 lwright/172.28.193.196:42159 VERIFY KU OK
+60: 2022-02-08 16:38:15 lwright/172.28.193.196:42159 Validating certificate extended key usage
+61: 2022-02-08 16:38:15 lwright/172.28.193.196:42159 ++ Certificate has EKU (str) TLS Web Client Authentication, expects TLS Web Client Authentication
+62: 2022-02-08 16:38:15 lwright/172.28.193.196:42159 VERIFY EKU OK

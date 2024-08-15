@@ -1,0 +1,51 @@
+1: Jan 17 14:53:16 dnsmasq[14919]: reply shavar.prod.mozaws.net is 54.186.128.121
+2: Jan 17 14:53:16 dnsmasq[14919]: reply shavar.prod.mozaws.net is 34.213.76.57
+3: Jan 17 14:53:16 dnsmasq[14919]: reply shavar.prod.mozaws.net is 54.190.2.244
+4: Jan 17 14:53:16 dnsmasq[14919]: reply shavar.prod.mozaws.net is 44.236.35.47
+5: Jan 17 14:53:16 dnsmasq[14919]: reply shavar.services.mozilla.com is <CNAME>
+6: Jan 17 14:53:16 dnsmasq[14919]: reply shavar.prod.mozaws.net is NODATA-IPv6
+7: Jan 17 14:53:16 dnsmasq[14919]: query[AAAA] shavar.prod.mozaws.net from 172.21.128.119
+8: Jan 17 14:53:16 dnsmasq[14919]: cached shavar.prod.mozaws.net is NODATA-IPv6
+9: Jan 17 14:53:24 dnsmasq[14919]: query[PTR] 50.131.21.172.in-addr.arpa from 172.21.131.50
+10: Jan 17 14:53:24 dnsmasq[14919]: forwarded 50.131.21.172.in-addr.arpa to 127.0.0.1
+11: Jan 17 14:53:24 dnsmasq[14919]: forwarded 50.131.21.172.in-addr.arpa to 127.0.0.1
+12: Jan 17 14:53:24 dnsmasq[14919]: nameserver 127.0.0.1 refused to do a recursive query
+13: Jan 17 14:53:24 dnsmasq[14919]: reply 172.21.131.50 is mailserver.smith.santos.com
+14: Jan 17 14:53:24 dnsmasq[14919]: reply 172.21.131.50 is mail.dmz.smith.santos.com
+15: Jan 17 14:53:24 dnsmasq[14919]: query[AAAA] mailserver.smith.santos.com from 172.21.131.50
+16: Jan 17 14:53:24 dnsmasq[14919]: forwarded mailserver.smith.santos.com to 127.0.0.1
+17: Jan 17 14:53:24 dnsmasq[14919]: nameserver 127.0.0.1 refused to do a recursive query
+18: Jan 17 14:53:24 dnsmasq[14919]: reply mailserver.smith.santos.com is NODATA-IPv6
+19: Jan 17 14:53:24 dnsmasq[14919]: query[A] mailserver.smith.santos.com from 172.21.131.50
+20: Jan 17 14:53:24 dnsmasq[14919]: forwarded mailserver.smith.santos.com to 127.0.0.1
+21: Jan 17 14:53:24 dnsmasq[14919]: nameserver 127.0.0.1 refused to do a recursive query
+22: Jan 17 14:53:24 dnsmasq[14919]: reply mailserver.smith.santos.com is 172.21.131.50
+23: Jan 17 14:53:24 dnsmasq[14919]: query[AAAA] mail.dmz.smith.santos.com from 172.21.131.50
+24: Jan 17 14:53:24 dnsmasq[14919]: forwarded mail.dmz.smith.santos.com to 127.0.0.1
+25: Jan 17 14:53:24 dnsmasq[14919]: nameserver 127.0.0.1 refused to do a recursive query
+26: Jan 17 14:53:24 dnsmasq[14919]: reply mail.dmz.smith.santos.com is NODATA-IPv6
+27: Jan 17 14:53:24 dnsmasq[14919]: query[A] mail.dmz.smith.santos.com from 172.21.131.50
+28: Jan 17 14:53:24 dnsmasq[14919]: forwarded mail.dmz.smith.santos.com to 127.0.0.1
+29: Jan 17 14:53:24 dnsmasq[14919]: nameserver 127.0.0.1 refused to do a recursive query
+30: Jan 17 14:53:24 dnsmasq[14919]: reply mail.dmz.smith.santos.com is 172.21.131.50
+31: Jan 17 14:53:24 dnsmasq[14919]: query[AAAA] mail from 172.21.131.50
+32: Jan 17 14:53:24 dnsmasq[14919]: cached mail is NXDOMAIN
+33: Jan 17 14:53:24 dnsmasq[14919]: query[MX] hayes.santos.com from 172.21.131.50
+34: Jan 17 14:53:24 dnsmasq[14919]: forwarded hayes.santos.com to 10.229.255.254
+35: Jan 17 14:53:24 dnsmasq[14919]: query[AAAA] smtp.hayes.santos.com from 172.21.131.50
+36: Jan 17 14:53:24 dnsmasq[14919]: cached smtp.hayes.santos.com is NODATA-IPv6
+37: Jan 17 14:53:24 dnsmasq[14919]: query[A] smtp.hayes.santos.com from 172.21.131.50
+38: Jan 17 14:53:24 dnsmasq[14919]: cached smtp.hayes.santos.com is 10.229.2.25
+39: Jan 17 14:53:28 dnsmasq[14919]: query[A] location.services.mozilla.com from 192.168.104.95
+40: Jan 17 14:53:28 dnsmasq[14919]: forwarded location.services.mozilla.com to 10.229.255.254
+41: Jan 17 14:53:28 dnsmasq[14919]: query[AAAA] location.services.mozilla.com from 192.168.104.95
+42: Jan 17 14:53:28 dnsmasq[14919]: forwarded location.services.mozilla.com to 10.229.255.254
+43: Jan 17 14:53:28 dnsmasq[14919]: reply location.services.mozilla.com is <CNAME>
+44: Jan 17 14:53:28 dnsmasq[14919]: reply locprod2-elb-us-west-2.prod.mozaws.net is 35.82.27.113
+45: Jan 17 14:53:28 dnsmasq[14919]: reply locprod2-elb-us-west-2.prod.mozaws.net is 35.163.137.0
+46: Jan 17 14:53:28 dnsmasq[14919]: reply locprod2-elb-us-west-2.prod.mozaws.net is 52.89.132.147
+47: Jan 17 14:53:28 dnsmasq[14919]: reply locprod2-elb-us-west-2.prod.mozaws.net is 52.11.104.45
+48: Jan 17 14:53:28 dnsmasq[14919]: reply locprod2-elb-us-west-2.prod.mozaws.net is 35.163.112.241
+49: Jan 17 14:53:28 dnsmasq[14919]: reply locprod2-elb-us-west-2.prod.mozaws.net is 52.89.115.53
+50: Jan 17 14:53:28 dnsmasq[14919]: reply location.services.mozilla.com is <CNAME>
+51: Jan 17 14:53:28 dnsmasq[14919]: reply locprod2-elb-us-west-2.prod.mozaws.net is NODATA-IPv6

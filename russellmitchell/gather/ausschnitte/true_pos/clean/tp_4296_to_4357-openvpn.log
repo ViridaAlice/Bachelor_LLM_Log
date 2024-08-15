@@ -1,0 +1,61 @@
+1: 2022-01-24 01:28:03 jhall/192.168.230.165:59384 peer info: IV_PLAT=linux
+2: 2022-01-24 01:28:03 jhall/192.168.230.165:59384 peer info: IV_PROTO=2
+3: 2022-01-24 01:28:03 jhall/192.168.230.165:59384 peer info: IV_LZ4=1
+4: 2022-01-24 01:28:03 jhall/192.168.230.165:59384 peer info: IV_LZ4v2=1
+5: 2022-01-24 01:28:03 jhall/192.168.230.165:59384 peer info: IV_LZO=1
+6: 2022-01-24 01:28:03 jhall/192.168.230.165:59384 peer info: IV_COMP_STUB=1
+7: 2022-01-24 01:28:03 jhall/192.168.230.165:59384 peer info: IV_COMP_STUBv2=1
+8: 2022-01-24 01:28:03 jhall/192.168.230.165:59384 peer info: IV_TCPNL=1
+9: 2022-01-24 01:28:03 jhall/192.168.230.165:59384 Outgoing Data Channel: Cipher 'AES-256-CBC' initialized with 256 bit key
+10: 2022-01-24 01:28:03 jhall/192.168.230.165:59384 Outgoing Data Channel: Using 160 bit message hash 'SHA1' for HMAC authentication
+11: 2022-01-24 01:28:03 jhall/192.168.230.165:59384 Incoming Data Channel: Cipher 'AES-256-CBC' initialized with 256 bit key
+12: 2022-01-24 01:28:03 jhall/192.168.230.165:59384 Incoming Data Channel: Using 160 bit message hash 'SHA1' for HMAC authentication
+13: 2022-01-24 01:28:03 jhall/192.168.230.165:59384 Control Channel: TLSv1.3, cipher TLSv1.3 TLS_AES_256_GCM_SHA384, peer certificate: 4096 bit RSA, signature: RSA-SHA256
+14: 2022-01-24 02:22:24 jhall/192.168.230.165:59384 TLS: soft reset sec=3261/3261 bytes=44924/-1 pkts=639/0
+15: 2022-01-24 02:22:24 jhall/192.168.230.165:59384 VERIFY OK: depth=1, C=AT, ST=Vienna, L=Vienna, O=Some Organisation GmbH, CN=OpenVPN CA, emailAddress=admin@organisation.cyberrange.at
+16: 2022-01-24 02:22:24 jhall/192.168.230.165:59384 VERIFY KU OK
+17: 2022-01-24 02:22:24 jhall/192.168.230.165:59384 Validating certificate extended key usage
+18: 2022-01-24 02:22:24 jhall/192.168.230.165:59384 ++ Certificate has EKU (str) TLS Web Client Authentication, expects TLS Web Client Authentication
+19: 2022-01-24 02:22:24 jhall/192.168.230.165:59384 VERIFY EKU OK
+20: 2022-01-24 02:22:24 jhall/192.168.230.165:59384 VERIFY OK: depth=0, CN=jhall
+21: 2022-01-24 02:22:24 jhall/192.168.230.165:59384 peer info: IV_VER=2.4.4
+22: 2022-01-24 02:22:24 jhall/192.168.230.165:59384 peer info: IV_PLAT=linux
+23: 2022-01-24 02:22:24 jhall/192.168.230.165:59384 peer info: IV_PROTO=2
+24: 2022-01-24 02:22:24 jhall/192.168.230.165:59384 peer info: IV_LZ4=1
+25: 2022-01-24 02:22:24 jhall/192.168.230.165:59384 peer info: IV_LZ4v2=1
+26: 2022-01-24 02:22:24 jhall/192.168.230.165:59384 peer info: IV_LZO=1
+27: 2022-01-24 02:22:24 jhall/192.168.230.165:59384 peer info: IV_COMP_STUB=1
+28: 2022-01-24 02:22:24 jhall/192.168.230.165:59384 peer info: IV_COMP_STUBv2=1
+29: 2022-01-24 02:22:24 jhall/192.168.230.165:59384 peer info: IV_TCPNL=1
+30: 2022-01-24 02:22:24 jhall/192.168.230.165:59384 Outgoing Data Channel: Cipher 'AES-256-CBC' initialized with 256 bit key
+31: 2022-01-24 02:22:24 jhall/192.168.230.165:59384 Outgoing Data Channel: Using 160 bit message hash 'SHA1' for HMAC authentication
+32: 2022-01-24 02:22:24 jhall/192.168.230.165:59384 Incoming Data Channel: Cipher 'AES-256-CBC' initialized with 256 bit key
+33: 2022-01-24 02:22:24 jhall/192.168.230.165:59384 Incoming Data Channel: Using 160 bit message hash 'SHA1' for HMAC authentication
+34: 2022-01-24 02:22:24 jhall/192.168.230.165:59384 Control Channel: TLSv1.3, cipher TLSv1.3 TLS_AES_256_GCM_SHA384, peer certificate: 4096 bit RSA, signature: RSA-SHA256
+35: 2022-01-24 03:01:00 192.168.230.122:53581 TLS: Initial packet from [AF_INET]192.168.230.122:53581, sid=62b69fbd fc902a07
+36: 2022-01-24 03:01:00 192.168.230.122:53581 VERIFY OK: depth=1, C=AT, ST=Vienna, L=Vienna, O=Some Organisation GmbH, CN=OpenVPN CA, emailAddress=admin@organisation.cyberrange.at
+37: 2022-01-24 03:01:00 192.168.230.122:53581 VERIFY KU OK
+38: 2022-01-24 03:01:00 192.168.230.122:53581 Validating certificate extended key usage
+39: 2022-01-24 03:01:00 192.168.230.122:53581 ++ Certificate has EKU (str) TLS Web Client Authentication, expects TLS Web Client Authentication
+40: 2022-01-24 03:01:00 192.168.230.122:53581 VERIFY EKU OK
+41: 2022-01-24 03:01:00 192.168.230.122:53581 VERIFY OK: depth=0, CN=jhall
+42: 2022-01-24 03:01:00 192.168.230.122:53581 peer info: IV_VER=2.4.4
+43: 2022-01-24 03:01:00 192.168.230.122:53581 peer info: IV_PLAT=linux
+44: 2022-01-24 03:01:00 192.168.230.122:53581 peer info: IV_PROTO=2
+45: 2022-01-24 03:01:00 192.168.230.122:53581 peer info: IV_NCP=2
+46: 2022-01-24 03:01:00 192.168.230.122:53581 peer info: IV_LZ4=1
+47: 2022-01-24 03:01:00 192.168.230.122:53581 peer info: IV_LZ4v2=1
+48: 2022-01-24 03:01:00 192.168.230.122:53581 peer info: IV_LZO=1
+49: 2022-01-24 03:01:00 192.168.230.122:53581 peer info: IV_COMP_STUB=1
+50: 2022-01-24 03:01:00 192.168.230.122:53581 peer info: IV_COMP_STUBv2=1
+51: 2022-01-24 03:01:00 192.168.230.122:53581 peer info: IV_TCPNL=1
+52: 2022-01-24 03:01:00 192.168.230.122:53581 Control Channel: TLSv1.3, cipher TLSv1.3 TLS_AES_256_GCM_SHA384, peer certificate: 4096 bit RSA, signature: RSA-SHA256
+53: 2022-01-24 03:01:00 192.168.230.122:53581 [jhall] Peer Connection Initiated with [AF_INET]192.168.230.122:53581
+54: 2022-01-24 03:01:00 jhall/192.168.230.122:53581 MULTI_sva: pool returned IPv4=10.9.0.10, IPv6=(Not enabled)
+55: 2022-01-24 03:01:00 jhall/192.168.230.122:53581 MULTI: Learn: 10.9.0.10 -> jhall/192.168.230.122:53581
+56: 2022-01-24 03:01:00 jhall/192.168.230.122:53581 MULTI: primary virtual IP for jhall/192.168.230.122:53581: 10.9.0.10
+57: 2022-01-24 03:01:00 jhall/192.168.230.122:53581 Outgoing Data Channel: Cipher 'AES-256-CBC' initialized with 256 bit key
+58: 2022-01-24 03:01:00 jhall/192.168.230.122:53581 Outgoing Data Channel: Using 160 bit message hash 'SHA1' for HMAC authentication
+59: 2022-01-24 03:01:00 jhall/192.168.230.122:53581 Incoming Data Channel: Cipher 'AES-256-CBC' initialized with 256 bit key
+60: 2022-01-24 03:01:00 jhall/192.168.230.122:53581 Incoming Data Channel: Using 160 bit message hash 'SHA1' for HMAC authentication
+61: 2022-01-24 03:01:01 jhall/192.168.230.122:53581 PUSH: Received control message: 'PUSH_REQUEST'

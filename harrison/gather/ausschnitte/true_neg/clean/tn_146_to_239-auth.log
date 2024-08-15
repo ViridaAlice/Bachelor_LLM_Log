@@ -1,0 +1,94 @@
+1: Feb  7 06:09:01 intranet-server CRON[22864]: pam_unix(cron:session): session opened for user root by (uid=0)
+2: Feb  7 06:09:01 intranet-server CRON[22864]: pam_unix(cron:session): session closed for user root
+3: Feb  7 06:17:01 intranet-server CRON[22934]: pam_unix(cron:session): session opened for user root by (uid=0)
+4: Feb  7 06:17:01 intranet-server CRON[22934]: pam_unix(cron:session): session closed for user root
+5: Feb  7 06:25:02 intranet-server CRON[22939]: pam_unix(cron:session): session opened for user root by (uid=0)
+6: Feb  7 06:25:16 intranet-server CRON[22939]: pam_unix(cron:session): session closed for user root
+7: Feb  7 06:39:01 intranet-server CRON[23081]: pam_unix(cron:session): session opened for user root by (uid=0)
+8: Feb  7 06:39:01 intranet-server CRON[23081]: pam_unix(cron:session): session closed for user root
+9: Feb  7 07:09:01 intranet-server CRON[23145]: pam_unix(cron:session): session opened for user root by (uid=0)
+10: Feb  7 07:09:01 intranet-server CRON[23145]: pam_unix(cron:session): session closed for user root
+11: Feb  7 07:17:01 intranet-server CRON[23229]: pam_unix(cron:session): session opened for user root by (uid=0)
+12: Feb  7 07:17:01 intranet-server CRON[23229]: pam_unix(cron:session): session closed for user root
+13: Feb  7 07:39:01 intranet-server CRON[23241]: pam_unix(cron:session): session opened for user root by (uid=0)
+14: Feb  7 07:39:01 intranet-server CRON[23241]: pam_unix(cron:session): session closed for user root
+15: Feb  7 08:09:01 intranet-server CRON[23313]: pam_unix(cron:session): session opened for user root by (uid=0)
+16: Feb  7 08:09:02 intranet-server CRON[23313]: pam_unix(cron:session): session closed for user root
+17: Feb  7 08:17:01 intranet-server CRON[23379]: pam_unix(cron:session): session opened for user root by (uid=0)
+18: Feb  7 08:17:01 intranet-server CRON[23379]: pam_unix(cron:session): session closed for user root
+19: Feb  7 08:39:01 intranet-server CRON[23387]: pam_unix(cron:session): session opened for user root by (uid=0)
+20: Feb  7 08:39:01 intranet-server CRON[23387]: pam_unix(cron:session): session closed for user root
+21: Feb  7 09:09:01 intranet-server CRON[23470]: pam_unix(cron:session): session opened for user root by (uid=0)
+22: Feb  7 09:09:01 intranet-server CRON[23470]: pam_unix(cron:session): session closed for user root
+23: Feb  7 09:17:01 intranet-server CRON[23543]: pam_unix(cron:session): session opened for user root by (uid=0)
+24: Feb  7 09:17:01 intranet-server CRON[23543]: pam_unix(cron:session): session closed for user root
+25: Feb  7 09:39:01 intranet-server CRON[23550]: pam_unix(cron:session): session opened for user root by (uid=0)
+26: Feb  7 09:39:01 intranet-server CRON[23550]: pam_unix(cron:session): session closed for user root
+27: Feb  7 10:09:01 intranet-server CRON[23629]: pam_unix(cron:session): session opened for user root by (uid=0)
+28: Feb  7 10:09:01 intranet-server CRON[23629]: pam_unix(cron:session): session closed for user root
+29: Feb  7 10:17:01 intranet-server CRON[23702]: pam_unix(cron:session): session opened for user root by (uid=0)
+30: Feb  7 10:17:01 intranet-server CRON[23702]: pam_unix(cron:session): session closed for user root
+31: Feb  7 10:39:01 intranet-server CRON[23714]: pam_unix(cron:session): session opened for user root by (uid=0)
+32: Feb  7 10:39:01 intranet-server CRON[23714]: pam_unix(cron:session): session closed for user root
+33: Feb  7 11:09:01 intranet-server CRON[23785]: pam_unix(cron:session): session opened for user root by (uid=0)
+34: Feb  7 11:09:01 intranet-server CRON[23785]: pam_unix(cron:session): session closed for user root
+35: Feb  7 11:17:01 intranet-server CRON[23852]: pam_unix(cron:session): session opened for user root by (uid=0)
+36: Feb  7 11:17:01 intranet-server CRON[23852]: pam_unix(cron:session): session closed for user root
+37: Feb  7 11:39:01 intranet-server CRON[23939]: pam_unix(cron:session): session opened for user root by (uid=0)
+38: Feb  7 11:39:01 intranet-server CRON[23939]: pam_unix(cron:session): session closed for user root
+39: Feb  7 12:09:01 intranet-server CRON[24560]: pam_unix(cron:session): session opened for user root by (uid=0)
+40: Feb  7 12:09:01 intranet-server CRON[24560]: pam_unix(cron:session): session closed for user root
+41: Feb  7 12:17:01 intranet-server CRON[24608]: pam_unix(cron:session): session opened for user root by (uid=0)
+42: Feb  7 12:17:01 intranet-server CRON[24608]: pam_unix(cron:session): session closed for user root
+43: Feb  7 12:39:01 intranet-server CRON[24629]: pam_unix(cron:session): session opened for user root by (uid=0)
+44: Feb  7 12:39:01 intranet-server CRON[24629]: pam_unix(cron:session): session closed for user root
+45: Feb  7 13:09:01 intranet-server CRON[24714]: pam_unix(cron:session): session opened for user root by (uid=0)
+46: Feb  7 13:09:01 intranet-server CRON[24714]: pam_unix(cron:session): session closed for user root
+47: Feb  7 13:17:01 intranet-server CRON[24783]: pam_unix(cron:session): session opened for user root by (uid=0)
+48: Feb  7 13:17:01 intranet-server CRON[24783]: pam_unix(cron:session): session closed for user root
+49: Feb  7 13:39:01 intranet-server CRON[24792]: pam_unix(cron:session): session opened for user root by (uid=0)
+50: Feb  7 13:39:01 intranet-server CRON[24792]: pam_unix(cron:session): session closed for user root
+51: Feb  7 14:09:01 intranet-server CRON[24866]: pam_unix(cron:session): session opened for user root by (uid=0)
+52: Feb  7 14:09:01 intranet-server CRON[24866]: pam_unix(cron:session): session closed for user root
+53: Feb  7 14:17:01 intranet-server CRON[24938]: pam_unix(cron:session): session opened for user root by (uid=0)
+54: Feb  7 14:17:01 intranet-server CRON[24938]: pam_unix(cron:session): session closed for user root
+55: Feb  7 14:39:01 intranet-server CRON[24965]: pam_unix(cron:session): session opened for user root by (uid=0)
+56: Feb  7 14:39:02 intranet-server CRON[24965]: pam_unix(cron:session): session closed for user root
+57: Feb  7 15:08:01 intranet-server CRON[25055]: pam_unix(cron:session): session opened for user root by (uid=0)
+58: Feb  7 15:08:01 intranet-server CRON[25055]: pam_unix(cron:session): session closed for user root
+59: Feb  7 15:09:01 intranet-server CRON[25058]: pam_unix(cron:session): session opened for user root by (uid=0)
+60: Feb  7 15:09:01 intranet-server CRON[25058]: pam_unix(cron:session): session closed for user root
+61: Feb  7 15:17:01 intranet-server CRON[25125]: pam_unix(cron:session): session opened for user root by (uid=0)
+62: Feb  7 15:17:01 intranet-server CRON[25125]: pam_unix(cron:session): session closed for user root
+63: Feb  7 15:39:01 intranet-server CRON[25162]: pam_unix(cron:session): session opened for user root by (uid=0)
+64: Feb  7 15:39:01 intranet-server CRON[25162]: pam_unix(cron:session): session closed for user root
+65: Feb  7 16:09:01 intranet-server CRON[25231]: pam_unix(cron:session): session opened for user root by (uid=0)
+66: Feb  7 16:09:01 intranet-server CRON[25231]: pam_unix(cron:session): session closed for user root
+67: Feb  7 16:17:01 intranet-server CRON[25315]: pam_unix(cron:session): session opened for user root by (uid=0)
+68: Feb  7 16:17:01 intranet-server CRON[25315]: pam_unix(cron:session): session closed for user root
+69: Feb  7 16:39:01 intranet-server CRON[25322]: pam_unix(cron:session): session opened for user root by (uid=0)
+70: Feb  7 16:39:01 intranet-server CRON[25322]: pam_unix(cron:session): session closed for user root
+71: Feb  7 17:09:01 intranet-server CRON[25394]: pam_unix(cron:session): session opened for user root by (uid=0)
+72: Feb  7 17:09:01 intranet-server CRON[25394]: pam_unix(cron:session): session closed for user root
+73: Feb  7 17:17:01 intranet-server CRON[25466]: pam_unix(cron:session): session opened for user root by (uid=0)
+74: Feb  7 17:17:01 intranet-server CRON[25466]: pam_unix(cron:session): session closed for user root
+75: Feb  7 17:39:01 intranet-server CRON[25471]: pam_unix(cron:session): session opened for user root by (uid=0)
+76: Feb  7 17:39:01 intranet-server CRON[25471]: pam_unix(cron:session): session closed for user root
+77: Feb  7 18:09:01 intranet-server CRON[25597]: pam_unix(cron:session): session opened for user root by (uid=0)
+78: Feb  7 18:09:01 intranet-server CRON[25597]: pam_unix(cron:session): session closed for user root
+79: Feb  7 18:17:01 intranet-server CRON[25665]: pam_unix(cron:session): session opened for user root by (uid=0)
+80: Feb  7 18:17:01 intranet-server CRON[25665]: pam_unix(cron:session): session closed for user root
+81: Feb  7 18:39:01 intranet-server CRON[25671]: pam_unix(cron:session): session opened for user root by (uid=0)
+82: Feb  7 18:39:01 intranet-server CRON[25671]: pam_unix(cron:session): session closed for user root
+83: Feb  7 19:09:01 intranet-server CRON[25742]: pam_unix(cron:session): session opened for user root by (uid=0)
+84: Feb  7 19:09:01 intranet-server CRON[25742]: pam_unix(cron:session): session closed for user root
+85: Feb  7 19:17:01 intranet-server CRON[25810]: pam_unix(cron:session): session opened for user root by (uid=0)
+86: Feb  7 19:17:01 intranet-server CRON[25810]: pam_unix(cron:session): session closed for user root
+87: Feb  7 19:39:01 intranet-server CRON[25820]: pam_unix(cron:session): session opened for user root by (uid=0)
+88: Feb  7 19:39:01 intranet-server CRON[25820]: pam_unix(cron:session): session closed for user root
+89: Feb  7 20:09:01 intranet-server CRON[25965]: pam_unix(cron:session): session opened for user root by (uid=0)
+90: Feb  7 20:09:01 intranet-server CRON[25965]: pam_unix(cron:session): session closed for user root
+91: Feb  7 20:17:01 intranet-server CRON[26037]: pam_unix(cron:session): session opened for user root by (uid=0)
+92: Feb  7 20:17:01 intranet-server CRON[26037]: pam_unix(cron:session): session closed for user root
+93: Feb  7 20:39:01 intranet-server CRON[26041]: pam_unix(cron:session): session opened for user root by (uid=0)
+94: Feb  7 20:39:01 intranet-server CRON[26041]: pam_unix(cron:session): session closed for user root
