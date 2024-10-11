@@ -322,5 +322,4 @@ Which log type does the following excerpt belong to? Answer in five words or les
 2022-01-16 15:51:02 bpotter/192.168.128.152:40201 Incoming Data Channel: Cipher 'AES-256-CBC' initialized with 256 bit key
 2022-01-16 15:51:02 bpotter/192.168.128.152:40201 Incoming Data Channel: Using 160 bit message hash 'SHA1' for HMAC authentication"
 
-Answer in five words or less.
 
